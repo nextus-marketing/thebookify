@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @php
-            $host = request()->getHost();
-        @endphp
-
-        @if(Str::contains($host, 'technicul.com'))
-            <meta name="robots" content="noindex, nofollow">
-            <meta name="Googlebot" content="noindex, nofollow">
-        @endif
         <!-- TITLE -->
         <title>@yield('title')</title>
 
@@ -29,8 +21,8 @@
         <!-- BASIC CSS -->
         <link  id="themeColors"  rel="stylesheet" href="/backend/dist/css/style.min.css" />
 
-        <!-- TECHNICUL CSS -->
-        <link  id="themeColors"  rel="stylesheet" href="/backend/dist/css/techincul.css" />
+        <!-- backend CSS -->
+        <link  id="themeColors"  rel="stylesheet" href="/backend/dist/css/backend.css" />
 
         <!-- CAROUSEL -->
         <link rel="stylesheet" href="/backend/dist/libs/owl.carousel/dist/assets/owl.carousel.min.css">
@@ -53,14 +45,7 @@
         <!-- SWITCH -->
         <link rel="stylesheet" href="/backend/dist/libs/bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css">
 
-        @php
-            $host = request()->getHost();
-        @endphp
-
-        @if(Str::contains($host, 'technicul.com'))
-            <meta name="robots" content="noindex, nofollow">
-            <meta name="Googlebot" content="noindex, nofollow">
-        @endif
+       
     </head>
     <body>
         <div class="page-wrapper" id="main-wrapper" data-theme="blue_theme"  data-layout="vertical" data-sidebartype="full" data-sidebar-position="fixed" data-header-position="fixed">
@@ -68,7 +53,7 @@
                 <div>
                     <div class="brand-logo d-flex align-items-center justify-content-between">
                         <a href="{{ route('admin.dashboard.index') }}" class="text-nowrap logo-img">
-							<img src="/logo.svg" width="180" alt="" style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);"/>
+							<!-- <img src="/logo.svg" width="180" alt="" style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);"/> -->
                         </a>
                         <div class="close-btn d-lg-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                             <i class="ti ti-x fs-8 text-muted"></i>
@@ -108,7 +93,7 @@
                         </ul>
                         
                         <div class="d-block d-lg-none">
-							<img src="/logo.svg" width="180" alt="" style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);"/>
+							<!-- <img src="/logo.svg" width="180" alt="" style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);"/> -->
                         </div>
                         <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="p-2">

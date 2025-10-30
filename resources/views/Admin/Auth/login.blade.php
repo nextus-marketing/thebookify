@@ -2,14 +2,6 @@
 <html lang="en">
 
 <head>
-    {{-- @php
-        $host = request()->getHost();
-    @endphp
-
-    @if (Str::contains($host, 'technicul.com'))
-        <meta name="robots" content="noindex, nofollow">
-        <meta name="Googlebot" content="noindex, nofollow">
-    @endif --}}
     <title>My Dashbord</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -44,8 +36,8 @@
                             class="authentication-login min-vh-100 bg-body row justify-content-center align-items-center p-4">
                             <div class="col-sm-8 col-md-6 col-xl-9">
                                 <div class="text-center">
-                                    <img src="/logo.svg" width="180" alt=""
-                                        style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);" />
+                                    <!-- <img src="/logo.svg" width="180" alt=""
+                                        style="filter: invert(34%) sepia(66%) saturate(5876%) hue-rotate(208deg) brightness(95%) contrast(103%);" /> -->
                                     <br /><br />
                                     <h2 class="mb-3 fs-7 fw-bolder">Welcome to My Dashbord</h2>
                                     <p class=" mb-9">Your Admin Dashboard</p>

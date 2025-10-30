@@ -188,6 +188,4 @@ function inRupee($num, $symbol=true, $pdf=false) {
     }
 
 }
-function getDomainUrl(){
-    return $url = env("APP_URL", "https://ready.technicul.com");
-}
+

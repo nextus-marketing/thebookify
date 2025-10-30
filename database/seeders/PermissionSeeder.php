@@ -384,8 +384,8 @@ class PermissionSeeder extends Seeder
                 'SuperAdmin',
             ],
             'mobile'  => '9999999999',
-            'email'  => 'super@technicul.com',
-            'password' => 'super@123@technicul'
+            'email'  => 'super@siddhesh.com',
+            'password' => 'super@123@siddhesh'
         ],
     ];
 
