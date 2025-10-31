@@ -32,8 +32,11 @@
         <h2 class="text-anime-style-2 text-center" data-cursor="-opaque" style="margin: 0 auto;">
             <span>How To Amend Articles of Incorporation in California: Step by Step Guide!</span>
         </h2>
-
-        <br>
+ <div class="post-meta text-center mt-3 mb-4">
+                    <span class="me-3"><i class="fa-solid fa-user"></i> By <strong>Admin</strong></span>
+                    <span class="me-3"><i class="fa-regular fa-calendar-days"></i> Published on <strong>October 28, 2025</strong></span>
+                </div>
+       
 
         <div class="row">
             <div class="col-lg-12">
@@ -45,10 +48,7 @@
                 </div>
 
                 <!-- Blog Meta -->
-                <div class="post-meta text-center mt-3 mb-4">
-                    <span class="me-3"><i class="fa-solid fa-user"></i> By <strong>Admin</strong></span>
-                    <span class="me-3"><i class="fa-regular fa-calendar-days"></i> Published on <strong>October 28, 2025</strong></span>
-                </div>
+               
 
                 <!-- Blog Content -->
                 <div class="post-content">
@@ -133,17 +133,6 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Author Box -->
-                    <div class="post-author-box mt-5 p-4 border rounded wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="d-flex align-items-center">
-                            <img src="/frontend/images/author.jpg" alt="Author" class="rounded-circle me-3" style="width:70px; height:70px; object-fit:cover;">
-                            <div>
-                                <h5 class="mb-1">Admin</h5>
-                                <p class="mb-0">Admin is a financial strategist and writer with a passion for helping individuals and businesses build stronger financial foundations. With years of experience in accounting and budgeting, they share practical insights to simplify complex financial concepts.</p>
                             </div>
                         </div>
                     </div>

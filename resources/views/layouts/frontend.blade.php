@@ -254,14 +254,25 @@
             <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
           </p>
         </div>
-        <div class="col-md-7">
-          <ul style="list-style:none; margin:0; padding:0; display:flex; gap:15px; justify-content:end;">
-            <li><a href="#0" style="color:#fff; text-decoration:none;">LinkedIn</a></li>
-            <li><a href="#0" style="color:#fff; text-decoration:none;">Facebook</a></li>
-            <li><a href="#0" style="color:#fff; text-decoration:none;">Instagram</a></li>
-            <li><a href="#0" style="color:#fff; text-decoration:none;">Twitter</a></li>
-          </ul>
-        </div>
+
+        <div class="col-lg-7 text-lg-end text-center mt-3">
+                                <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
+                                    <ul class="list-inline m-0">
+                                        <li class="list-inline-item">
+                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
       </div>
     </div>
   </div>
