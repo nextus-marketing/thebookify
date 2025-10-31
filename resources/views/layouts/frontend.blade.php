@@ -64,12 +64,32 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link" href="#0">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="#0">Services</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="/what_we_offer">What we offer</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Bookkeeping Services</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Payroll Services</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Tax & Accounting</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">CFO Advisory</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Incorporation</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Sales Tax Consulting</a></li>
+                                    </ul>
+                                </li>                                 
+                                <li class="nav-item submenu"><a class="nav-link" href="/what_we_offer">Industries we Serve</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Accounting Services For Small Business</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Healthcare</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Private Industries</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Real Estate</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Lodging Facilities</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">E-Commerce</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">colleges & Universities</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#0">Accounting Services for Startup</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#0">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#0">Pages</a></li>
-                                <li class="nav-item highlighted-menu"><a class="nav-link" href="#0">Contact Us</a></li>                           
+                                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#0">Contact Us</a></li>                           
                             </ul>
                         </div>
                         <!-- Header Btn Start -->
@@ -125,107 +145,118 @@
    @yield('content')
 
     <!-- Footer Section Start -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="footer-newsletter-box">
-                        <div class="footer-newsletter-title">
-                          <a class="navbar-brand" href="/">
-                        <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
-                    </a>
-                     <p style="color:#ffff;">The Bookify is a platform that can solve all your financial hustle. </br> We provide financial support for your books, taxation, and expenses. From bookkeeping and payroll to strategic financial planning,  we handle everything with transparency and precision.</p>
-                        </div>
-                     
-                    </div>
-                </div>
-                
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="footer-links">
-                        <h3>Why TheBookify?</h3>
-                        <ul>
-                            <li><a href="#0">Home</a></li>
-                            <li><a href="#0">About Us</a></li>
-                            <li><a href="#0">Pricing</a></li>
-                            <li><a href="#0">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="footer-links">
-                        <h3>Can We Help</h3>
-                        <ul>
-                            <li><a href="#0">Pricing</a></li>
-                            <li><a href="#0">Contact</a></li>
-                            <li><a href="#0">Privacy Policy</a></li>
-                            <li><a href="#0">Terms & Conditions</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-2  col-md-4">
-                    <div class="footer-links">
-                        <h3>What We Offer</h3>
-                        <ul>
-                            <li><a href="#0">Bookkeeping Services</a></li>
-                            <li><a href="#0">Payroll Services</a></li>
-                            <li><a href="#0">Tax and accounting</a></li>
-                            <li><a href="#0">Incorporation</a></li>
-                            <li><a href="#0">CFO advisory</a></li>
-                            <li><a href="#0">Sales Tax Consulting</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- <div class="col-lg-12">
-                    <div class="footer-cta-box">
-                        <div class="footer-logo">
-                            <img src="/frontend/images/footer-logo.svg" alt="">
-                        </div>
-                        <div class="footer-contact-box">
-                            <div class="footer-contact-item">
-                                <p>Need help!</p>
-                                <h3>+1 809 120 705</h3>
-                            </div>
-                            <div class="footer-contact-item">
-                                <p>E-mail now</p>
-                                <h3>info@domain.com</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-
-            <!-- Footer Copyright Section Start -->
-            <div class="footer-copyright">
-                <div class="row align-items-center">
-                    <div class="col-md-5">
-                        <div class="footer-copyright-text">
-                        <p>
-                            Copyright © 2025 
-                            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a> 
-                            | Powered by 
-                            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
-                        </p>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-7">
-                        <div class="footer-menu">
-                            <ul>                            
-                                <li><a href="#0">LinkedIn</a></li>
-                                <li><a href="#0">Facebook</a></li>
-                                <li><a href="#0">Instagram</a></li>
-                                <li><a href="#0">Twitter</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<footer class="main-footer" style="color:#fff;">
+  <div class="container">
+    <div class="row">
+      <!-- Left Content -->
+      <div class="col-lg-6">
+        <div class="footer-newsletter-box">
+          <a class="navbar-brand" href="/">
+            <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
+          </a>
+          <p style="color:#fff; margin-top:15px; line-height:1.7;">
+            The Bookify is a platform that can solve all your financial hustle. <br>
+            We provide financial support for your books, taxation, and expenses.
+            From bookkeeping and payroll to strategic financial planning, we handle everything with transparency and precision.
+          </p>
         </div>
-    </footer>
+      </div>
+
+      <!-- Footer Columns -->
+      <div class="col-lg-2 col-md-4 col-6">
+        <div class="footer-links">
+          <h3 style="font-size:18px; margin-bottom:15px;">Why TheBookify?</h3>
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Home</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">About Us</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Pricing</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4 col-6">
+        <div class="footer-links">
+          <h3 style="font-size:18px; margin-bottom:15px;">Can We Help</h3>
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Pricing</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Contact</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Privacy Policy</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-4">
+        <div class="footer-links">
+          <h3 style="font-size:18px; margin-bottom:15px;">What We Offer</h3>
+          <ul style="list-style:none; padding:0; margin:0;">
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Bookkeeping Services</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Payroll Services</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Tax and Accounting</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Incorporation</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">CFO Advisory</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Sales Tax Consulting</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<hr>
+     <div class="container">
+    <h2 style="color:#fff; font-size:26px; margin-bottom:30px; text-align:center;">Expert Services Near You</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-3 col-sm-6">
+        <p>Bookkeeping in Chicago</p>
+        <p>Bookkeeping in Austin</p>
+        <p>Bookkeeping in Brooklyn</p>
+        <p>Bookkeeping in Honolulu</p>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <p>Bookkeeping in Houston</p>
+        <p>Bookkeeping in Indianapolis</p>
+        <p>Bookkeeping in Los Angeles</p>
+        <p>Bookkeeping in Portland</p>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <p>Bookkeeping in Santa Rosa</p>
+        <p>Bookkeeping in California</p>
+        <p>Bookkeeping in Miami</p>
+        <p>Bookkeeping in Manchester</p>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <p>Bookkeeping in Denver</p>
+        <p>Bookkeeping in Dallas</p>
+        <p>Bookkeeping in San Diego</p>
+        <p>Bookkeeping in San Francisco</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Footer Copyright -->
+    <div class="footer-copyright" style="border-top:1px solid #00cc61; margin-top:40px; padding-top:20px;">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <p style="margin:0;">
+            Copyright © 2025 
+            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a> 
+            | Powered by 
+            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
+          </p>
+        </div>
+        <div class="col-md-7">
+          <ul style="list-style:none; margin:0; padding:0; display:flex; gap:15px; justify-content:end;">
+            <li><a href="#0" style="color:#fff; text-decoration:none;">LinkedIn</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Facebook</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Instagram</a></li>
+            <li><a href="#0" style="color:#fff; text-decoration:none;">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
     <!-- Footer Section End -->
 
     <!-- Jquery Library File -->

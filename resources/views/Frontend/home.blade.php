@@ -131,7 +131,6 @@
 </div>
 
 
-
     <!-- About Us Section Start -->
     <div class="about-us">
         <div class="container">
@@ -180,7 +179,6 @@
         <div class="container">
             <div class="row section-row align-items-center justify-content-center text-center">
     <div class="col-lg-8">
-        <!-- Section Title Start -->
         <div class="section-title dark-section">
             <h2 class="text-anime-style-2" data-cursor="-opaque">
                 Refine And Define Your Finances
@@ -190,7 +188,6 @@
                 Whether you are a small business or large, The Bookify has personalized and industry-specific solutions for you. Our team has expert and experienced CPAs that will assist you in each stage of your business with data-driven financial reports. Our accounting services firm provides solutions for various financial activities.
             </p>
         </div>
-        <!-- Section Title End -->
     </div>
 </div>
 
@@ -259,14 +256,14 @@
     </div>
     <!-- Our Feature Section End -->
 
-    <div class="what-we-do" style="padding-top: 0; margin-top: 0;">
-    <div class="container" style="padding-top: 0; margin-top: 0;">
-        <div class="row align-items-start" style="margin-top: 0; padding-top: 0;">
+    <div class="what-we-do">
+    <div class="container">
+        <div class="row align-items-start">
             
             <!-- Left Content Section -->
-            <div class="col-lg-6" style="margin-top: 0; padding-top: 0;">
-                <div class="what-we-do-content" style="margin-top: 0; padding-top: 0;">
-                    <div class="section-title" style="margin-top: 0; padding-top: 0;">
+            <div class="col-lg-6">
+                <div class="what-we-do-content">
+                    <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
                             What Makes The 
                             <span style="color: #00cc61;">Bookify Unique?</span>
@@ -276,6 +273,9 @@
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s" style="margin-top: 10px; color: #555; line-height: 1.8;">
                             We are best at bookkeeping because we provide you with a detailed workflow and efficiently organize your finances. This can help you better understand your financial state and make informed decisions in the future.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s" style="margin-top: 10px; color: #555; line-height: 1.8;">
+                           In addition, The Bookify ensures complete transparency and real-time insights into your business finances through advanced accounting tools and expert support. Our team continuously monitors your accounts to maintain accuracy and compliance, saving you time and reducing errors. Whether you’re a startup or an established business, we tailor our services to meet your unique financial needs—helping you focus on growth while we take care of the numbers.
                         </p>
                     </div>
                 </div>
@@ -409,7 +409,6 @@
         <!-- Section Title End -->
 
         <div class="row">
-
             <!-- Blog Post 1 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp">
@@ -592,7 +591,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>

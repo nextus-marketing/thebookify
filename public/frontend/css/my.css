@@ -54,7 +54,6 @@
     transform: scale(1.05);
 }
 
-/* Responsive Adjustments */
 @media (max-width: 991px) {
     .partners-logos {
         justify-content: center;

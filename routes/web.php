@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'Frontend.home')->name('home');
+Route::view('/about', 'Frontend.about')->name('about');
+Route::view('/pricing', 'Frontend.pricing')->name('pricing');
 
 require __DIR__.'/auth.php';
 require __DIR__.'/backend.php';
