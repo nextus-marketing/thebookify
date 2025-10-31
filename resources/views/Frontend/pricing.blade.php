@@ -1,6 +1,20 @@
 @extends('layouts.frontend')
 @section('title') Pricing | The Bookify @endsection
 @section('content')
+<style>
+    .page-header-box h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: none;
+}
+
+</style>
 <div class="page-header">
         <div class="container">
             <div class="row align-items-center">

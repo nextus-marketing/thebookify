@@ -25,7 +25,6 @@
                 <div class="col-lg-12">
                     <div class="page-header-box">
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Grow Seamless with Industry-specific Experts and Advance Tools.</h1>
-                        <p style="color:#fff;">Financial difficulties will inevitably arise whether you've been in business for a month, a year, or a decade. At TheBookify, we help you to plan ahead so that you can be bold rather than cautious.</p>
                        <nav class="wow fadeInUp d-flex justify-content-center">
                             <div class="hero-btn">
                                 <a href="tel:+15513481040" class="btn-default" 
