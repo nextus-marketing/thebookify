@@ -42,6 +42,27 @@ Route::view('/bookkeeping-in-dallas', 'Frontend.Services.bookkeeping-in-dallas')
 Route::view('/bookkeeping-in-san-diego', 'Frontend.Services.bookkeeping-in-san-diego')->name('bookkeeping-in-san-diego');
 Route::view('/bookkeeping-in-san-francisco', 'Frontend.Services.bookkeeping-in-san-francisco')->name('bookkeeping-in-san-francisco');
 
+// WHAT WE OFFER
+
+Route::view('/bookkeeping-services', 'Frontend.Offer.bookkeeping-services')->name('bookkeeping-services');
+Route::view('/payroll-services', 'Frontend.Offer.payroll-services')->name('payroll-services');
+Route::view('/tax-and-accounting', 'Frontend.Offer.tax-and-accounting')->name('tax-and-accounting');
+Route::view('/cfo-advisory', 'Frontend.Offer.cfo-advisory')->name('cfo-advisory');
+Route::view('/incorporation', 'Frontend.Offer.incorporation')->name('incorporation');
+Route::view('/sales-tax-consulting', 'Frontend.Offer.sales-tax-consulting')->name('sales-tax-consulting');
+
+
+// INDUSTRIES WE SERVE
+
+Route::view('/accounting-services-for-small-business', 'Frontend.Industries.accounting-services-for-small-business')->name('accounting-services-for-small-business');
+Route::view('/healthcare', 'Frontend.Industries.healthcare')->name('healthcare');
+Route::view('/private-industries', 'Frontend.Industries.private-industries')->name('private-industries');
+Route::view('/real-estate', 'Frontend.Industries.real-estate')->name('real-estate');
+Route::view('/lodging-facilities', 'Frontend.Industries.lodging-facilities')->name('lodging-facilities');
+Route::view('/ecommerce', 'Frontend.Industries.ecommerce')->name('ecommerce');
+Route::view('/colleges-and-universities', 'Frontend.Industries.colleges-and-universities')->name('colleges-and-universities');
+Route::view('/accounting-services-for-startup', 'Frontend.Industries.accounting-services-for-startup')->name('accounting-services-for-startup');
+
 
 require __DIR__.'/auth.php';
 require __DIR__.'/backend.php';

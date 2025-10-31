@@ -406,10 +406,8 @@
                With our accounting solutions company, businesses get all-around support. We integrate their records into the cloud accounting software. Our clients have real-time access to the records, quick financial reports, and KPIs all at affordable premiums.
             </p>
         </div>
-        <!-- Section Title End -->
 
         <div class="row">
-            <!-- Blog Post 1 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp">
                     <div class="post-featured-image">
@@ -430,9 +428,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 1 -->
-
-            <!-- Blog Post 2 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
                     <div class="post-featured-image">
@@ -453,9 +448,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 2 -->
-
-            <!-- Blog Post 3 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
@@ -476,9 +468,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 3 -->
-
-            <!-- Blog Post 3 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
@@ -499,10 +488,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 3 -->
-
-
-            <!-- Blog Post 3 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
@@ -523,10 +508,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 3 -->
-
-
-            <!-- Blog Post 3 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
@@ -547,13 +528,8 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 3 -->
-
         </div>
-        <!-- Row End -->
-
     </div>
-    <!-- Container End -->
 </div>
 
 <div class="what-we-do">
@@ -595,7 +571,6 @@
     </div>
 </div>
 
-<!-- Our Testimonial Section Start -->
     <div class="our-testimonial">
     <div class="container">
         <div class="row">

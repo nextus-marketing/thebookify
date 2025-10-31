@@ -66,24 +66,24 @@
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li class="nav-item submenu"><a class="nav-link" href="/what_we_offer">What we offer</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Bookkeeping Services</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Payroll Services</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Tax & Accounting</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">CFO Advisory</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Incorporation</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Sales Tax Consulting</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/bookkeeping-services">Bookkeeping Services</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/payroll-services">Payroll Services</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/tax-and-accounting">Tax & Accounting</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/cfo-advisory">CFO Advisory</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/incorporation">Incorporation</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/sales-tax-consulting">Sales Tax Consulting</a></li>
                                     </ul>
                                 </li>                                 
                                 <li class="nav-item submenu"><a class="nav-link" href="/what_we_offer">Industries we Serve</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Accounting Services For Small Business</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Healthcare</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Private Industries</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Real Estate</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Lodging Facilities</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">E-Commerce</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">colleges & Universities</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="#0">Accounting Services for Startup</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/accounting">Accounting Services For Small Business</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/healthcare">Healthcare</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/private-industries">Private Industries</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/real-estate">Real Estate</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/lodging-facilities">Lodging Facilities</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/ecommerce">E-Commerce</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/colleges-and-universities">colleges & Universities</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/accounting-services-for-startup">Accounting Services for Startup</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
@@ -200,83 +200,91 @@
         </div>
       </div>
     </div>
-<hr>
-     <div class="container">
-    <h2 style="color:#fff; font-size:26px; margin-bottom:30px; text-align:center;">Expert Services Near You</h2>
-    <div class="row justify-content-center">
-  <div class="col-md-3 col-sm-6">
-    <ul class="list-unstyled" style="line-height: 35px;">
-      <li><a href="/bookkeeping-in-chicago" style="color:#fff; text-decoration:none;">Bookkeeping in Chicago</a></li>
-      <li><a href="/bookkeeping-in-austin" style="color:#fff; text-decoration:none;">Bookkeeping in Austin</a></li>
-      <li><a href="/bookkeeping-in-brooklyn" style="color:#fff; text-decoration:none;">Bookkeeping in Brooklyn</a></li>
-      <li><a href="/bookkeeping-in-honolulu" style="color:#fff; text-decoration:none;">Bookkeeping in Honolulu</a></li>
-    </ul>
-  </div>
 
-  <div class="col-md-3 col-sm-6">
-    <ul class="list-unstyled" style="line-height: 35px;">
-      <li><a href="/bookkeeping-in-houston" style="color:#fff; text-decoration:none;">Bookkeeping in Houston</a></li>
-      <li><a href="/bookkeeping-in-indianapolis" style="color:#fff; text-decoration:none;">Bookkeeping in Indianapolis</a></li>
-      <li><a href="/bookkeeping-in-los-angeles" style="color:#fff; text-decoration:none;">Bookkeeping in Los Angeles</a></li>
-      <li><a href="/bookkeeping-in-portland" style="color:#fff; text-decoration:none;">Bookkeeping in Portland</a></li>
-    </ul>
-  </div>
+    
 
-  <div class="col-md-3 col-sm-6">
-    <ul class="list-unstyled" style="line-height: 35px;"> 
-      <li><a href="/bookkeeping-in-santa-rosa" style="color:#fff; text-decoration:none;">Bookkeeping in Santa Rosa</a></li>
-      <li><a href="/bookkeeping-in-california" style="color:#fff; text-decoration:none;">Bookkeeping in California</a></li>
-      <li><a href="/bookkeeping-in-miami" style="color:#fff; text-decoration:none;">Bookkeeping in Miami</a></li>
-      <li><a href="/bookkeeping-in-manchester" style="color:#fff; text-decoration:none;">Bookkeeping in Manchester</a></li>
-    </ul>
-  </div>
+    <!-- Expert Services Section -->
+   @if (!Request::routeIs('home'))
+   <hr style="border-top:1px solid #00cc61; margin:40px 0;">
+<div class="container">
+  <h2 style="color:#fff; font-size:26px; margin-bottom:30px; text-align:center;">Expert Services Near You</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-3 col-sm-6">
+      <ul class="list-unstyled" style="line-height:35px;">
+        <li><a href="/bookkeeping-in-chicago" style="color:#fff; text-decoration:none;">Bookkeeping in Chicago</a></li>
+        <li><a href="/bookkeeping-in-austin" style="color:#fff; text-decoration:none;">Bookkeeping in Austin</a></li>
+        <li><a href="/bookkeeping-in-brooklyn" style="color:#fff; text-decoration:none;">Bookkeeping in Brooklyn</a></li>
+        <li><a href="/bookkeeping-in-honolulu" style="color:#fff; text-decoration:none;">Bookkeeping in Honolulu</a></li>
+      </ul>
+    </div>
 
-  <div class="col-md-3 col-sm-6">
-    <ul class="list-unstyled" style="line-height: 35px;">
-      <li><a href="/bookkeeping-in-denver" style="color:#fff; text-decoration:none;">Bookkeeping in Denver</a></li>
-      <li><a href="/bookkeeping-in-dallas" style="color:#fff; text-decoration:none;">Bookkeeping in Dallas</a></li>
-      <li><a href="/bookkeeping-in-san-diego" style="color:#fff; text-decoration:none;">Bookkeeping in San Diego</a></li>
-      <li><a href="/bookkeeping-in-san-francisco" style="color:#fff; text-decoration:none;">Bookkeeping in San Francisco</a></li>
-    </ul>
+    <div class="col-md-3 col-sm-6">
+      <ul class="list-unstyled" style="line-height:35px;">
+        <li><a href="/bookkeeping-in-houston" style="color:#fff; text-decoration:none;">Bookkeeping in Houston</a></li>
+        <li><a href="/bookkeeping-in-indianapolis" style="color:#fff; text-decoration:none;">Bookkeeping in Indianapolis</a></li>
+        <li><a href="/bookkeeping-in-los-angeles" style="color:#fff; text-decoration:none;">Bookkeeping in Los Angeles</a></li>
+        <li><a href="/bookkeeping-in-portland" style="color:#fff; text-decoration:none;">Bookkeeping in Portland</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <ul class="list-unstyled" style="line-height:35px;">
+        <li><a href="/bookkeeping-in-santa-rosa" style="color:#fff; text-decoration:none;">Bookkeeping in Santa Rosa</a></li>
+        <li><a href="/bookkeeping-in-california" style="color:#fff; text-decoration:none;">Bookkeeping in California</a></li>
+        <li><a href="/bookkeeping-in-miami" style="color:#fff; text-decoration:none;">Bookkeeping in Miami</a></li>
+        <li><a href="/bookkeeping-in-manchester" style="color:#fff; text-decoration:none;">Bookkeeping in Manchester</a></li>
+      </ul>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+      <ul class="list-unstyled" style="line-height:35px;">
+        <li><a href="/bookkeeping-in-denver" style="color:#fff; text-decoration:none;">Bookkeeping in Denver</a></li>
+        <li><a href="/bookkeeping-in-dallas" style="color:#fff; text-decoration:none;">Bookkeeping in Dallas</a></li>
+        <li><a href="/bookkeeping-in-san-diego" style="color:#fff; text-decoration:none;">Bookkeeping in San Diego</a></li>
+        <li><a href="/bookkeeping-in-san-francisco" style="color:#fff; text-decoration:none;">Bookkeeping in San Francisco</a></li>
+      </ul>
+    </div>
   </div>
 </div>
+@endif
 
-  </div>
 
     <!-- Footer Copyright -->
     <div class="footer-copyright" style="border-top:1px solid #00cc61; margin-top:40px; padding-top:20px;">
       <div class="row align-items-center">
-        <div class="col-md-5">
+        <div class="col-md-5 text-center text-md-start">
           <p style="margin:0;">
-            Copyright © 2025 
-            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a> 
-            | Powered by 
+            Copyright © 2025
+            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
+            | Powered by
             <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
           </p>
         </div>
 
-        <div class="col-lg-7 text-lg-end text-center mt-3">
-                                <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
-                                    <ul class="list-inline m-0">
-                                        <li class="list-inline-item">
-                                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                        </li>
-                                        <li class="list-inline-item">
-                                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+        <div class="col-lg-7 text-lg-end text-center mt-3 mt-md-0">
+          <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
+            <ul class="list-inline m-0">
+              <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+
+  </div> <!-- end container -->
 </footer>
+
 
 
     <!-- Footer Section End -->
