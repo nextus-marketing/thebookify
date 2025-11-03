@@ -532,4 +532,479 @@ element.style {
     </div>
 </div>
 
+
+<!-- Fact Counter Section -->
+<section class="fact-counter-section">
+  <div class="container">
+    <div class="fact-counter-box-list">
+
+      <!-- Fact Counter Box -->
+      <div class="fact-counter-box">
+        <div class="icon-box">
+          <img src="/frontend/images/icon-fact-counter-1.svg" alt="">
+        </div>
+        <div class="fact-counter-box-content">
+          <h2><span class="counter">25</span>+</h2>
+          <p>Invoices Processed</p>
+        </div>
+      </div>
+
+      <!-- Fact Counter Box -->
+      <div class="fact-counter-box">
+        <div class="icon-box">
+          <img src="/frontend/images/icon-fact-counter-2.svg" alt="">
+        </div>
+        <div class="fact-counter-box-content">
+          <h2><span class="counter">80</span>%+</h2>
+          <p>Transparent Prices</p>
+        </div>
+      </div>
+
+      <!-- Fact Counter Box -->
+      <div class="fact-counter-box">
+        <div class="icon-box">
+          <img src="/frontend/images/icon-fact-counter-3.svg" alt="">
+        </div>
+        <div class="fact-counter-box-content">
+          <h2><span class="counter">20</span>+</h2>
+          <p>Happy Customer</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CSS -->
+<style>
+.fact-counter-section {
+  background: #f9f9f9; /* soft gray background */
+  padding: 80px 0;
+  text-align: center;
+}
+
+.fact-counter-box-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.fact-counter-box {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 40px 30px;
+  width: 240px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.fact-counter-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.icon-box {
+  background: #00d47e;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.icon-box img {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1); /* makes SVG icons white */
+}
+
+.fact-counter-box-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #00495f;
+  margin-bottom: 8px;
+}
+
+.fact-counter-box-content p {
+  font-size: 16px;
+  color: #666;
+  text-transform: capitalize;
+}
+</style>
+
+    <div class="our-testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div class="testimonial-content">
+                    <div class="section-title dark-section">
+                        <h3 class="wow fadeInUp">our testimonial</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            What our <span>clients say</span>
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            As we onboarded more clients, we saw the value of the Bookkeeper's work to manage our ledger. We decided to work with TheBookify. Their excellent team of certified accounting managers reduces hours of work. They are certainly the best accounting firm.
+                        </p>
+                    </div>
+                    <div class="testimonial-btn">
+                        <a href="#0" class="btn-default">contact now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="testimonial-slider-box">
+                    <div class="testimonial-slider">
+                        <div class="swiper">
+                            <div class="swiper-wrapper" data-cursor-text="Drag">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="customer-logo">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="">
+                                            </div>
+                                            <div class="testimonial-quotes">
+                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <p>"The Bookify team has been outstanding to work with from day 1. They know what they are doing and are very efficient with it. Their accounting and tax solutions are unmatched."</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="/frontend/images/author-1.jpg" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3>sarah t. </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="customer-logo">
+                                                <img src="/frontend/my-img/logo.png" alt="">
+                                            </div>
+                                            <div class="testimonial-quotes">
+                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <p>"We chose the outsourced accounting services of TheBookify. They are very thorough and efficient. It has helped me save both time and money by keeping my books in order. I strongly recommend their services."</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="/frontend/images/author-2.jpg" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3>ellyse p. </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+                                        <div class="testimonial-header">
+                                            <div class="customer-logo">
+                                                <img src="/frontend/my-img/logo.png" alt="">
+                                            </div>
+                                            <div class="testimonial-quotes">
+                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-body">
+                                            <p>" We saw the industry moving toward what Botkeeper is doing—automating bookkeeping—and we knew this would be crucial to our long-term success." Your company has helped us take that further step easily."</p>
+                                        </div>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="/frontend/images/author-3.jpg" alt="">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3>robert t.</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="testimonial-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="customer-rating-boxes">
+                        <div class="customer-rating-box">
+                            <div class="customer-rating-image">
+                                <img src="/frontend/images/icon-google.svg" alt="">
+                            </div>
+                            <div class="customer-rating-content">
+                                <p>google rating</p>
+                                <div class="customer-rating-counter">
+                                    <h3><span class="counter">5.0</span></h3>
+                                    <div class="customer-rating-star">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="customer-rating-box">
+                            <div class="customer-rating-counter">
+                                <p><span class="counter">5.0</span> rated</p>
+                            </div>
+                            <div class="customer-rating-star-box">
+                                <div class="customer-rating-star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="star-rating-img">
+                                    <img src="/frontend/images/customer-rating-img.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="customer-rating-box customer-rating-content">
+                            <p>Total rating <span class="counter">5.0</span> base on 1250+ review</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+ .h-100
+    {
+    height:95% !important;
+    }
+    .pricing-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Ensures equal height for pricing-body so buttons align */
+.pricing-body {
+  flex-grow: 1;
+}
+
+/* Optional: adds smooth hover animation */
+.pricing-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the button and fix alignment */
+.pricing-btn {
+  margin-top: auto;
+}
+
+/* Optional: make button width consistent */
+.pricing-btn .btn {
+  min-width: 130px;
+}
+</style>
+
+<div class="our-pricing">
+    <div class="container">
+        <!-- Section Row Start -->
+        <div class="row section-row align-items-center">
+            <div class="col-lg-5">
+                <!-- Section Title Start -->
+                <div class="section-title">
+                    <h3 class="wow fadeInUp">pricing plan</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque">
+                        Flexible pricing plans for <span>you finance</span>
+                    </h2>
+                </div>
+                <!-- Section Title End -->
+            </div>
+
+            <div class="col-lg-7">
+                <!-- Section Button Start -->
+                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
+                    <a href="#0" class="btn-default">contact now</a>
+                </div>
+                <!-- Section Button End -->
+            </div>
+        </div>
+        <!-- Section Row End -->
+
+        <!-- Pricing Row Start -->
+        <div class="row">
+
+            <!-- Pricing Box 1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                    <!-- Pricing Header -->
+                    <div class="pricing-header mb-3">
+                        <div class="icon-wrapper mb-3">
+                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                        </div>
+                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
+                    </div>
+
+                    <hr class="my-3" style="border-top:1px solid #eee;">
+
+                    <!-- Pricing Body -->
+                    <div class="pricing-body">
+                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
+                        </p>
+                    </div>
+
+                    <!-- Pricing Button -->
+                    <div class="pricing-btn mt-4">
+                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
+                            View Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing Box 1 End -->
+
+            <!-- Pricing Box 2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                    <div class="pricing-header mb-3">
+                        <div class="icon-wrapper mb-3">
+                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
+                        </div>
+                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
+                    </div>
+
+                    <hr class="my-3" style="border-top:1px solid #eee;">
+
+                    <div class="pricing-body">
+                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
+                        </p>
+                    </div>
+
+                    <div class="pricing-btn mt-4">
+                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
+                            View Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing Box 2 End -->
+
+            <!-- Pricing Box 3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                    <div class="pricing-header mb-3">
+                        <div class="icon-wrapper mb-3">
+                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                        </div>
+                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
+                    </div>
+
+                    <hr class="my-3" style="border-top:1px solid #eee;">
+
+                    <div class="pricing-body">
+                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
+                        </p>
+                    </div>
+
+                    <div class="pricing-btn mt-4">
+                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
+                            View Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing Box 3 End -->
+
+            <!-- Pricing Box 4 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                    <div class="pricing-header mb-3">
+                        <div class="icon-wrapper mb-3">
+                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                        </div>
+                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
+                    </div>
+
+                    <hr class="my-3" style="border-top:1px solid #eee;">
+
+                    <div class="pricing-body">
+                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
+                        </p>
+                    </div>
+
+                    <div class="pricing-btn mt-4">
+                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
+                            View Plan
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div style="display:flex; justify-content:center; width:100%;">
+          <a href="tel:+15513481040" 
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
+            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
+            Call Now : +1 551-348-1040
+          </a>
+        </div>
+      </div>
+        </div>
+    </div>
+</div>
+
+<div class="partners-section" style="background-color:#cdcdcd; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 0;">
+  <div class="container" style="max-width:900px; width:100%;">
+    <div class="row" style="display:flex; justify-content:center;">
+      
+      <!-- Centered Content -->
+      <div class="col-lg-8 col-md-10" style="margin:0 auto;">
+        <div class="section-title" style="margin-bottom:25px;">
+          <h2 class="text-anime-style-2" data-cursor="-opaque" style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
+            Eliminate Complexity and Increase <br>
+            Your <span style="color:#00cc61;">Profit Margins</span>
+          </h2>
+        </div>
+        
+        <!-- Centered Button -->
+        <div style="display:flex; justify-content:center; width:100%;">
+          <a href="tel:+15513481040" 
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
+            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
+            Call Now : +1 551-348-1040
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 @endsection

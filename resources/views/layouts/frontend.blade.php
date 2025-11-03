@@ -150,7 +150,7 @@
       <div class="col-lg-6">
         <div class="footer-newsletter-box">
           <a class="navbar-brand" href="/">
-            <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
+            <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
           </a>
           <p style="color:#fff; margin-top:15px; line-height:1.7;">
             The Bookify is a platform that can solve all your financial hustle. <br>

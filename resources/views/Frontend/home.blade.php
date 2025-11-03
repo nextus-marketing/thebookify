@@ -86,7 +86,6 @@
   </div>
 </div>
 
-
  <div class="what-we-do">
     <div class="container">
         <div class="row align-items-center">
@@ -129,7 +128,6 @@
         </div>
     </div>
 </div>
-
 
     <!-- About Us Section Start -->
     <div class="about-us">
@@ -314,7 +312,6 @@
         <!-- Section Title End -->
 
         <div class="row">
-
             <!-- Blog Post 1 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp">
@@ -382,17 +379,9 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 3 -->
-
         </div>
-        <!-- Row End -->
-
     </div>
-    <!-- Container End -->
 </div>
-<!-- Page Blog End -->
-
-
 
 <div class="page-blog">
     <div class="container">
@@ -596,12 +585,11 @@
                     <div class="testimonial-slider">
                         <div class="swiper">
                             <div class="swiper-wrapper" data-cursor-text="Drag">
-
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="customer-logo">
-                                                <img src="/frontend/my-img/logo.png" alt="">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="">
                                             </div>
                                             <div class="testimonial-quotes">
                                                 <img src="/frontend/images/testimonial-quotes.svg" alt="">
