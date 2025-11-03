@@ -19,6 +19,7 @@ Route::view('/pricing', 'Frontend.pricing')->name('pricing');
 Route::view('/contact', 'Frontend.contact')->name('contact');
 Route::view('/blogs', 'Frontend.blogs')->name('blogs');
 Route::view('/blog-details', 'Frontend.blog-details')->name('blog-details');
+Route::view('/thankyou', 'Frontend.thankyou')->name('thankyou');
 
 // Expert Services Near You
 
@@ -63,6 +64,10 @@ Route::view('/ecommerce', 'Frontend.Industries.ecommerce')->name('ecommerce');
 Route::view('/colleges-and-universities', 'Frontend.Industries.colleges-and-universities')->name('colleges-and-universities');
 Route::view('/accounting-services-for-startup', 'Frontend.Industries.accounting-services-for-startup')->name('accounting-services-for-startup');
 
+
+Route::fallback(function () {
+    return response()->view('Error.404', [], 404);
+});
 
 require __DIR__.'/auth.php';
 require __DIR__.'/backend.php';
