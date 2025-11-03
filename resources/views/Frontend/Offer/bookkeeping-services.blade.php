@@ -21,35 +21,112 @@ element.style {
     background-color: transparent;
     padding: 50px 0;
 }
+.contact-form .form-control {
+    border: 1px solid #ccc !important; 
+    border-radius: 6px;             
+    background-color: #fff;       
+    padding: 10px 15px;        
+    box-shadow: none;          
+    color: #000;      
+}
 
+.contact-form .form-control:focus {
+    border-color: #86f0b9ff !important;  
+    box-shadow: 0 0 0 0.2rem rgba(0, 204, 97, 0.25);
+    outline: none;
+}
 </style>
- <div class="page-header">
-    <div class="container">
-        <div class="row align-items-center">
-            
-            <div class="col-lg-12">
-                <div class="page-header-box text-center">
-                    <h1 class="text-anime-style-2" data-cursor="-opaque">
-                        Professional Bookkeeping Services to Ease the Burden of Accounting
-                    </h1>
-                    <p style="color:#fff;">
-                        Comprehensive and Professional bookkeeping services to sole traders, partnerships, and limited companies.
-                    </p>
-                </div>
+ <div class="page-header" style="background-color:#014652; padding:100px 0;">
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
+        <div class="page-header-box text-lg-start text-center">
+          <h1 class="text-anime-style-2" data-cursor="-opaque" style="color:#fff; font-weight:700; line-height:1.3;">
+            Professional Bookkeeping Services to Ease the Burden of Accounting
+          </h1>
+          <p style="color:#fff; margin-top:15px;">
+            Comprehensive and Professional bookkeeping services to sole traders, partnerships, and limited companies.
+          </p>
+
+          <div class="hero-btn mt-4">
+            <a href="tel:+15513481040" class="btn-default">
+              <i class="fa-solid fa-phone me-2"></i> 
+              Book A Free Consultation
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Form -->
+      <div class="col-lg-5 col-md-12">
+        <div class="contact-form p-4" style="background:#fff; border-radius:10px; box-shadow:0 4px 25px rgba(0,0,0,0.15);">
+          <form id="contactForm" action="#" method="POST" data-toggle="validator">
+            <div class="form-group mb-3">
+              <input type="text" name="full_name" class="form-control" id="full_name" placeholder="First name*" required>
             </div>
 
-            <nav class="wow fadeInUp d-flex justify-content-center">
-                <div class="hero-btn">
-                    <a href="tel:+15513481040" class="btn-default" 
-                       style="display:inline-flex; align-items:center; justify-content:center;">
-                        <i class="fa-solid fa-phone me-2"></i> 
-                        Book a free consultation
-                    </a>
-                </div>
-            </nav>
+            <div class="form-group mb-3">
+              <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone no*" required>
+            </div>
+
+            <div class="form-group mb-3">
+              <input type="email" name="email" class="form-control" id="email" placeholder="E-mail address*" required>
+            </div>
+
+            <div class="form-group mb-4">
+              <input type="text" name="profession" class="form-control" id="profession" placeholder="Profession*" required>
+            </div>
+
+            <button type="submit" class="btn-default w-100" >
+              Send Message
+            </button>
+          </form>
         </div>
+      </div>
+
     </div>
+  </div>
 </div>
+
+<!-- Responsive + Input Styles -->
+<style>
+  input.form-control {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #333;
+  }
+
+  input.form-control:focus {
+    border-color: #00cc61;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,204,97,0.3);
+  }
+
+  @media (max-width: 991px) {
+    .page-header {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .page-header-box h1 {
+      font-size: 26px;
+    }
+
+    .contact-form {
+      margin-top: 30px;
+    }
+
+    .btn-default {
+      width: 100%;
+    }
+  }
+</style>
+
 
 <div class="partners-section py-5" style="background-color: #cdcdcd;">
     <div class="container">

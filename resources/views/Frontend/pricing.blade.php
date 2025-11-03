@@ -257,7 +257,7 @@
 
                 <div class="col-lg-6">
                     <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="#0" class="btn-default">view all FAQs</a>
+                        <a href="/contact" class="btn-default">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -370,97 +370,96 @@
         </div>
     </div>
 
- <!-- Font Awesome CDN -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+ 
 
-<section class="pricing-table-section">
-  <div class="container">
-    <h2 class="section-title text-center">Plan Details</h2>
+<section style="background-color:#f5f7fa; padding:70px 20px; font-family:'Poppins',sans-serif; color:#222;">
+  <div style="max-width:1200px; margin:0 auto;">
+    <h2 style="font-size:30px; font-weight:700; color:#111; text-align:center; margin-bottom:40px;">Plan Details</h2>
 
-    <div class="table-responsive">
-      <table class="pricing-table">
+    <div style="overflow-x:auto;">
+      <table style="width:100%; border-collapse:collapse; border-radius:10px; background:#fff; box-shadow:0 4px 20px rgba(0,0,0,0.05); overflow:hidden;">
         <thead>
           <tr>
-            <th></th>
-            <th>Starter</th>
-            <th>Growth</th>
-            <th>Expansion</th>
-            <th>Additional Solutions</th>
+            <th style="padding:16px; text-align:center; background-color:#00cc61; color:#fff; font-weight:600; text-transform:uppercase;"></th>
+            <th style="padding:16px; text-align:center; background-color:#00cc61; color:#fff; font-weight:600; text-transform:uppercase;">Starter</th>
+            <th style="padding:16px; text-align:center; background-color:#00cc61; color:#fff; font-weight:600; text-transform:uppercase;">Growth</th>
+            <th style="padding:16px; text-align:center; background-color:#00cc61; color:#fff; font-weight:600; text-transform:uppercase;">Expansion</th>
+            <th style="padding:16px; text-align:center; background-color:#00cc61; color:#fff; font-weight:600; text-transform:uppercase;">Additional Solutions</th>
           </tr>
         </thead>
 
         <tbody>
-          <!-- Category -->
-          <tr class="category-row">
-            <td colspan="5">Bookkeeping</td>
+          <!-- Bookkeeping Category -->
+          <tr>
+            <td colspan="5" style="background-color:#e9f9f0; font-weight:700; color:#00a651; text-transform:uppercase; text-align:left; padding:14px;">Bookkeeping</td>
+          </tr>
+          <tr style="transition:0.3s;">
+            <td style="padding:16px; text-align:left; color:#333;">Cash Basis</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
           </tr>
           <tr>
-            <td>Cash Basis</td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
+            <td style="padding:16px; text-align:left;">Modified Accrual Basis</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
           </tr>
           <tr>
-            <td>Modified Accrual Basis</td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
+            <td style="padding:16px; text-align:left;">Report delivery day</td>
+            <td style="padding:16px; text-align:center;">15th</td>
+            <td style="padding:16px; text-align:center;">10th</td>
+            <td style="padding:16px; text-align:center;">5th</td>
+            <td style="padding:16px; text-align:center;">5th</td>
           </tr>
           <tr>
-            <td>Report delivery day</td>
-            <td>15th</td>
-            <td>10th</td>
-            <td>5th</td>
-            <td>5th</td>
-          </tr>
-          <tr>
-            <td>Custom chart of accounts</td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
+            <td style="padding:16px; text-align:left;">Custom chart of accounts</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
           </tr>
 
-          <!-- Category -->
-          <tr class="category-row">
-            <td colspan="5">Tax &amp; CPA</td>
+          <!-- Tax & CPA Category -->
+          <tr>
+            <td colspan="5" style="background-color:#e9f9f0; font-weight:700; color:#00a651; text-transform:uppercase; text-align:left; padding:14px;">Tax &amp; CPA</td>
           </tr>
           <tr>
-            <td>Tax Advice</td>
-            <td>Semi-annually</td>
-            <td>Quarterly</td>
-            <td>Monthly</td>
-            <td>Monthly</td>
+            <td style="padding:16px; text-align:left;">Tax Advice</td>
+            <td style="padding:16px; text-align:center;">Semi-annually</td>
+            <td style="padding:16px; text-align:center;">Quarterly</td>
+            <td style="padding:16px; text-align:center;">Monthly</td>
+            <td style="padding:16px; text-align:center;">Monthly</td>
           </tr>
           <tr>
-            <td>Business Tax Return</td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
+            <td style="padding:16px; text-align:left;">Business Tax Return</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
           </tr>
           <tr>
-            <td>Personal Tax Return</td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
+            <td style="padding:16px; text-align:left;">Personal Tax Return</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
           </tr>
           <tr>
-            <td>Annual Depreciation Schedule</td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
+            <td style="padding:16px; text-align:left;">Annual Depreciation Schedule</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
           </tr>
           <tr>
-            <td>Sales Tax Return Filing (1 state)</td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-xmark"></i></td>
-            <td><i class="fa-solid fa-check"></i></td>
+            <td style="padding:16px; text-align:left;">Sales Tax Return Filing (1 state)</td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-xmark" style="color:#d9534f;"></i></td>
+            <td style="padding:16px; text-align:center;"><i class="fa-solid fa-check" style="color:#00cc61;"></i></td>
           </tr>
         </tbody>
       </table>
@@ -468,95 +467,6 @@
   </div>
 </section>
 
-<style>
- .pricing-table-section {
-  background-color: #f5f7fa;
-  padding: 70px 20px;
-  font-family: "Poppins", sans-serif;
-  color: #222;
-}
-
-.section-title {
-  font-size: 30px;
-  font-weight: 700;
-  color: #111;
-  margin-bottom: 40px;
-}
-
-.table-responsive {
-  overflow-x: auto;
-}
-
-.pricing-table {
-  width: 100%;
-  border-collapse: collapse;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  overflow: hidden;
-}
-
-.pricing-table th,
-.pricing-table td {
-  padding: 16px;
-  text-align: center;
-  border-bottom: 1px solid #e6e6e6;
-  vertical-align: middle;
-}
-
-.pricing-table th:first-child,
-.pricing-table td:first-child {
-  text-align: left;
-  font-weight: 500;
-  color: #333;
-}
-
-.pricing-table th {
-  background-color: #00cc61;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.category-row td {
-  background-color: #e9f9f0;
-  font-weight: 700;
-  color: #00a651;
-  text-transform: uppercase;
-  text-align: left;
-}
-
-.pricing-table i.fa-check {
-  color: #00cc61;
-  font-size: 16px;
-}
-
-.pricing-table i.fa-xmark {
-  color: #d9534f;
-  font-size: 16px;
-}
-
-/* Hover Effect */
-.pricing-table tr:hover td {
-  background-color: #f9f9f9;
-  transition: 0.3s;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .pricing-table th,
-  .pricing-table td {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .section-title {
-    font-size: 24px;
-  }
-}
-
-
-</style>
 
     <style>
 .contact-form .form-control {
