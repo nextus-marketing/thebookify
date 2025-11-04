@@ -87,8 +87,8 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/blogs">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>                           
                             </ul>
                         </div>
@@ -401,7 +401,7 @@
     <script src="/frontend/js/magiccursor.js"></script>
     <!-- Text Effect js file -->
     <script src="/frontend/js/SplitText.js"></script>
-    
+
     <script src="/frontend/js/ScrollTrigger.min.js"></script>
     <!-- YTPlayer js File -->
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>

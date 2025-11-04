@@ -109,6 +109,11 @@
                             on how to start your professional bookkeeping journey with us. 
                             Watch this video to clear all your concerns.
                         </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">
+                           At Bookify, we combine technology-driven solutions with expert financial insight to simplify your accounting process. 
+                           Our team ensures accuracy, transparency, and timely reporting so you can focus on growing your business while we handle
+                            the numbers that matter most.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -118,7 +123,7 @@
                 <div class="what-we-do-images position-relative text-center">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal mb-0">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" 
+                            <img src="/frontend/my-img/finance.jpg" 
                                  alt="Introduction Video" 
                                  class="img-fluid rounded">
                         </figure>
@@ -139,7 +144,7 @@
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="/frontend/images/about-img-1.jpg" alt="">
+                                <img src="/frontend/my-img/america.jpg" alt="">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -170,6 +175,80 @@
         </div>
     </div>
     <!-- About Us Section End -->
+
+    <section class="py-5" style="background-color:#f6fff9;">
+  <div class="container text-center">
+    <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
+      How Bookify 
+      <span style="color: #00cc61;">Can Help You</span>
+    </h2>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Bookkeeping -->
+      <div class="col-md-4 col-sm-6">
+        <div class="p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/4205/4205983.png" 
+               alt="Bookkeeping" width="60" class="mb-3">
+          <a href="/bookkeeping-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Bookkeeping</a>
+        </div>
+      </div>
+
+      <!-- CFO Advisory -->
+      <div class="col-md-4 col-sm-6">
+        <div class="p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/4221/4221445.png" 
+               alt="CFO Advisory" width="60" class="mb-3">
+          <a href="/cfo-advisory" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">CFO Advisory</a>
+        </div>
+      </div>
+
+      <!-- Accounting & Tax -->
+      <div class="col-md-4 col-sm-6">
+        <div class="p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" 
+               alt="Accounting & Tax" width="60" class="mb-3">
+          <a href="/tax-and-accounting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Accounting & Tax</a>
+        </div>
+      </div>
+
+      <!-- Sales Tax Consulting -->
+      <div class="col-md-4 col-sm-6">
+        <div class="p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/3798/3798090.png" 
+               alt="Sales Tax Consulting" width="60" class="mb-3">
+          <a href="/sales-tax-consulting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Sales Tax Consulting</a>
+        </div>
+      </div>
+
+      <!-- Online Payroll -->
+      <div class="col-md-4 col-sm-6">
+        <div class="p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/2645/2645896.png" 
+               alt="Online Payroll" width="60" class="mb-3">
+          <a href="/payroll-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Online Payroll</a>
+        </div>
+      </div>
+
+      <!-- Incorporation -->
+      <div class="col-md-4 col-sm-6">
+        <div class="p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
+          <img src="https://cdn-icons-png.flaticon.com/512/1162/1162456.png" 
+               alt="Incorporation" width="60" class="mb-3">
+          <a href="/incorporation" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Incorporation</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
 
     <!-- Our Feature Section Stat -->
@@ -544,14 +623,17 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                           What Makes The 
-                            <span>Bookify Unique?</span>
+                           Your Financial 
+                            <span>Helping Hand</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            The Bookify online accounting services offer personalized bookkeeping services. You can access your files from any device at any time. With our online accounting service, you don’t need to worry about the safety of your data since it’s completely secure and backed up automatically.
+                           At The Bookify, we provide you with the best-in-class CPAs with years of experience in the business. We’re here to help you with your financial management needs.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
-                            We are best at bookkeeping because we provide you with a detailed workflow and efficiently organize your finances. This can help you better understand your financial state and make informed decisions in the future.
+                           Because we’ve been in the sector for over 15 years and served countless industry experts, you can rely on “the bookify” for all of your financial management needs. You can grow your firm exponentially with our dedicated small business accounting services.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.4s">
+                           A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
                         </p>
                     </div>
                 </div>
