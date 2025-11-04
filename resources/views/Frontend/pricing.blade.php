@@ -218,27 +218,7 @@
 
                 <div class="col-lg-6">
                     <div class="our-partners-list">
-                        <div class="our-partner-item wow fadeInUp">
-                            <img src="/frontend/images/our-partner-1.svg" alt="">
-                        </div>
-                        <div class="our-partner-item wow fadeInUp" data-wow-delay="0.2s">
-                            <img src="/frontend/images/our-partner-2.svg" alt="">
-                        </div>
-                        <div class="our-partner-item wow fadeInUp" data-wow-delay="0.4s">
-                            <img src="/frontend/images/our-partner-3.svg" alt="">
-                        </div>
-                        <div class="our-partner-item wow fadeInUp" data-wow-delay="0.6s">
-                            <img src="/frontend/images/our-partner-4.svg" alt="">
-                        </div>
-                        <div class="our-partner-item wow fadeInUp" data-wow-delay="0.8s">
-                            <img src="/frontend/images/our-partner-1.svg" alt="">
-                        </div>
-                        <div class="our-partner-item wow fadeInUp" data-wow-delay="1s">
-                            <img src="/frontend/images/our-partner-2.svg" alt="">
-                        </div>
-                        <div class="our-partner-item wow fadeInUp" data-wow-delay="1.2s">
-                            <img src="/frontend/images/our-partner-3.svg" alt="">
-                        </div>
+                       <img src="/frontend/my-img/exceptional.webp" alt="">
                     </div>
                 </div>
             </div>
@@ -274,29 +254,42 @@
 
                     <div class="contact-form">
                         <!-- Contact Form Start -->
-                        <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.4s">
+                         <form action="{{ route('contact-enquiry') }}" enctype="multipart/form-data" method="POST" id="contactForm" class="wow fadeInUp" data-wow-delay="0.5s" data-toggle="validator">
+                            @csrf  
                             <div class="row">
                                 <div class="form-group col-md-6 mb-4">
                                     <input type="text" name="full_name" class="form-control" id="full_name" placeholder="First name">
+                                     <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone no">
+                                    <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Phone no">
+                                     <div class="field_error" id="mobile-error" style="color:#ff0000;"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
                                     <input type="email" name="email" class="form-control" id="email" placeholder="E-mail address">
+                                     <div class="field_error" id="email-error" style="color:#ff0000;"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="profession " class="form-control" id="profession" placeholder="Profession">
+                                    <input type="text" name="profession" class="form-control" id="profession" placeholder="Profession">
+                                     <div class="field_error" id="profession-error" style="color:#ff0000;"></div>
+                                </div>
+                                <div class="form-group col-md-12 mb-4 text-center">
+                                    <div class="d-inline-block">
+                                        <div class="g-recaptcha" data-sitekey="6LfjaAIsAAAAANXgl59wn5VOIhzNoRlCTJY-8bUF"></div>
+                                        <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
+                                    </div>
                                 </div>
 
-                                <div class="col-md-12">
+                                <div class="col-md-12 text-center">
                                     <button type="submit" class="btn-default">send message</button>
                                 </div>
                             </div>
                         </form>
+                        <!-- Google reCAPTCHA Script -->
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                         <!-- Contact Form End -->
                     </div>
                 </div>

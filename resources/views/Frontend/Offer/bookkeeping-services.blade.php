@@ -83,11 +83,19 @@ element.style {
               <input type="text" name="profession" class="form-control" id="profession" placeholder="Profession*">
                <div class="field_error" id="profession-error" style="color:#ff0000;"></div>
             </div>
-
+            <div class="form-group col-md-12 mb-4 text-center">
+                <div class="d-inline-block">
+                    <div class="g-recaptcha" data-sitekey="6LfjaAIsAAAAANXgl59wn5VOIhzNoRlCTJY-8bUF"></div>
+                    <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
+                </div>
+            </div>
             <button type="submit" class="btn-default w-100" >
               Send Message
             </button>
           </form>
+           <!-- Google reCAPTCHA Script -->
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
         </div>
       </div>
 
