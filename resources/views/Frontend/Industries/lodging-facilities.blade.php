@@ -118,7 +118,6 @@
                             <li>Hotel owners can experience several benefits from partnering with a CPA to help them with their taxes. </li>
                             <li>The hoteliers’ most common uses include simplified tax preparation, increased cash flow, and streamlined financial processes.</li>
                             <li>If you want to increase your occupancy rates and revenue, you must invest in your marketing and customer service. A CPA (Certified Public Accountant) can help you with both.</li>
-                            <li>We can provide you with essential information about increasing your occupancy rates and the best ways to make your customers happy.</li>
                         </ul>
                     </div>
                 </div>
@@ -129,7 +128,7 @@
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/hotel.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>
@@ -149,7 +148,7 @@
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/process.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>
@@ -172,7 +171,6 @@
                             <li>Determine the tax cost of each asset</li>
                             <li>Calculate the tax savings that will result from the transfer</li>
                             <li>Calculate the taxable gain or loss on the transfer by taking into account any difference in the fair market value and tax cost of any asset that is being transferred</li>
-                            <li>Determine the appropriate tax</li>
                         </ul>
                     </div>
                 </div>

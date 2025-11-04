@@ -51,8 +51,8 @@
 
                         <!-- Company Experience Box Start -->
                         <div class="company-experience">
-                            <h3><span class="counter">25</span>+</h3>
-                            <p>Years of experience in finance</p>
+                            <h3><span class="counter">15</span>+</h3>
+                            <p>Years of financial expertise</p>
                         </div>
                         <!-- Company Experience Box End -->                       
                     </div>

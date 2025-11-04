@@ -5,5 +5,5 @@
     <br /><br />
     Thanks,<br>
     Sales Team,<br />
-    Premium Car Parts.<br />
+    The Bookify.<br />
 @endcomponent

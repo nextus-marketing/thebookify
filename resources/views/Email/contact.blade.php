@@ -1,7 +1,7 @@
 @component('mail::message')
     <p style="border-collapse: collapse; table-layout: fixed; width: 1000px;">
         Hi,<br />
-        New enquiry has been initiated on The Premium Car Parts
+        New enquiry has been initiated on The The Bookify
         <br />
         Following are the contact enquiry details.
     </p>
@@ -90,5 +90,5 @@
     <br /><br />
     Thankyou,<br>
     Sales Team.<br />
-    Premium Car parts<br />
+    The Bookify<br />
 @endcomponent

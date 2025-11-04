@@ -170,40 +170,28 @@ element.style {
 <div class="what-we-do">
     <div class="container">
         <div class="row align-items-center">
-            
-            <!-- Left Image -->
-            <div class="col-lg-6">
-                <div class="what-we-do-images">
-                    <div class="what-do-we-img-1">
-                        <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
-                        </figure>
-                    </div>
-                </div>
-            </div>
 
-
-            <!-- Right Content -->
+            <!-- Left Content -->
             <div class="col-lg-6">
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What are Sales   <span>Tax consulting services?</span>
+                            What are Sales <span>Tax consulting services?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          With the extensive complexities of state and federal laws, it can be difficult to understand the requirements for sales tax. In order to stay compliant with regulations, you need expert advice and guidance.
+                            With the extensive complexities of state and federal laws, it can be difficult to understand the requirements for sales tax. In order to stay compliant with regulations, you need expert advice and guidance.
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                          Sales Tax consulting services are an essential part of any business. The complexities of state and federal laws can be challenging to understand even for experienced professionals, which is why you need a Sales Tax consultant. 
+                            Sales Tax consulting services are an essential part of any business. The complexities of state and federal laws can be challenging to understand even for experienced professionals, which is why you need a Sales Tax consultant. 
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                          A consultant will help you stay up-to-date with recent changes in law, advise the most profitable way to sell your products, and suggest ways to avoid paying sales tax.
+                            A consultant will help you stay up-to-date with recent changes in law, advise the most profitable way to sell your products, and suggest ways to avoid paying sales tax.
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                          Our Sales Tax consultants also assist in identifying potential tax savings, minimizing risks of penalties, and streamlining your compliance process. With their deep understanding of multi-state regulations, they ensure your business remains compliant while maximizing efficiency and profitability.
+                            Our Sales Tax consultants also assist in identifying potential tax savings, minimizing risks of penalties, and streamlining your compliance process. With their deep understanding of multi-state regulations, they ensure your business remains compliant while maximizing efficiency and profitability.
                         </p>
                     </div>
 
@@ -216,9 +204,21 @@ element.style {
                 </div>
             </div>
 
+            <!-- Right Image -->
+            <div class="col-lg-6">
+                <div class="what-we-do-images">
+                    <div class="what-do-we-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="/frontend/my-img/sales-tax.jpg" alt="Simplifying Taxes">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
+
 
 
 
@@ -230,7 +230,7 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal" style="margin: 0;">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="" style="width: 100%; border-radius: 10px;">
+                            <img src="/frontend/my-img/tax-2.jpg" alt="" style="width: 100%; border-radius: 10px;">
                         </figure>
                     </div>
                 </div>
@@ -247,6 +247,9 @@ element.style {
                             We have provided our services for over a decade in the field and have been acknowledged by all the top-tier organizations.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">We provide consultation on how to set up a new business, avoid pitfalls and risks, and advise what steps must be taken to comply with current legislation.</p>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our team combines deep industry knowledge with practical experience to deliver tailored tax solutions that fit your business model. We focus on simplifying complex tax structures, ensuring accuracy in filings, and optimizing your operations to enhance efficiency and profitability.
+</p>
 
                     </div>
                     <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">

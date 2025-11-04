@@ -186,7 +186,7 @@ element.style {
                 <div class="what-we-do-images position-relative text-center">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal mb-0">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" 
+                            <img src="/frontend/my-img/payroll.jpg" 
                                  alt="Introduction Video" 
                                  class="img-fluid rounded">
                         </figure>

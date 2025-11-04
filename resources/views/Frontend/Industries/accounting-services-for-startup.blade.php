@@ -56,7 +56,7 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                           Why does a <span> STARTUP need our services?</span>
+                           Why does a <span> Startup need our services?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                            The medical industry can benefit from getting a CPA as they can understand the finances better, identify risks and inefficiencies, and make more informed decisions.
@@ -78,7 +78,7 @@
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/startup-img.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>

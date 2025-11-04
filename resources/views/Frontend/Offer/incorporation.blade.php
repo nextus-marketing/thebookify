@@ -149,7 +149,7 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal" style="margin: 0;">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="" style="width: 100%; border-radius: 10px;">
+                            <img src="/frontend/my-img/incorporation.jpg" alt="" style="width: 100%; border-radius: 10px;">
                         </figure>
                     </div>
                 </div>

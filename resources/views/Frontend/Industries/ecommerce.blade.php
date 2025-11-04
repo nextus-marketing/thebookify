@@ -100,7 +100,7 @@
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/e-com.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/process.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>

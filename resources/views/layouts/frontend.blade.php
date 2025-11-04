@@ -376,7 +376,7 @@
 </script>
 
     <!-- Footer Section End -->
-
+   
     <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
     <!-- Bootstrap js file -->
@@ -401,6 +401,7 @@
     <script src="/frontend/js/magiccursor.js"></script>
     <!-- Text Effect js file -->
     <script src="/frontend/js/SplitText.js"></script>
+    
     <script src="/frontend/js/ScrollTrigger.min.js"></script>
     <!-- YTPlayer js File -->
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
@@ -408,6 +409,7 @@
     <script src="/frontend/js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="/frontend/js/function.js"></script>
+
 	<script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
 </body>
 

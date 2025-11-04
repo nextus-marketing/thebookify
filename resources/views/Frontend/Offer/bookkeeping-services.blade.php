@@ -315,7 +315,7 @@ element.style {
                 <div class="what-we-do-images position-relative text-center">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal mb-0">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" 
+                            <img src="/frontend/my-img/levelup.jpg" 
                                  alt="Introduction Video" 
                                  class="img-fluid rounded">
                         </figure>
@@ -416,7 +416,7 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Designated Expert">
+                            <img src="/frontend/my-img/monitoring.webp" alt="Designated Expert">
                         </figure>
                     </div>
                 </div>
@@ -436,12 +436,11 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/designated.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>
             </div>
-
 
             <!-- Right Content -->
             <div class="col-lg-6">
@@ -456,6 +455,10 @@ element.style {
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
                             Our designated experts bring years of experience across diverse industries, ensuring that every financial record is accurate, compliant, and insightful. With their guidance, you gain real-time visibility into your business’s financial health, empowering you to make informed decisions and drive sustainable growth with confidence.
+                        </p>
+
+                        <p class="wow fadeInUp" data-wow-delay="0.3s">
+                            Our professionals don’t just manage your books — they act as strategic partners, helping you identify opportunities, optimize cash flow, and enhance profitability through proactive financial insights.
                         </p>
                     </div>
 
@@ -519,7 +522,7 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/task-automation.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>
@@ -538,7 +541,7 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal" style="margin: 0;">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="" style="width: 100%; border-radius: 10px;">
+                            <img src="/frontend/my-img/key-facts.jpg" alt="" style="width: 100%; border-radius: 10px;">
                         </figure>
                     </div>
                 </div>
@@ -556,6 +559,8 @@ element.style {
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">Our expertise is built on decades of hands-on experience, innovative financial solutions, and a deep understanding of evolving tax regulations. We help businesses streamline their compliance processes, minimize liabilities, and stay focused on sustainable growth.</p>
 
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">We also provide personalized tax guidance that aligns with your business goals, ensuring every financial decision contributes to long-term stability and growth.
+                        </p>
                     </div>
                     <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
@@ -613,7 +618,7 @@ element.style {
                 <div class="what-we-do-images">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" alt="Simplifying Taxes">
+                            <img src="/frontend/my-img/tax.jpg" alt="Simplifying Taxes">
                         </figure>
                     </div>
                 </div>

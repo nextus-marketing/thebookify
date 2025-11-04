@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title') Payroll Services | The Bookify @endsection
+@section('title') CFO Advisory | The Bookify @endsection
 @section('content')
 <style>
     .page-header-box h1 {
@@ -186,7 +186,7 @@ element.style {
                 <div class="what-we-do-images position-relative text-center">
                     <div class="what-do-we-img-1">
                         <figure class="image-anime reveal mb-0">
-                            <img src="/frontend/images/what-we-do-img-1.jpg" 
+                            <img src="/frontend/my-img/cfo.jpg" 
                                  alt="Introduction Video" 
                                  class="img-fluid rounded">
                         </figure>
