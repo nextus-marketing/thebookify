@@ -62,21 +62,26 @@ element.style {
       <!-- Right Form -->
       <div class="col-lg-5 col-md-12">
         <div class="contact-form p-4" style="background:#fff; border-radius:10px; box-shadow:0 4px 25px rgba(0,0,0,0.15);">
-          <form id="contactForm" action="#" method="POST" data-toggle="validator">
+           <form action="{{ route('contact-enquiry') }}" enctype="multipart/form-data" method="POST" id="contactForm" class="wow fadeInUp" data-wow-delay="0.5s" data-toggle="validator">
+            @csrf   
             <div class="form-group mb-3">
-              <input type="text" name="full_name" class="form-control" id="full_name" placeholder="First name*" required>
+              <input type="text" name="full_name" class="form-control" id="full_name" placeholder="First name*">
+               <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>
             </div>
 
             <div class="form-group mb-3">
-              <input type="text" name="phone" class="form-control" id="phone" placeholder="Phone no*" required>
+              <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Phone no*">
+               <div class="field_error" id="mobile-error" style="color:#ff0000;"></div>
             </div>
 
             <div class="form-group mb-3">
-              <input type="email" name="email" class="form-control" id="email" placeholder="E-mail address*" required>
+              <input type="email" name="email" class="form-control" id="email" placeholder="E-mail address*">
+               <div class="field_error" id="email-error" style="color:#ff0000;"></div>
             </div>
 
             <div class="form-group mb-4">
-              <input type="text" name="profession" class="form-control" id="profession" placeholder="Profession*" required>
+              <input type="text" name="profession" class="form-control" id="profession" placeholder="Profession*">
+               <div class="field_error" id="profession-error" style="color:#ff0000;"></div>
             </div>
 
             <button type="submit" class="btn-default w-100" >

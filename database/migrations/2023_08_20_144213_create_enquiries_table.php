@@ -15,12 +15,12 @@ return new class extends Migration
     {
         Schema::create('enquiries', function (Blueprint $table) {
             $table->id();
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->string('email');
-            $table->string('mobile');
+            $table->string('full_name')->nullable();
+            $table->string('subject')->nullable();
+            $table->string('email')->nullable();
+            $table->string('mobile')->nullable();
             $table->text('message')->nullable();
-            $table->text('remark')->nullable();
+            $table->text('profession')->nullable();
             $table->unsignedBigInteger('created_by')->nullable();
             $table->unsignedBigInteger('updated_by')->nullable();
             $table->timestamps();

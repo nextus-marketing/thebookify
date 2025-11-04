@@ -1,33 +1,39 @@
 /* DataTable Top Buttons */
-.dt-buttons{
+.dt-buttons {
     margin-top: 7px !important;
 }
-.dt-button{
+
+.dt-button {
     font-size: 10px !important;
     padding: 4px 10px 4px 10px !important;
 }
-.buttons-copy{
+
+.buttons-copy {
     background-color: #f8f9fa !important;
     border: 1px solid #dee2e6 !important;
     color: #343a40 !important;
 }
-.buttons-csv{
+
+.buttons-csv {
     background-color: #f8f9fa !important;
     border: 1px solid #dee2e6 !important;
     color: #343a40 !important;
 }
-.buttons-print{
+
+.buttons-print {
     background-color: #f8f9fa !important;
     border: 1px solid #dee2e6 !important;
     color: #343a40 !important;
 }
 
 /* DataTable */
-.dataTables_filter, .dataTables_length{
+.dataTables_filter,
+.dataTables_length {
     margin-bottom: 0px !important;
     margin-top: -27px !important;
     text-align: right !important;
 }
+
 .table-responsive::-webkit-scrollbar {
     -webkit-appearance: none;
 }
@@ -38,8 +44,108 @@
     border-color: #539bff !important;
     color: #fff !important;
 }
+
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
     background-color: #539bff !important;
     border-color: #539bff !important;
     color: #fff !important;
+}
+
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link,
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link.active,
+.sidebar-nav ul .sidebar-item>.sidebar-link.active {
+    background-color: #09c557;
+    color: #fff;
+}
+
+.sidebar-nav ul .sidebar-item .sidebar-link:hover {
+    background-color: rgba(59, 250, 171, 0.1);
+    color: #09c557;
+}
+
+.btn-info {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #09c557;
+    --bs-btn-border-color: #09c557;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #07ad4b;
+    --bs-btn-hover-border-color: #069f45;
+    --bs-btn-focus-shadow-rgb: 9, 197, 87;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #069f45;
+    --bs-btn-active-border-color: #05873d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #09c557;
+    --bs-btn-disabled-border-color: #09c557;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #09c557;
+    --bs-btn-border-color: #09c557;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #07ad4b;
+    --bs-btn-hover-border-color: #069f45;
+    --bs-btn-focus-shadow-rgb: 9, 197, 87;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #069f45;
+    --bs-btn-active-border-color: #05873d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #09c557;
+    --bs-btn-disabled-border-color: #09c557;
+}
+
+.btn-secondary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ff4d4d;
+    --bs-btn-border-color: #ff4d4d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #e04343;
+    --bs-btn-hover-border-color: #d13d3d;
+    --bs-btn-focus-shadow-rgb: 255, 77, 77;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d13d3d;
+    --bs-btn-active-border-color: #b83636;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ff4d4d;
+    --bs-btn-disabled-border-color: #ff4d4d;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #ff4d4d;
+    --bs-btn-border-color: #ff4d4d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ff4d4d;
+    --bs-btn-hover-border-color: #ff4d4d;
+    --bs-btn-focus-shadow-rgb: 255, 77, 77;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #e04343;
+    --bs-btn-active-border-color: #e04343;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #ff4d4d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #ff4d4d;
+    --bs-gradient: none;
+    transition: all 0.3s ease;
+}
+
+.bg-info {
+    --bs-bg-opacity: 1;
+    background-color: #09c557 !important;
+}
+
+.form-check-input:checked {
+    background-color: #09c557;
+    border-color: #09c557;
+}
+
+.table-responsive .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff;
+    background-color: #09c557;
+    border-color: #09c557;
 }

@@ -10,7 +10,7 @@
 	<!-- Page Title -->
    <title>@yield('title')</title>
 	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="/frontend/images/favicon.png">
+	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -285,7 +285,95 @@
   </div> <!-- end container -->
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script>
+    $(document).ready(function() {
+       
+        $.ajaxSetup({
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+            }
+        });
 
+        $('#contactForm').submit(function(e) {
+            e.preventDefault();
+            var form = $(this);
+            form.find('div[id$="-error"]').empty(); 
+
+            var url = form.attr('action');
+
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: new FormData(this),
+                contentType: false,
+                cache: false,
+                processData: false,
+                beforeSend: function() {
+                    form.find('#started').attr('disabled', true).hide();
+                    form.find('#form_loader').show();
+                },
+                success: function(data) {
+                    if (data.status === 'success') {
+                        toastr.success(data.message, '', {
+                            showMethod: "slideDown",
+                            hideMethod: "slideUp",
+                            timeOut: 1500,
+                            closeButton: true,
+                        });
+
+                        form[0].reset();
+
+                        setTimeout(function() {
+                            window.location.href = '/thankyou';
+                        }, 1000);
+                    }
+                },
+                error: function(xhr) {
+                    console.log(xhr);
+                    toastr.error(
+                        'There are some errors in the form. Please check your inputs.',
+                        '', {
+                            showMethod: "slideDown",
+                            hideMethod: "slideUp",
+                            timeOut: 1500,
+                            closeButton: true,
+                        });
+
+                    if (xhr.responseJSON && xhr.responseJSON.errors) {
+                        $.each(xhr.responseJSON.errors, function(key, value) {
+                            var errorText = Array.isArray(value) ? value.join(
+                                ', ') : value;
+                            form.find('#' + key + '-error').html(
+                                errorText); 
+                        });
+
+                        var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
+                        $('html, body').animate({
+                            scrollTop: form.find('#' + firstErrorKey + '-error')
+                                .offset().top - 200
+                        }, 500);
+
+                    } else {
+                        toastr.error(
+                            'An unexpected error occurred. Please try again later.',
+                            '', {
+                                showMethod: "slideDown",
+                                hideMethod: "slideUp",
+                                timeOut: 1500,
+                                closeButton: true,
+                            });
+                    }
+                },
+                complete: function() {
+                    form.find('#started').attr('disabled', false).show();
+                    form.find('#form_loader').hide();
+                }
+            });
+        });
+    });
+</script>
 
     <!-- Footer Section End -->
 

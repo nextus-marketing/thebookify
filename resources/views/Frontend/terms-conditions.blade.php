@@ -70,7 +70,6 @@
                            Acknowledgment
                         </h4>
                          
-                        
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                            These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.
                         </p>
@@ -120,28 +119,28 @@
                          <p class="wow fadeInUp" data-wow-delay="0.2s">
                         Some jurisdictions do not allow the exclusion of certain types of warranties or limitations on applicable statutory rights of a consumer, so some or all of the above exclusions and limitations may not apply to You. But in such a case the exclusions and limitations set forth in this section shall be applied to the greatest extent enforceable under applicable law.
                         </p>
-</br>
+                        </br>
                         <h4 class="text-anime-style-2" data-cursor="-opaque">
                         Governing Law
                         </h4>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                         The laws of the Country, excluding its conflicts of law rules, shall govern this Terms and Your use of the Service. Your use of the Application may also be subject to other local, state, national, or international laws.
                         </p>
-</br>
+                        </br>
                         <h4 class="text-anime-style-2" data-cursor="-opaque">
                        Disputes Resolution
                         </h4>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                         If You have any concern or dispute about the Service, You agree to first try to resolve the dispute informally by contacting the Company.
                         </p>
-</br>
+                        </br>
                         <h4 class="text-anime-style-2" data-cursor="-opaque">
                       For European Union (EU) Users
                         </h4>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                        If You are a European Union consumer, you will benefit from any mandatory provisions of the law of the country in which you are resident in.
                         </p>
-</br>
+                        </br>
                          <h4 class="text-anime-style-2" data-cursor="-opaque">
                         United States Legal Compliance
                         </h4>

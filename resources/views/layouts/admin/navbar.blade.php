@@ -38,7 +38,7 @@
         </li>
         @endcan
 
-        @can('user-view')
+        <!-- @can('user-view')
         <li class="sidebar-item">
             <a class="sidebar-link @if(Route::is('admin.users.*')) active @endif" href="{{ route('admin.users.index') }}" aria-expanded="false">
                 <span>
@@ -94,7 +94,7 @@
                 <span class="hide-menu">Services</span>
             </a>
         </li>
-        @endcan
+        @endcan -->
 
         @can('enquiry-view')
         <li class="sidebar-item">
@@ -107,7 +107,7 @@
         </li>
         @endcan
 
-        @can('setting-view')
+        <!-- @can('setting-view')
         <li class="sidebar-item">
             <a class="sidebar-link @if(Route::is('admin.settings.*')) active @endif" href="{{ route('admin.settings.index') }}" aria-expanded="false">
                 <span>
@@ -127,7 +127,7 @@
                 <span class="hide-menu">Orders</span>
             </a>
         </li>
-        @endcan 
+        @endcan  -->
         
         <!-- End of File -->
     </ul>
