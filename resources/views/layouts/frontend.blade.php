@@ -181,7 +181,7 @@
           <ul style="list-style:none; padding:0; margin:0;">
             <li><a href="/contact" style="color:#fff; text-decoration:none;">Contact</a></li>
             <li><a href="/privacy-policy" style="color:#fff; text-decoration:none;">Privacy Policy</a></li>
-            <li><a href="/terms-and-conditions" style="color:#fff; text-decoration:none;">Terms & Conditions</a></li>
+            <li><a href="/terms-conditions" style="color:#fff; text-decoration:none;">Terms & Conditions</a></li>
           </ul>
         </div>
       </div>
