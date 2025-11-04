@@ -393,7 +393,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/tax.webp" alt="">
                             </figure>
@@ -416,7 +416,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/data graph.webp" alt="">
                             </figure>
@@ -439,7 +439,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/banking.webp" alt="">
                             </figure>
@@ -477,7 +477,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/code.webp" alt="">
                             </figure>
@@ -497,7 +497,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/team-colleagues.webp" alt="">
                             </figure>
@@ -517,7 +517,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/trust.webp" alt="">
                             </figure>
@@ -537,7 +537,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/23.webp" alt="">
                             </figure>
@@ -557,7 +557,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/5.webp" alt="">
                             </figure>
@@ -577,7 +577,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="post-featured-image">
-                        <a href="#0" data-cursor-text="View">
+                        <a href="#0" >
                             <figure class="image-anime">
                                 <img src="/frontend/my-img/old_img/data.webp" alt="">
                             </figure>
@@ -664,7 +664,7 @@
                 <div class="testimonial-slider-box">
                     <div class="testimonial-slider">
                         <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
+                            <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
