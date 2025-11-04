@@ -35,7 +35,7 @@
     <link rel="stylesheet" href=" /frontend/css/my.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -64,7 +64,7 @@
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="/what_we_offer">What we offer</a>
+                                <li class="nav-item submenu"><a class="nav-link" href="#0">What we offer</a>
                                     <ul>
                                         <li class="nav-item"><a class="nav-link" href="/bookkeeping-services">Bookkeeping Services</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/payroll-services">Payroll Services</a></li>
@@ -74,9 +74,9 @@
                                         <li class="nav-item"><a class="nav-link" href="/sales-tax-consulting">Sales Tax Consulting</a></li>
                                     </ul>
                                 </li>                                 
-                                <li class="nav-item submenu"><a class="nav-link" href="/what_we_offer">Industries we Serve</a>
+                                <li class="nav-item submenu"><a class="nav-link" href="#0">Industries we Serve</a>
                                     <ul>
-                                        <li class="nav-item"><a class="nav-link" href="/accounting">Accounting Services For Small Business</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="/accounting-services-for-small-business">Accounting Services For Small Business</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/healthcare">Healthcare</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/private-industries">Private Industries</a></li>
                                         <li class="nav-item"><a class="nav-link" href="/real-estate">Real Estate</a></li>

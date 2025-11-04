@@ -491,7 +491,7 @@ element.style {
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="customer-logo">
-                                                <img src="/frontend/my-img/logo.png" alt="">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="">
                                             </div>
                                             <div class="testimonial-quotes">
                                                 <img src="/frontend/images/testimonial-quotes.svg" alt="">
@@ -517,7 +517,7 @@ element.style {
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="customer-logo">
-                                                <img src="/frontend/my-img/logo.png" alt="">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="">
                                             </div>
                                             <div class="testimonial-quotes">
                                                 <img src="/frontend/images/testimonial-quotes.svg" alt="">
