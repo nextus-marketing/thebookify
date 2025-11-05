@@ -99,7 +99,7 @@
             </div>
             <!-- Header Btn Start -->
             <div class="header-btn d-inline-flex">
-                <a href="#0" id="openPopup" class="btn-default btn-highlighted">Get Started</a>
+              <a href="#0" class="btn-default btn-highlighted openPopupBtn">Get Started</a>
             </div>
             <!-- Header Btn End -->
 					</div>
@@ -310,21 +310,23 @@
       <div class="modal-body p-4">
         <form id="freeTrialForm">
           <div class="mb-3">
-            <label for="name" class="form-label fw-semibold">Full Name</label>
+            <label for="name" class="form-label fw-semibold">Full Name*</label>
             <input type="text" class="form-control"
                    id="name" placeholder="Enter your full name"
                    style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label fw-semibold">Email Address</label>
+            <label for="email" class="form-label fw-semibold">Email Address*</label>
             <input type="email" class="form-control"
                    id="email" placeholder="Enter your email"
                    style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
           </div>
-          <button type="submit" class="btn w-100 mt-2"
-                  style="background-color:#00cc61; color:#fff; border:none; border-radius:40px; padding:12px 0; font-weight:600; font-size:16px; transition:all 0.3s;">
-            Submit
-          </button>
+            <div class="d-flex justify-content-center">
+  <div class="header-btn d-inline-flex">
+    <a href="#0" class="btn-default btn-highlighted openPopupBtn text-center">Next</a>
+  </div>
+</div>
+
         </form>
       </div>
 
@@ -338,11 +340,13 @@
 
 <!-- JS to open popup -->
 <script>
-  document.getElementById("openPopup").addEventListener("click", function(event) {
-    event.preventDefault();
-    var trialModal = new bootstrap.Modal(document.getElementById("trialFormModal"));
-    trialModal.show();
+document.querySelectorAll('.openPopupBtn').forEach(button => {
+  button.addEventListener('click', function (e) {
+    e.preventDefault();
+    const modal = new bootstrap.Modal(document.getElementById('trialFormModal'));
+    modal.show();
   });
+});
 </script>
 
 

@@ -107,7 +107,6 @@
 
                 <!-- Blog Meta -->
                
-
                 <!-- Blog Content -->
                 <div class="post-content">
                     <div class="post-entry">

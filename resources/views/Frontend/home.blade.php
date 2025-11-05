@@ -22,7 +22,7 @@
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
                             <!-- Hero Button Start -->
                             <div class="hero-btn text-center">
-                            <a href="#0" class="btn btn-success" id="openPopup"
+                            <a href="#0" class="btn btn-success openPopupBtn"
                                 style="background-color:#00cc61; color:#fff; border:none; padding:12px 25px; border-radius:30px; font-weight:600;">
                                 <i class="fa-solid fa-gift me-2"></i> Get Free Trial
                             </a>
