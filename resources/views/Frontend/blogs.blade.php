@@ -1,114 +1,120 @@
 @extends('layouts.frontend')
 @section('title') Blogs | The Bookify @endsection
 @section('content')
- <!-- Page Header Start -->
-    <div class="page-header">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Latest blog</h1>
-                        <nav class="wow fadeInUp">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="/">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">blog</li>
-                            </ol>
-                        </nav>
-                    </div>
+
+<!-- Page Header Start -->
+<div class="page-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-12">
+                <div class="page-header-box">
+                    <h1 class="text-anime-style-2" data-cursor="-opaque">Latest Blog</h1>
+                    <nav class="wow fadeInUp">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="/">home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">blog</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
     </div>
-    <div class="page-blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
+</div>
+
+<!-- Blog Section -->
+<div class="page-blog pt-100 pb-70">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            @forelse($blogs as $blog)
+                @php
+                    $content = json_decode($blog->description, true);
+                    $previewText = '';
+                    if (isset($content['blocks'][0]['data']['text'])) {
+                        $previewText = strip_tags($content['blocks'][0]['data']['text']);
+                    } else {
+                        $previewText = strip_tags($blog->description);
+                    }
+                @endphp
+
+                <div class="col-lg-4 col-md-6 mb-4">
                     <div class="post-item wow fadeInUp">
                         <div class="post-featured-image">
-                            <a href="/blog-details" data-cursor-text="View">
+                            <a href="{{ route('blogs.details', $blog->slug) }}" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="/frontend/images/post-1.jpg" alt="">
+                                    <img 
+                                        src="{{ $blog->photo ? asset(Storage::url($blog->photo)) : asset('frontend/images/default-blog.jpg') }}" 
+                                        alt="{{ $blog->title }}" 
+                                        style="width:100%; height:300px; object-fit:cover; border-radius:10px;"
+                                    >
                                 </figure>
                             </a>
                         </div>
                         <div class="post-item-body">
                             <div class="post-item-meta">
                                 <ul>
-                                    <li><i class="fa-solid fa-calendar-days"></i> 15 sep, 2024</li>
+                                    <li>
+                                        <i class="fa-solid fa-calendar-days"></i> 
+                                        {{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}
+                                    </li>
+                                    <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li>
                                 </ul>
                             </div>
                             <div class="post-item-content">
-                                <h2><a href="/blog-details">10 Essential Steps to Create Foolproof Financial Plan for Long-Term Stability</a></h2>
+                                <h2>
+                                    <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
+                                </h2>
+                                <p style="color:#555;">{{ Str::limit($previewText, 120) }}</p>
                             </div>
                             <div class="post-item-btn">
-                                <a href="/blog-details" class="readmore-btn">read more</a>
+                                <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="post-featured-image">
-                            <a href="/blog-details" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/images/post-2.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <div class="post-item-body">
-                            <div class="post-item-meta">
-                                <ul>
-                                    <li><i class="fa-solid fa-calendar-days"></i> 15 sep, 2024</li>
-                                </ul>
-                            </div>
-                            <div class="post-item-content">
-                                <h2><a href="/blog-details">mastering budgeting: practical steps to ensure your financial success</a></h2>
-                            </div>
-                            <div class="post-item-btn">
-                                <a href="/blog-details" class="readmore-btn">read more</a>
-                            </div>
-                        </div>
-                    </div>
+            @empty
+                <div class="col-12 text-center py-5">
+                    <h4>No blogs available right now.</h4>
                 </div>
+            @endforelse
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="post-featured-image">
-                            <a href="/blog-details" data-cursor-text="View">
-                                <figure class="image-anime">
-                                    <img src="/frontend/images/post-3.jpg" alt="">
-                                </figure>
-                            </a>
-                        </div>
-                        <div class="post-item-body">
-                            <div class="post-item-meta">
-                                <ul>
-                                    <li><i class="fa-solid fa-calendar-days"></i> 15 sep, 2024</li>
-                                </ul>
-                            </div>
-                            <div class="post-item-content">
-                                <h2><a href="/blog-details">Understanding Cash Flow: Key to a Healthy Business and Financial Stability</a></h2>
-                            </div>
-                            <div class="post-item-btn">
-                                <a href="/blog-details" class="readmore-btn">read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>  
-
-                <div class="col-lg-12">
-                    <div class="page-pagination wow fadeInUp" data-wow-delay="1.2s">
-                        <ul class="pagination">
-                            <li><a href="#"><i class="fa-solid fa-angle-left"></i></a></li>
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#"><i class="fa-solid fa-angle-right"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
+
+        {{-- Pagination --}}
+        @if($blogs->hasPages())
+            <div class="page-pagination wow fadeInUp" data-wow-delay="0.3s">
+                <ul class="pagination justify-content-center">
+                    {{-- Prev --}}
+                    <li class="{{ $blogs->onFirstPage() ? 'disabled' : '' }}">
+                        @if(!$blogs->onFirstPage())
+                            <a href="{{ $blogs->previousPageUrl() }}"><i class="fa-solid fa-angle-left"></i></a>
+                        @else
+                            <span><i class="fa-solid fa-angle-left"></i></span>
+                        @endif
+                    </li>
+
+                    {{-- Page Numbers --}}
+                    @for($i = 1; $i <= $blogs->lastPage(); $i++)
+                        <li class="{{ $i == $blogs->currentPage() ? 'active' : '' }}">
+                            @if($i == $blogs->currentPage())
+                                <span>{{ $i }}</span>
+                            @else
+                                <a href="{{ $blogs->url($i) }}">{{ $i }}</a>
+                            @endif
+                        </li>
+                    @endfor
+
+                    {{-- Next --}}
+                    <li class="{{ $blogs->hasMorePages() ? '' : 'disabled' }}">
+                        @if($blogs->hasMorePages())
+                            <a href="{{ $blogs->nextPageUrl() }}"><i class="fa-solid fa-angle-right"></i></a>
+                        @else
+                            <span><i class="fa-solid fa-angle-right"></i></span>
+                        @endif
+                    </li>
+                </ul>
+            </div>
+        @endif
     </div>
+</div>
 @endsection

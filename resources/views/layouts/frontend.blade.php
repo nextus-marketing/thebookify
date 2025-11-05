@@ -8,7 +8,12 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<!-- Page Title -->
-   <title>@yield('title')</title>
+    @if(View::hasSection('meta'))
+    @yield('meta')
+@elseif(View::hasSection('meta_description'))
+    <meta name="description" content="@yield('meta_description')">
+@endif
+@yield('structured_data')
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<!-- Google Fonts Css-->
@@ -55,8 +60,8 @@
 				<div class="container">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
-                        <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
-                    </a>
+              <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
+          </a>
 					<!-- Logo End -->
 
 					<!-- Main Menu Start -->
@@ -205,7 +210,7 @@
 
     <!-- Expert Services Section -->
    @if (!Request::routeIs('home'))
-   <hr style="border-top:1px solid #00cc61; margin:40px 0;">
+<hr style="border-top:1px solid #00cc61; margin:40px 0;">
 <div class="container">
   <h2 style="color:#fff; font-size:26px; margin-bottom:30px; text-align:center;">Expert Services Near You</h2>
   <div class="row justify-content-center">

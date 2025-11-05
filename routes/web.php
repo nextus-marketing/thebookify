@@ -17,8 +17,7 @@ Route::view('/', 'Frontend.home')->name('home');
 Route::view('/about', 'Frontend.about')->name('about');
 Route::view('/pricing', 'Frontend.pricing')->name('pricing');
 Route::view('/contact', 'Frontend.contact')->name('contact');
-Route::view('/blogs', 'Frontend.blogs')->name('blogs');
-Route::view('/blog-details', 'Frontend.blog-details')->name('blog-details');
+
 Route::view('/thankyou', 'Frontend.thankyou')->name('thankyou');
 Route::view('/privacy-policy', 'Frontend.privacy-policy')->name('privacy-policy');
 Route::view('/terms-conditions', 'Frontend.terms-conditions')->name('terms-conditions');

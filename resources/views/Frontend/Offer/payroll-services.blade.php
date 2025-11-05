@@ -134,9 +134,6 @@ element.style {
       margin-top: 30px;
     }
 
-    .btn-default {
-      width: 100%;
-    }
   }
 </style>
 
