@@ -34,10 +34,10 @@ class EnquiryController extends Controller
                 return $enquiry->profession ?? 'N/A';
             })
             ->editColumn('email', function ($enquiry) {
-                return $enquiry->email;
+                return '<a href="mailto:' . e($enquiry->email) . '" style="color:#00cc61; text-decoration:none;">' . e($enquiry->email) . '</a>';
             })
             ->editColumn('mobile', function ($enquiry) {
-                return $enquiry->mobile;
+                return '<a href="tel:' . e($enquiry->mobile) . '" style="color:#00cc61; text-decoration:none;">' . e($enquiry->mobile) . '</a>';
             })
            ->editColumn('message', function ($enquiry) {
     return $enquiry->message 

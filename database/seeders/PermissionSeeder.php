@@ -293,6 +293,30 @@ class PermissionSeeder extends Seeder
                 ],
             ]
         ],
+        'Blog' => [
+            'controller' => 'Admin\BlogController',
+            'permissions' => [
+                'blog-view' => [
+                    'index',
+                    'data',
+                    'list',
+                    'show',
+                ],
+                'blog-store' => [
+                    'create',
+                    'store',
+                ],
+                'blog-update' => [
+                   'edit',
+                    'update',
+                    'changeStatus',
+                    'changeHomeFeaturedStatus',
+                ],
+                'blog-destroy' => [
+                    'destroy'
+                ],
+            ]
+        ],
         //End of Permission Arr
     ];
 
@@ -368,6 +392,12 @@ class PermissionSeeder extends Seeder
             'activity-view',
             'activity-store',
             'activity-update',
+
+            #Blog
+             'blog-view',
+             'blog-store',
+             'blog-update',
+             'blog-destroy',
             
             //End of Role Permission
         ],

@@ -118,6 +118,10 @@ Route::middleware(['auth', 'admin', 'preventBackHistory'])->group(function () {
         Route::post('activities/data', [ActivityController::class, 'data'])->name('activities.data'); 
         Route::post('activities/list', [ActivityController::class, 'list'])->name('activities.list'); 
 
+        Route::resource('blogs', BlogController::class);
+        Route::post('blogs/data', [BlogController::class, 'data'])->name('blogs.data');
+        Route::post('blogs/list',[BlogController::class, 'list'])->name('blogs.list');
+        Route::post('blogs/change-status',[BlogController::class, 'changeStatus'])->name('blogs.change.status');
 
         //End of File
     });
