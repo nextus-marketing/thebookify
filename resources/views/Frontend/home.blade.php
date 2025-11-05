@@ -11,9 +11,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- Hero Content Start -->
                     <div class="hero-content">
-                        <!-- Section Title Start -->
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">welcome to The Bookify</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">
@@ -21,39 +19,28 @@
                             For Your Complex Finances </h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Get your books clean and audit-ready with The Bookify online accounting services. Trusted by over 500+ clients.</p>
                         </div>
-                        <!-- Section Title End -->
-
-                        <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
-                            <!-- Hero Button Start -->
                             <div class="hero-btn text-center">
                             <a href="#0" class="btn btn-success openPopupBtn"
                                 style="background-color:#00cc61; color:#fff; border:none; padding:12px 25px; border-radius:30px; font-weight:600;">
                                 <i class="fa-solid fa-gift me-2"></i> Get Free Trial
                             </a>
                             </div>
-                            <!-- Hero Button End -->
-
-                            <!-- Hero Phone Button Start -->
                             <div class="hero-btn">
                                 <a href="tel:+15513481040" class="btn-default">
                                     <i class="fa-solid fa-phone me-2"></i> +1 (551) 348-1040
                                 </a>
                             </div>
-                            <!-- Hero Phone Button End -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <!-- Hero Image Start -->
                     <div class="hero-image">
-                        <!-- Hero Img Start -->
                         <div class="hero-img">
                             <figure>
                                 <img src="/frontend/images/hero-img.png" alt="">
                             </figure>
                         </div>
-                        <!-- Hero Img End -->
                         <div class="company-experience">
                             <h3><span class="counter">15</span>+</h3>
                             <p>Years of financial expertise</p>
@@ -63,13 +50,10 @@
             </div>
         </div>
     </div>
-    <!-- Hero Section End -->
-
    <div class="partners-section py-5" style="background-color: #cdcdcd;">
   <div class="container">
     <div class="row align-items-center justify-content-between gy-4">
-      
-      <!-- Left Content -->
+    
       <div class="col-lg-6 col-md-12">
         <div class="section-title">
           <h2 class="text-anime-style-2" data-cursor="-opaque">
@@ -78,7 +62,6 @@
         </div>
       </div>
 
-      <!-- Right Images -->
       <div class="col-lg-6 col-md-12 text-lg-end text-center partners-logos">
         <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo">
         <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo">
@@ -91,8 +74,7 @@
  <div class="what-we-do">
     <div class="container">
         <div class="row align-items-center">
-            
-            <!-- Left Content Section -->
+ 
             <div class="col-lg-6">
                 <div class="what-we-do-content">
                     <div class="section-title">
@@ -119,8 +101,7 @@
                     </div>
                 </div>
             </div>
-            
-            <!-- Right Image Section -->
+
             <div class="col-lg-6">
                 <div class="what-we-do-images position-relative text-center">
                     <div class="what-do-we-img-1">
@@ -169,7 +150,6 @@
             </div>
         </div>
     </div>
-    <!-- About Us Section End -->
 
     <section class="py-5" style="background-color:#f6fff9;">
   <div class="container text-center">
@@ -179,7 +159,6 @@
     </h2>
     <div class="row g-4 justify-content-center">
 
-      <!-- Bookkeeping -->
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
@@ -189,7 +168,6 @@
         </div>
       </div>
 
-      <!-- CFO Advisory -->
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
@@ -199,7 +177,6 @@
         </div>
       </div>
 
-      <!-- Accounting & Tax -->
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
@@ -209,7 +186,6 @@
         </div>
       </div>
 
-      <!-- Sales Tax Consulting -->
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
@@ -219,7 +195,6 @@
         </div>
       </div>
 
-      <!-- Online Payroll -->
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
@@ -229,7 +204,6 @@
         </div>
       </div>
 
-      <!-- Incorporation -->
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
@@ -238,7 +212,6 @@
           <a href="/what-we-offer/incorporation" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Incorporation</a>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -252,11 +225,11 @@
             <div class="col-lg-6">
                 <div class="what-we-do-content">
                     <div class="section-title">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
                             What Makes The 
                             <span style="color: #00cc61;">Bookify Unique?</span>
                         </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s" style="margin-top: 0; color: #555; line-height: 1.8;">
+                        <p class="wow fadeInUp" data-wow-delay="0.2s" style="color: #555; line-height: 1.8;">
                             The Bookify online accounting services offer personalized bookkeeping services. You can access your files from any device at any time. With our online accounting service, you don’t need to worry about the safety of your data since it’s completely secure and backed up automatically.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s" style="margin-top: 10px; color: #555; line-height: 1.8;">
@@ -270,14 +243,13 @@
             </div>
             
             <!-- Right Image Section -->
-            <div class="col-lg-6" style="margin-top: 0; padding-top: 0;">
-                <div class="what-we-do-images position-relative text-center" style="margin-top: 0; padding-top: 0;">
-                    <div class="what-do-we-img-1" style="margin-top: 0;">
-                        <figure class="image-anime reveal mb-0" style="margin: 0;">
+            <div class="col-lg-6">
+                <div class="what-we-do-images position-relative text-center">
+                    <div class="what-do-we-img-1">
+                        <figure class="image-anime reveal mb-0">
                             <img src="/frontend/my-img/old_img/unique.webp" 
                                  alt="Introduction Video" 
-                                 class="img-fluid rounded"
-                                 style="max-width: 100%; height: auto; margin: 0;">
+                                 class="img-fluid rounded">
                         </figure>
                     </div>
                 </div>
@@ -290,7 +262,6 @@
 <div class="page-blog">
     <div class="container">
         
-        <!-- Section Title Start -->
         <div class="section-title dark-section text-center">
             <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
                 <span>Finances Made Easy With Accounting Service Firm</span>
@@ -299,10 +270,7 @@
                 If you are looking for a financial partner, then The Bookify is here. We will strategically set up the bookkeeping, tax filing, and payroll procedures. With our full-service accounting firm, you can shift your business potential to a new level.
             </p>
         </div>
-        <!-- Section Title End -->
-
         <div class="row">
-            <!-- Blog Post 1 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp">
                     <div class="post-featured-image">
@@ -323,7 +291,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 1 -->
 
             <!-- Blog Post 2 -->
             <div class="col-lg-4 col-md-6">
@@ -346,8 +313,6 @@
                     </div>
                 </div>
             </div>
-            <!-- End Blog Post 2 -->
-
             <!-- Blog Post 3 -->
             <div class="col-lg-4 col-md-6">
                 <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
@@ -376,7 +341,6 @@
 <div class="page-blog">
     <div class="container">
         
-        <!-- Section Title Start -->
         <div class="section-title dark-section text-center">
             <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
                 <span>Why Do Businesses Trust Us?</span>
