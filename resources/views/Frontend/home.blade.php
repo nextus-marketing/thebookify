@@ -54,15 +54,11 @@
                             </figure>
                         </div>
                         <!-- Hero Img End -->
-
-                        <!-- Company Experience Box Start -->
                         <div class="company-experience">
                             <h3><span class="counter">15</span>+</h3>
                             <p>Years of financial expertise</p>
-                        </div>
-                        <!-- Company Experience Box End -->                       
+                        </div>                 
                     </div>
-                    <!-- Hero Image End -->
                 </div>
             </div>
         </div>
@@ -140,29 +136,22 @@
     </div>
 </div>
 
-    <!-- About Us Section Start -->
     <div class="about-us">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <!-- About Us Images Start -->
                     <div class="about-us-images">
-                        <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
                                 <img src="/frontend/my-img/america.jpg" alt="">
                             </figure>
                         </div>
-                        <!-- About Image 1 End -->
-
-                        <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
                                 <img src="/frontend/images/about-img-2.jpg" alt="">
                             </figure>
                         </div>
                     </div>
-                    <!-- About Us Images End -->
                 </div>
                 
                 <div class="col-lg-6">
