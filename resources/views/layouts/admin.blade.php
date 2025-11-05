@@ -169,38 +169,28 @@
 
         <!-- BOOTSTRAP -->
         <script src="/backend/dist/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
         <!-- APP -->
         <script src="/backend/dist/js/app.min.js"></script>
         <script src="/backend/dist/js/app.init.js"></script>
         <script src="/backend/dist/js/app-style-switcher.js"></script>
-
         <!-- CUSTOM -->
         <script src="/backend/dist/js/custom.js"></script>
-
         <!-- SIMPLEBAR -->
         <script src="/backend/dist/libs/simplebar/dist/simplebar.min.js"></script>
-        
         <!-- SIDEBAR -->
         <script src="/backend/dist/js/sidebarmenu.js"></script>
-
         <!-- CAROUSEL -->
         <script src="/backend/dist/libs/owl.carousel/dist/owl.carousel.min.js"></script>
-
         <!-- CHART -->
         <script src="/backend/dist/libs/apexcharts/dist/apexcharts.min.js"></script>
-
         <!-- DASHBOARD -->
         <script src="/backend/dist/js/dashboard.js"></script>
-
         <!-- TOASTR -->
         <script src="/backend/dist/js/plugins/toastr-init.js"></script>
-
         <!-- SELECT2 -->
         <script src="/backend/dist/libs/select2/dist/js/select2.full.min.js"></script>
         <script src="/backend/dist/libs/select2/dist/js/select2.min.js"></script>
         <script src="/backend/dist/js/forms/select2.init.js"></script>
-
         <!-- SWITCH -->
         <script src="/backend/dist/libs/bootstrap-switch/dist/js/bootstrap-switch.min.js"></script>
         <script src="/backend/dist/js/forms/bootstrap-switch.js"></script>

@@ -106,6 +106,7 @@
                     <form action="{{ route('contact-enquiry') }}" enctype="multipart/form-data" method="POST" id="contactForm" class="wow fadeInUp" data-wow-delay="0.5s" data-toggle="validator">
                      @csrf   
                     <div class="row">
+                        <input type="hidden" name="enquiry_type" id="enquiry_type" value="Contact Us">
                             <div class="form-group col-md-6 mb-4">
                                 <input type="text" name="full_name" class="form-control" id="full_name" placeholder="Full name*">
                                 <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>

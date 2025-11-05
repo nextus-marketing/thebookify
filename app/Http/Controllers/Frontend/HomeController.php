@@ -213,6 +213,7 @@ public function contactEnquiry(Request $request)
     $enquiry->mobile = $request->mobile;
     $enquiry->subject = $request->subject ?? null;
     $enquiry->profession = $request->profession ?? null;
+     $enquiry->enquiry_type = $request->enquiry_type;
     $enquiry->message = $request->message ?? null;
     $enquiry->save();
 

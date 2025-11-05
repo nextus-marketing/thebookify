@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('mobile')->nullable();
             $table->text('message')->nullable();
             $table->text('profession')->nullable();
+            $table->text('enquiry_type')->nullable();
             $table->unsignedBigInteger('created_by')->nullable();
             $table->unsignedBigInteger('updated_by')->nullable();
             $table->timestamps();

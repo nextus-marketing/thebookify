@@ -42,6 +42,9 @@
                                     <h6 class="fs-3 fw-semibold mb-0">Profession</h6>
                                 </th>
                                 <th>
+                                    <h6 class="fs-3 fw-semibold mb-0">Enquiry Type</h6>
+                                </th>
+                                <th>
                                     <h6 class="fs-3 fw-semibold mb-0">Message</h6>
                                 </th>
                             </tr>
@@ -77,6 +80,7 @@
                 {data: 'mobile',name: 'enquiries.mobile'},
                 {data: 'subject',name: 'enquiries.subject'},
                 {data: 'profession',name: 'enquiries.profession'},
+                {data: 'enquiry_type',name: 'enquiries.enquiry_type'},
                 {data: 'message',name: 'enquiries.message'},
             ],
             order: [],

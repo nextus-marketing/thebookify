@@ -64,6 +64,7 @@ element.style {
         <div class="contact-form p-4" style="background:#fff; border-radius:10px; box-shadow:0 4px 25px rgba(0,0,0,0.15);">
             <form action="{{ route('contact-enquiry') }}" enctype="multipart/form-data" method="POST" id="contactForm" class="wow fadeInUp" data-wow-delay="0.5s" data-toggle="validator">
             @csrf   
+            <input type="hidden" name="enquiry_type" id="enquiry_type" value="Tax and Accounting">
             <div class="form-group mb-3">
               <input type="text" name="full_name" class="form-control" id="full_name" placeholder="First name*">
                <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>

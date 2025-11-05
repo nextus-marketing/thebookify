@@ -39,6 +39,9 @@ class EnquiryController extends Controller
             ->editColumn('mobile', function ($enquiry) {
                 return '<a href="tel:' . e($enquiry->mobile) . '" style="color:#00cc61; text-decoration:none;">' . e($enquiry->mobile) . '</a>';
             })
+            ->editColumn('enquiry_type', function ($enquiry) {
+                return $enquiry->enquiry_type ?? 'N/A';
+            })
            ->editColumn('message', function ($enquiry) {
     return $enquiry->message 
         ? mb_strimwidth($enquiry->message, 0, 97, '...')
