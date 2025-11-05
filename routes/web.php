@@ -45,13 +45,13 @@ Route::view('/terms-conditions', 'Frontend.terms-conditions')->name('terms-condi
 // Route::view('/bookkeeping-in-san-francisco', 'Frontend.Services.bookkeeping-in-san-francisco')->name('bookkeeping-in-san-francisco');
 
 // WHAT WE OFFER
-
-Route::view('/bookkeeping-services', 'Frontend.Offer.bookkeeping-services')->name('bookkeeping-services');
-Route::view('/payroll-services', 'Frontend.Offer.payroll-services')->name('payroll-services');
-Route::view('/tax-and-accounting', 'Frontend.Offer.tax-and-accounting')->name('tax-and-accounting');
-Route::view('/cfo-advisory', 'Frontend.Offer.cfo-advisory')->name('cfo-advisory');
-Route::view('/incorporation', 'Frontend.Offer.incorporation')->name('incorporation');
-Route::view('/sales-tax-consulting', 'Frontend.Offer.sales-tax-consulting')->name('sales-tax-consulting');
+Route::view('/what-we-offer', 'Frontend.what-we-offer')->name('what-we-offer');
+Route::view('/what-we-offer/bookkeeping-services', 'Frontend.Offer.bookkeeping-services')->name('/what-we-offer/bookkeeping-services');
+Route::view('/what-we-offer/payroll-services', 'Frontend.Offer.payroll-services')->name('/what-we-offer/payroll-services');
+Route::view('/what-we-offer/tax-and-accounting', 'Frontend.Offer.tax-and-accounting')->name('/what-we-offer/tax-and-accounting');
+Route::view('/what-we-offer/cfo-advisory', 'Frontend.Offer.cfo-advisory')->name('/what-we-offer/cfo-advisory');
+Route::view('/what-we-offer/incorporation', 'Frontend.Offer.incorporation')->name('/what-we-offer/incorporation');
+Route::view('/what-we-offer/sales-tax-consulting', 'Frontend.Offer.sales-tax-consulting')->name('/what-we-offer/sales-tax-consulting');
 
 
 // INDUSTRIES WE SERVE

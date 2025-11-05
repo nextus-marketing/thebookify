@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title') Thank You | OEM Used Car Parts @endsection
+@section('title') Thank You | The Bookify @endsection
 @section('content')
 <div class="page-header">
         <div class="container">

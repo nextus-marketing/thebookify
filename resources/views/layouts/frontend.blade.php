@@ -8,6 +8,7 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<!-- Page Title -->
+   <title>@yield('title')</title>
     @if(View::hasSection('meta'))
     @yield('meta')
 @elseif(View::hasSection('meta_description'))
@@ -69,14 +70,14 @@
             <div class="nav-menu-wrapper">
                 <ul class="navbar-nav mr-auto" id="menu">
                     <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item submenu"><a class="nav-link" href="#0">What we offer</a>
+                    <li class="nav-item submenu"><a class="nav-link" href="/what-we-offer">What we offer</a>
                         <ul>
-                            <li class="nav-item"><a class="nav-link" href="/bookkeeping-services">Bookkeeping Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/payroll-services">Payroll Services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/tax-and-accounting">Tax & Accounting</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/cfo-advisory">CFO Advisory</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/incorporation">Incorporation</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/sales-tax-consulting">Sales Tax Consulting</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/what-we-offer/bookkeeping-services">Bookkeeping Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/what-we-offer/payroll-services">Payroll Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/what-we-offer/tax-and-accounting">Tax & Accounting</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/what-we-offer/cfo-advisory">CFO Advisory</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/what-we-offer/incorporation">Incorporation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/what-we-offer/sales-tax-consulting">Sales Tax Consulting</a></li>
                         </ul>
                     </li>                                 
                     <li class="nav-item submenu"><a class="nav-link" href="#0">Industries we Serve</a>
@@ -195,12 +196,12 @@
         <div class="footer-links">
           <h3 style="font-size:18px; margin-bottom:15px;">What We Offer</h3>
           <ul style="list-style:none; padding:0; margin:0;">
-            <li><a href="/bookkeeping-services" style="color:#fff; text-decoration:none;">Bookkeeping Services</a></li>
-            <li><a href="/payroll-services" style="color:#fff; text-decoration:none;">Payroll Services</a></li>
-            <li><a href="/tax-and-accounting" style="color:#fff; text-decoration:none;">Tax and Accounting</a></li>
-            <li><a href="/incorporation" style="color:#fff; text-decoration:none;">Incorporation</a></li>
-            <li><a href="/cfo-advisory" style="color:#fff; text-decoration:none;">CFO Advisory</a></li>
-            <li><a href="/sales-tax-consulting" style="color:#fff; text-decoration:none;">Sales Tax Consulting</a></li>
+            <li><a href="/what-we-offer/bookkeeping-services" style="color:#fff; text-decoration:none;">Bookkeeping Services</a></li>
+            <li><a href="/what-we-offer/payroll-services" style="color:#fff; text-decoration:none;">Payroll Services</a></li>
+            <li><a href="/what-we-offer/tax-and-accounting" style="color:#fff; text-decoration:none;">Tax and Accounting</a></li>
+            <li><a href="/what-we-offer/cfo-advisory" style="color:#fff; text-decoration:none;">CFO Advisory</a></li>
+            <li><a href="/what-we-offer/incorporation" style="color:#fff; text-decoration:none;">Incorporation</a></li>
+            <li><a href="/what-we-offer/sales-tax-consulting" style="color:#fff; text-decoration:none;">Sales Tax Consulting</a></li>
           </ul>
         </div>
       </div>

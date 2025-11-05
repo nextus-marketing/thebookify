@@ -1,6 +1,11 @@
 @extends('layouts.frontend')
 @section('title') The Bookify @endsection
 @section('content')
+<style>
+    .pricing-body {
+    margin-bottom: 0px;
+}
+</style>
  <!-- Hero Section Start -->
     <div class="hero">
         <div class="container">
@@ -191,7 +196,7 @@
              style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
           <img src="https://cdn-icons-png.flaticon.com/512/4205/4205983.png" 
                alt="Bookkeeping" width="60" class="mb-3">
-          <a href="/bookkeeping-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Bookkeeping</a>
+          <a href="/what-we-offer/bookkeeping-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Bookkeeping</a>
         </div>
       </div>
 
@@ -201,7 +206,7 @@
              style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
           <img src="https://cdn-icons-png.flaticon.com/512/4221/4221445.png" 
                alt="CFO Advisory" width="60" class="mb-3">
-          <a href="/cfo-advisory" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">CFO Advisory</a>
+          <a href="/what-we-offer/cfo-advisory" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">CFO Advisory</a>
         </div>
       </div>
 
@@ -211,7 +216,7 @@
              style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
           <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" 
                alt="Accounting & Tax" width="60" class="mb-3">
-          <a href="/tax-and-accounting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Accounting & Tax</a>
+          <a href="/what-we-offer/tax-and-accounting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Accounting & Tax</a>
         </div>
       </div>
 
@@ -221,7 +226,7 @@
              style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
           <img src="https://cdn-icons-png.flaticon.com/512/3798/3798090.png" 
                alt="Sales Tax Consulting" width="60" class="mb-3">
-          <a href="/sales-tax-consulting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Sales Tax Consulting</a>
+          <a href="/what-we-offer/sales-tax-consulting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Sales Tax Consulting</a>
         </div>
       </div>
 
@@ -231,7 +236,7 @@
              style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
           <img src="https://cdn-icons-png.flaticon.com/512/2645/2645896.png" 
                alt="Online Payroll" width="60" class="mb-3">
-          <a href="/payroll-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Online Payroll</a>
+          <a href="/what-we-offer/payroll-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Online Payroll</a>
         </div>
       </div>
 
@@ -241,7 +246,7 @@
              style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
           <img src="https://cdn-icons-png.flaticon.com/512/1162/1162456.png" 
                alt="Incorporation" width="60" class="mb-3">
-          <a href="/incorporation" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Incorporation</a>
+          <a href="/what-we-offer/incorporation" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Incorporation</a>
         </div>
       </div>
 
@@ -249,88 +254,6 @@
   </div>
 </section>
 
-
-    <!-- Our Feature Section Stat -->
-    <div class="our-feature">
-        <div class="container">
-            <div class="row section-row align-items-center justify-content-center text-center">
-    <div class="col-lg-8">
-        <div class="section-title dark-section">
-            <h2 class="text-anime-style-2" data-cursor="-opaque">
-                Refine And Define Your Finances
-                With The <span>Bookify Accounting Services</span>
-            </h2>
-            <p>
-                Whether you are a small business or large, The Bookify has personalized and industry-specific solutions for you. Our team has expert and experienced CPAs that will assist you in each stage of your business with data-driven financial reports. Our accounting services firm provides solutions for various financial activities.
-            </p>
-        </div>
-    </div>
-</div>
-
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="our-feature-list">
-                        <div class="our-feature-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-our-feature-1.svg" alt="">
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Bookkeeping</h3>
-                                <p>Our Financial Solutions offer tailored and strategies to meet your unique  goals, from  and risk management.</p>
-                            </div>
-                        </div>
-                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-our-feature-2.svg" alt="">
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>CFO Advisory</h3>
-                                <p>Our Financial Solutions offer tailored and strategies to meet your unique  goals, from  and risk management.</p>
-                            </div>
-                        </div>
-                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-our-feature-3.svg" alt="">
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Accounting & Tax</h3>
-                                <p>Our Financial Solutions offer tailored and strategies to meet your unique  goals, from  and risk management.</p>
-                            </div>
-                        </div>
-                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-our-feature-4.svg" alt="">
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Sales Tax Consulting</h3>
-                                <p>Our Financial Solutions offer tailored and strategies to meet your unique  goals, from  and risk management.</p>
-                            </div>
-                        </div>
-                        <div class="our-feature-item wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-our-feature-5.svg" alt="">
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Online Payroll</h3>
-                                <p>Our Financial Solutions offer tailored and strategies to meet your unique  goals, from  and risk management.</p>
-                            </div>
-                        </div>
-                        <div class="our-feature-item wow fadeInUp" data-wow-delay="1s">
-                            <div class="icon-box">
-                                <img src="/frontend/images/icon-our-feature-6.svg" alt="">
-                            </div>
-                            <div class="feature-item-content">
-                                <h3>Incorporation</h3>
-                                <p>Our Financial Solutions offer tailored and strategies to meet your unique  goals, from  and risk management.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Feature Section End -->
 
     <div class="what-we-do">
     <div class="container">
