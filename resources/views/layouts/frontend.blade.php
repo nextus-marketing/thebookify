@@ -61,42 +61,42 @@
 
 					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                               <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                                <li class="nav-item submenu"><a class="nav-link" href="#0">What we offer</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="/bookkeeping-services">Bookkeeping Services</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/payroll-services">Payroll Services</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/tax-and-accounting">Tax & Accounting</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/cfo-advisory">CFO Advisory</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/incorporation">Incorporation</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/sales-tax-consulting">Sales Tax Consulting</a></li>
-                                    </ul>
-                                </li>                                 
-                                <li class="nav-item submenu"><a class="nav-link" href="#0">Industries we Serve</a>
-                                    <ul>
-                                        <li class="nav-item"><a class="nav-link" href="/accounting-services-for-small-business">Accounting Services For Small Business</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/healthcare">Healthcare</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/private-industries">Private Industries</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/real-estate">Real Estate</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/lodging-facilities">Lodging Facilities</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/ecommerce">E-Commerce</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/colleges-and-universities">colleges & Universities</a></li>
-                                        <li class="nav-item"><a class="nav-link" href="/accounting-services-for-startup">Accounting Services for Startup</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/blogs">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>                           
-                            </ul>
-                        </div>
-                        <!-- Header Btn Start -->
-                        <div class="header-btn d-inline-flex">
-                            <a href="#0" class="btn-default btn-highlighted">Get Started</a>
-                        </div>
-                        <!-- Header Btn End -->
+            <div class="nav-menu-wrapper">
+                <ul class="navbar-nav mr-auto" id="menu">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item submenu"><a class="nav-link" href="#0">What we offer</a>
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="/bookkeeping-services">Bookkeeping Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/payroll-services">Payroll Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/tax-and-accounting">Tax & Accounting</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/cfo-advisory">CFO Advisory</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/incorporation">Incorporation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/sales-tax-consulting">Sales Tax Consulting</a></li>
+                        </ul>
+                    </li>                                 
+                    <li class="nav-item submenu"><a class="nav-link" href="#0">Industries we Serve</a>
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="/accounting-services-for-small-business">Accounting Services For Small Business</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/healthcare">Healthcare</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/private-industries">Private Industries</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/real-estate">Real Estate</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/lodging-facilities">Lodging Facilities</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/ecommerce">E-Commerce</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/colleges-and-universities">colleges & Universities</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/accounting-services-for-startup">Accounting Services for Startup</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blogs">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>                           
+                </ul>
+            </div>
+            <!-- Header Btn Start -->
+            <div class="header-btn d-inline-flex">
+                <a href="#0" id="openPopup" class="btn-default btn-highlighted">Get Started</a>
+            </div>
+            <!-- Header Btn End -->
 					</div>
 					<!-- Main Menu End -->
 					<div class="navbar-toggle"></div>
@@ -284,6 +284,62 @@
 
   </div> <!-- end container -->
 </footer>
+
+<!-- Professional Popup Modal -->
+<div class="modal fade" id="trialFormModal" tabindex="-1" aria-labelledby="trialFormLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content"
+         style="border:none; border-radius:20px; box-shadow:0 8px 40px rgba(0,0,0,0.15); overflow:hidden;">
+      
+      <!-- Header -->
+      <div style="background:linear-gradient(135deg,#00cc61,#00b556); padding:20px 25px; position:relative;">
+        <h4 class="text-white mb-0" style="font-weight:700;">Start Your Free Trial</h4>
+        <p class="text-white-50 mb-0" style="font-size:14px;">Just enter your details below to get started.</p>
+        <!-- Close button -->
+        <button type="button" class="btn-close btn-close-white" 
+                data-bs-dismiss="modal" aria-label="Close"
+                style="position:absolute; top:18px; right:20px; opacity:0.9;"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body p-4">
+        <form id="freeTrialForm">
+          <div class="mb-3">
+            <label for="name" class="form-label fw-semibold">Full Name</label>
+            <input type="text" class="form-control"
+                   id="name" placeholder="Enter your full name"
+                   style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fw-semibold">Email Address</label>
+            <input type="email" class="form-control"
+                   id="email" placeholder="Enter your email"
+                   style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
+          </div>
+          <button type="submit" class="btn w-100 mt-2"
+                  style="background-color:#00cc61; color:#fff; border:none; border-radius:40px; padding:12px 0; font-weight:600; font-size:16px; transition:all 0.3s;">
+            Submit
+          </button>
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <div class="text-center p-3" style="background:#f9f9f9;">
+        <small style="color:#888;">We respect your privacy. No spam ever.</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JS to open popup -->
+<script>
+  document.getElementById("openPopup").addEventListener("click", function(event) {
+    event.preventDefault();
+    var trialModal = new bootstrap.Modal(document.getElementById("trialFormModal"));
+    trialModal.show();
+  });
+</script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
