@@ -18,6 +18,16 @@ use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
+public function home()
+{
+    $blogs = Blog::where('status', 'ACTIVE')
+        ->withCount('visitors')
+        ->orderBy('publish_date', 'desc')
+        ->paginate(3); 
+
+    return view('Frontend.home', compact('blogs')); 
+}
+
 
 public function index()
 {

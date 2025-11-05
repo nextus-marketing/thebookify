@@ -5,6 +5,10 @@
     .pricing-body {
     margin-bottom: 0px;
 }
+.what-we-do {
+    background-color: var(--secondary-color);
+    padding: 44px 0;
+}
 </style>
  <!-- Hero Section Start -->
     <div class="hero">
@@ -71,7 +75,7 @@
   </div>
 </div>
 
- <div class="what-we-do">
+<div class="what-we-do">
     <div class="container">
         <div class="row align-items-center">
  
@@ -79,8 +83,8 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Amplify Your Business With Our 
-                            <span>Accounting Services</span>
+                            Want to know How 
+                            <span>We Can Help You?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             To optimize your business efficiency and keep up with the ever-changing rules and laws, 
@@ -93,11 +97,6 @@
                             on how to start your professional bookkeeping journey with us. 
                             Watch this video to clear all your concerns.
                         </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s">
-                           At Bookify, we combine technology-driven solutions with expert financial insight to simplify your accounting process. 
-                           Our team ensures accuracy, transparency, and timely reporting so you can focus on growing your business while we handle
-                            the numbers that matter most.
-                        </p>
                     </div>
                 </div>
             </div>
@@ -105,17 +104,29 @@
             <div class="col-lg-6">
                 <div class="what-we-do-images position-relative text-center">
                     <div class="what-do-we-img-1">
-                        <figure class="image-anime reveal mb-0">
-                            <img src="/frontend/my-img/finance.jpg" 
-                                 alt="Introduction Video" 
-                                 class="img-fluid rounded">
+                        <figure class="image-anime reveal mb-0" style="pointer-events: none;">
+                            <div class="ratio ratio-16x9" style="pointer-events: auto;">
+                                <iframe 
+                                    src="https://www.youtube.com/embed/cPSRUvOy3U4" 
+                                    title="Bookify Video"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                    class="rounded shadow"
+                                    style="width: 100%; height: 100%;">
+                                </iframe>
+                            </div>
                         </figure>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
+
+
+
 
     <div class="about-us">
         <div class="container">
@@ -171,8 +182,10 @@
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/4221/4221445.png" 
-               alt="CFO Advisory" width="60" class="mb-3">
+          <img src="https://cdn-icons-png.flaticon.com/512/4149/4149648.png" 
+     alt="CFO Advisory Icon" width="60" class="mb-3">
+
+
           <a href="/what-we-offer/cfo-advisory" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">CFO Advisory</a>
         </div>
       </div>
@@ -198,8 +211,11 @@
       <div class="col-md-4 col-sm-6">
         <div class="p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/2645/2645896.png" 
-               alt="Online Payroll" width="60" class="mb-3">
+         <img src="https://cdn-icons-png.flaticon.com/512/3592/3592912.png" 
+     alt="Online Payroll Icon" width="60" class="mb-3">
+
+
+
           <a href="/what-we-offer/payroll-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Online Payroll</a>
         </div>
       </div>
@@ -525,7 +541,7 @@
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">our testimonial</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What our <span>clients say</span>
+                            Trusted by  <span>Thousands of People</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             As we onboarded more clients, we saw the value of the Bookkeeper's work to manage our ledger. We decided to work with TheBookify. Their excellent team of certified accounting managers reduces hours of work. They are certainly the best accounting firm.
@@ -708,177 +724,260 @@
 }
 </style>
 
-<div class="our-pricing">
+<div class="our-pricing py-5">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row section-row align-items-center text-center mb-5">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h3 class="wow fadeInUp">pricing plan</h3>
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Only the Best Plans <span>Made for You</span>
+          </h2>
+          <p class="mx-auto" style="max-width:700px;">
+            Let’s start the journey towards success and enhance revenue for your business. 
+            Take your company to the next level.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pricing Cards -->
+    <div class="row justify-content-center text-center g-4">
+      <!-- Card 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
+          <div class="pricing-header mb-3">
+            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
+            <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
+          </div>
+          <hr class="my-3" style="border-top:1px solid #eee;">
+          <div class="pricing-body">
+            <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+            <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+              Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
+          <div class="pricing-header mb-3">
+            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
+            <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
+          </div>
+          <hr class="my-3" style="border-top:1px solid #eee;">
+          <div class="pricing-body">
+            <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+            <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+              Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
+          <div class="pricing-header mb-3">
+            <img src="/frontend/my-img/expansion.webp" alt="Expansion Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
+            <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Expansion</h3>
+          </div>
+          <hr class="my-3" style="border-top:1px solid #eee;">
+          <div class="pricing-body">
+            <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+            <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+              Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
+          <div class="pricing-header mb-3">
+            <img src="/frontend/my-img/personalized.webp" alt="Personalized Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
+            <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
+          </div>
+          <hr class="my-3" style="border-top:1px solid #eee;">
+          <div class="pricing-body">
+            <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
+            <p style="color:#555; font-size:0.95rem; line-height:1.6;">
+              We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons Below Cards -->
+    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
+      <a href="/pricing" class="btn-default">
+         Select Your Plan
+      </a>
+
+      <a href="tel:51-348-1040" class="btn-default">
+        <i class="fa-solid fa-phone me-2"></i> 
+Call Us : 551-348-1040
+
+      </a>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="page-blog">
+     <div class="section-title text-center">
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Improve your business’s <span>financial health .</span>
+          </h2>
+        </div>
     <div class="container">
-        <!-- Section Row Start -->
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">pricing plan</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Flexible pricing plans for <span>you finance</span>
-                    </h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
+        <div class="row justify-content-center">
 
-            <div class="col-lg-7">
-                <!-- Section Button Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="#0" class="btn-default">contact now</a>
+            @forelse($blogs as $blog)
+                @php
+                    $content = json_decode($blog->description, true);
+                    $previewText = '';
+                    if (isset($content['blocks'][0]['data']['text'])) {
+                        $previewText = strip_tags($content['blocks'][0]['data']['text']);
+                    } else {
+                        $previewText = strip_tags($blog->description);
+                    }
+                @endphp
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="post-item wow fadeInUp">
+                        <div class="post-featured-image">
+                            <a href="{{ route('blogs.details', $blog->slug) }}" data-cursor-text="View">
+                                <figure class="image-anime">
+                                    <img 
+                                        src="{{ $blog->photo ? asset(Storage::url($blog->photo)) : asset('frontend/images/default-blog.jpg') }}" 
+                                        alt="{{ $blog->title }}" 
+                                        style="width:100%; height:300px; object-fit:cover; border-radius:10px;"
+                                    >
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="post-item-body">
+                            <div class="post-item-meta">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-calendar-days"></i> 
+                                        {{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}
+                                    </li>
+                                    <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li>
+                                </ul>
+                            </div>
+                            <div class="post-item-content">
+                                <h2>
+                                    <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
+                                </h2>
+                                <p style="color:#555;">{{ Str::limit($previewText, 120) }}</p>
+                            </div>
+                            <div class="post-item-btn">
+                                <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">read more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- Section Button End -->
-            </div>
+            @empty
+                <div class="col-12 text-center py-5">
+                    <h4>No blogs available right now.</h4>
+                </div>
+            @endforelse
+
         </div>
-        <!-- Section Row End -->
 
-        <!-- Pricing Row Start -->
-        <div class="row">
+        {{-- Pagination --}}
+        @if($blogs->hasPages())
+            <div class="page-pagination wow fadeInUp" data-wow-delay="0.3s">
+                <ul class="pagination justify-content-center">
+                    {{-- Prev --}}
+                    <li class="{{ $blogs->onFirstPage() ? 'disabled' : '' }}">
+                        @if(!$blogs->onFirstPage())
+                            <a href="{{ $blogs->previousPageUrl() }}"><i class="fa-solid fa-angle-left"></i></a>
+                        @else
+                            <span><i class="fa-solid fa-angle-left"></i></span>
+                        @endif
+                    </li>
 
-            <!-- Pricing Box 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <!-- Pricing Header -->
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
+                    {{-- Page Numbers --}}
+                    @for($i = 1; $i <= $blogs->lastPage(); $i++)
+                        <li class="{{ $i == $blogs->currentPage() ? 'active' : '' }}">
+                            @if($i == $blogs->currentPage())
+                                <span>{{ $i }}</span>
+                            @else
+                                <a href="{{ $blogs->url($i) }}">{{ $i }}</a>
+                            @endif
+                        </li>
+                    @endfor
 
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <!-- Pricing Body -->
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
-                        </p>
-                    </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
-                </div>
+                    {{-- Next --}}
+                    <li class="{{ $blogs->hasMorePages() ? '' : 'disabled' }}">
+                        @if($blogs->hasMorePages())
+                            <a href="{{ $blogs->nextPageUrl() }}"><i class="fa-solid fa-angle-right"></i></a>
+                        @else
+                            <span><i class="fa-solid fa-angle-right"></i></span>
+                        @endif
+                    </li>
+                </ul>
             </div>
-            <!-- Pricing Box 1 End -->
-
-            <!-- Pricing Box 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
-                        </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 2 End -->
-
-            <!-- Pricing Box 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
-                        </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 3 End -->
-
-            <!-- Pricing Box 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
-                        </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @endif
     </div>
 </div>
 
-<div class="partners-section" style="background-color:#cdcdcd; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 0;">
+
+<div class="partners-section" 
+     style="background-color:#cdcdcd; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 0;">
   <div class="container" style="max-width:900px; width:100%;">
     <div class="row" style="display:flex; justify-content:center;">
       
       <!-- Centered Content -->
-      <div class="col-lg-8 col-md-10" style="margin:0 auto;">
+      <div class="col-lg-8 col-md-10">
+        
+        <!-- Heading -->
         <div class="section-title" style="margin-bottom:25px;">
-          <h2 class="text-anime-style-2" data-cursor="-opaque" style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
+          <h2 class="text-anime-style-2" data-cursor="-opaque" 
+              style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
             Eliminate Complexity and Increase <br>
             Your <span style="color:#00cc61;">Profit Margins</span>
           </h2>
         </div>
         
-        <!-- Centered Button -->
-        <div style="display:flex; justify-content:center; width:100%;">
+        <!-- Buttons Row -->
+        <div style="display:flex; justify-content:center; align-items:center; gap:20px; width:100%; flex-wrap:nowrap; margin-top:30px;">
+          
+          <!-- Button 1 -->
           <a href="tel:+15513481040" 
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
             Call Now : +1 551-348-1040
           </a>
-        </div>
-      </div>
 
+          <!-- Button 2 -->
+          <a href="#quote" 
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+            Get Quote
+          </a>
+
+          <!-- Button 3 -->
+          <a href="#free-trial" 
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+            Get Free Trial
+          </a>
+
+        </div>
+
+      </div>
     </div>
   </div>
 </div>
+
 
 
 

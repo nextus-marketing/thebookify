@@ -254,7 +254,6 @@
 </div>
 @endif
 
-
     <!-- Footer Copyright -->
     <div class="footer-copyright" style="border-top:1px solid #00cc61; margin-top:40px; padding-top:20px;">
       <div class="row align-items-center">
@@ -323,11 +322,10 @@
                    style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
           </div>
             <div class="d-flex justify-content-center">
-  <div class="header-btn d-inline-flex">
-    <a href="#0" class="btn-default btn-highlighted openPopupBtn text-center">Next</a>
-  </div>
-</div>
-
+              <div class="header-btn d-inline-flex">
+                <a href="#0" class="btn-default btn-highlighted openPopupBtn text-center">Next</a>
+              </div>
+            </div>
         </form>
       </div>
 

@@ -225,8 +225,8 @@
                     </div>
 
                     <div class="our-benefit-get-quote wow fadeInUp" data-wow-delay="0.8s">
-                        <p>
-                            Let's make something great work together. <a href="/contact">Get Free Quote</a>
+                    <p>
+                       Let's make something great work together. <a href="/contact">Get Free Quote</a>
                     </p>
                     </div>
                 </div>
