@@ -47,7 +47,7 @@
                         </a>
                         <div class="d-none d-xl-flex align-items-center justify-content-center"
                             style="height: calc(100vh - 80px);">
-                            <img src="/frontend/my-img/dashbord.jpg" alt=""
+                            <img src="/frontend/my-img/dashbord-theme.jpg" alt=""
                                 class="img-fluid" width="500">
                         </div>
                     </div>
