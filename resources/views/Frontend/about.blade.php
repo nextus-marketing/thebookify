@@ -56,7 +56,7 @@
                     style="background:#fff; border-radius:16px; box-shadow:0 4px 10px rgba(0,0,0,0.08); padding:20px;">
                     <div class="mission-vission-header">
                         <div class="icon-box mb-3">
-                            <img src="/frontend/images/icon-our-mission.svg" alt="">
+                            <img src="/frontend/images/icon-our-vision.svg" alt="">
                         </div>
                         <div class="mission-vission-content">
                             <h3>Our Mission</h3>
@@ -76,7 +76,7 @@
                     style="background:#fff; border-radius:16px; box-shadow:0 4px 10px rgba(0,0,0,0.08); padding:20px;">
                     <div class="mission-vission-header">
                         <div class="icon-box mb-3">
-                            <img src="/frontend/images/icon-our-vision.svg" alt="">
+                            <img src="/frontend/images/icon-our-mission.svg" alt="">
                         </div>
                         <div class="mission-vission-content">
                             <h3>Our Vision</h3>

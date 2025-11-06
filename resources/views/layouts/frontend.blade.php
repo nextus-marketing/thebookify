@@ -290,16 +290,17 @@
   </div> <!-- end container -->
 </footer>
 
-<!-- Professional Popup Modal -->
 <div class="modal fade" id="trialFormModal" tabindex="-1" aria-labelledby="trialFormLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content"
          style="border:none; border-radius:20px; box-shadow:0 8px 40px rgba(0,0,0,0.15); overflow:hidden;">
       
       <!-- Header -->
-      <div style="background:linear-gradient(135deg,#00cc61,#00b556); padding:20px 25px; position:relative;">
-        <h4 class="text-white mb-0" style="font-weight:700;">Start Your Free Trial</h4>
+      <div style="background:linear-gradient(135deg,#00cc61,#00b556); padding:25px 25px 15px 25px; position:relative; text-align:center;">
+        
+        <h4 class="text-white mb-1" style="font-weight:700;">Start Your Free Trial</h4>
         <p class="text-white-50 mb-0" style="font-size:14px;">Just enter your details below to get started.</p>
+
         <!-- Close button -->
         <button type="button" class="btn-close btn-close-white" 
                 data-bs-dismiss="modal" aria-label="Close"
@@ -307,25 +308,24 @@
       </div>
 
       <!-- Body -->
-      <div class="modal-body p-4">
+      <div class="modal-body p-4" style="background:#fff;">
         <form id="freeTrialForm">
           <div class="mb-3">
-            <label for="name" class="form-label fw-semibold">Full Name*</label>
             <input type="text" class="form-control"
-                   id="name" placeholder="Enter your full name"
+                   id="name" placeholder="Enter your full name*"
                    style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label fw-semibold">Email Address*</label>
             <input type="email" class="form-control"
-                   id="email" placeholder="Enter your email"
+                   id="email" placeholder="Enter your email*"
                    style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
           </div>
-            <div class="d-flex justify-content-center">
-              <div class="header-btn d-inline-flex">
-                <a href="#0" class="btn-default btn-highlighted openPopupBtn text-center">Next</a>
-              </div>
+          <div class="d-flex justify-content-center">
+            <div class="header-btn d-inline-flex">
+              <a href="#0" class="btn-default btn-highlighted openPopupBtn text-center" 
+               >Next</a>
             </div>
+          </div>
         </form>
       </div>
 
@@ -336,6 +336,7 @@
     </div>
   </div>
 </div>
+
 
 <!-- JS to open popup -->
 <script>

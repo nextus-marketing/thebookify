@@ -23,9 +23,9 @@ public function home()
     $blogs = Blog::where('status', 'ACTIVE')
         ->withCount('visitors')
         ->orderBy('publish_date', 'desc')
-        ->paginate(3); 
-
-    return view('Frontend.home', compact('blogs')); 
+        ->take(3)
+        ->get(); // no pagination
+    return view('Frontend.home', compact('blogs'));
 }
 
 
@@ -34,9 +34,9 @@ public function index()
     $blogs = Blog::where('status', 'ACTIVE')
         ->withCount('visitors')
         ->orderBy('publish_date', 'desc')
-        ->paginate(9); 
+        ->get(); // no pagination
 
-    return view('Frontend.blogs', compact('blogs')); 
+    return view('Frontend.blogs', compact('blogs'));
 }
    
     public function blog_details(Request $request, $slug)

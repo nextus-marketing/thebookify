@@ -9,6 +9,9 @@
     background-color: var(--secondary-color);
     padding: 44px 0;
 }
+.about-us {
+    padding: 30px 0;
+}
 </style>
  <!-- Hero Section Start -->
     <div class="hero">
@@ -54,26 +57,29 @@
             </div>
         </div>
     </div>
-   <div class="partners-section py-5" style="background-color: #cdcdcd;">
+ <div class="partners-section py-4" style="background-color:#d8d8d8;">
   <div class="container">
-    <div class="row align-items-center justify-content-between gy-4">
-    
-      <div class="col-lg-6 col-md-12">
-        <div class="section-title">
-          <h2 class="text-anime-style-2" data-cursor="-opaque">
-            We partner with the <span>world’s best</span>
-          </h2>
+    <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
+
+      <!-- Text Section -->
+      <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
+        <h2 class="mb-0" style="font-weight:700; font-size:2.8rem; white-space: nowrap;">
+          We partner with the <span style="color:#00cc61;">world’s best</span>
+        </h2>
+      </div>
+
+      <!-- Logos Section -->
+      <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
+        <div class="d-inline-flex align-items-center" style="gap: 100px;">
+          <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo" style="width:90px; height:auto;">
+          <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo" style="width:90px; height:auto;">
         </div>
       </div>
-
-      <div class="col-lg-6 col-md-12 text-lg-end text-center partners-logos">
-        <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo">
-        <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo">
-      </div>
-
     </div>
   </div>
 </div>
+
+
 
 <div class="what-we-do">
     <div class="container">
@@ -132,19 +138,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="about-us-images">
-                        <div class="about-img-1">
-                            <figure class="image-anime reveal">
-                                <img src="/frontend/my-img/america.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="about-img-2">
-                            <figure class="image-anime reveal">
-                                <img src="/frontend/images/about-img-2.jpg" alt="">
-                            </figure>
-                        </div>
+                <div class="what-we-do-images position-relative text-center">
+                    <div class="what-do-we-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="/frontend/my-img/dashbord.jpg" 
+                                 alt="Introduction Video" 
+                                 class="img-fluid rounded">
+                        </figure>
                     </div>
                 </div>
+            </div>
                 
                 <div class="col-lg-6">
                     <div class="about-us-content">
@@ -153,8 +156,7 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">At, The Bookify we serve business owners with all their financial needs through our unmatched technology and human support. Our affordable solutions help you to attain financial mastery.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We are professional accounting service firm.  You can call us your CPA as well. We provide bookkeeping, tax filing, and other financial services for businesses and personal use.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We help with bookkeeping services that would otherwise be very time-consuming and complex. The Bookify also offers accounting & tax solutions and preparation to increase business profits.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">At The Bookify, our mission is to simplify your financial journey so you can focus on growing your business with confidence. Whether you’re a startup, small business, or established enterprise, our team ensures accuracy, compliance, and strategic insights in every financial report. With our blend of modern tools and expert guidance, we empower you to make smarter decisions, save time, and achieve long-term financial stability.
-</p>
+                           
                         </div>
                     </div>
                 </div>
@@ -162,75 +164,94 @@
         </div>
     </div>
 
-    <section class="py-5" style="background-color:#f6fff9;">
+<section class="py-5" style="background-color:#f6fff9;">
   <div class="container text-center">
     <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
       How Bookify 
       <span style="color: #00cc61;">Can Help You</span>
     </h2>
+
     <div class="row g-4 justify-content-center">
 
+      <!-- Bookkeeping -->
       <div class="col-md-4 col-sm-6">
-        <div class="p-4 rounded-4 shadow-sm border-bottom"
-             style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/4205/4205983.png" 
-               alt="Bookkeeping" width="60" class="mb-3">
-          <a href="/what-we-offer/bookkeeping-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Bookkeeping</a>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <div class="p-4 rounded-4 shadow-sm border-bottom"
-             style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/4149/4149648.png" 
-     alt="CFO Advisory Icon" width="60" class="mb-3">
-
-
-          <a href="/what-we-offer/cfo-advisory" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">CFO Advisory</a>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <div class="p-4 rounded-4 shadow-sm border-bottom"
+        <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/2910/2910768.png" 
-               alt="Accounting & Tax" width="60" class="mb-3">
-          <a href="/what-we-offer/tax-and-accounting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Accounting & Tax</a>
+          <i class="fa-solid fa-book-open-reader mb-3" style="font-size:48px; color:#4bb368;"></i>
+          <a href="/what-we-offer/bookkeeping-services" class="service-link">Bookkeeping</a>
         </div>
       </div>
 
+      <!-- CFO Advisory -->
       <div class="col-md-4 col-sm-6">
-        <div class="p-4 rounded-4 shadow-sm border-bottom"
-             style="background:#fff; border-bottom:4px solid #1b6b3a; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/3798/3798090.png" 
-               alt="Sales Tax Consulting" width="60" class="mb-3">
-          <a href="/what-we-offer/sales-tax-consulting" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Sales Tax Consulting</a>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <div class="p-4 rounded-4 shadow-sm border-bottom"
-             style="background:#fff; border-bottom:4px solid #2eb872; transition:0.3s;">
-         <img src="https://cdn-icons-png.flaticon.com/512/3592/3592912.png" 
-     alt="Online Payroll Icon" width="60" class="mb-3">
-
-
-
-          <a href="/what-we-offer/payroll-services" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Online Payroll</a>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6">
-        <div class="p-4 rounded-4 shadow-sm border-bottom"
+        <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
              style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
-          <img src="https://cdn-icons-png.flaticon.com/512/1162/1162456.png" 
-               alt="Incorporation" width="60" class="mb-3">
-          <a href="/what-we-offer/incorporation" style="display:block; color:#1b6b3a; font-weight:600; text-decoration:none; font-size:18px;">Incorporation</a>
+          <i class="fa-solid fa-chart-line mb-3" style="font-size:48px; color:#4bb368;"></i>
+          <a href="/what-we-offer/cfo-advisory" class="service-link">CFO Advisory</a>
         </div>
       </div>
+
+      <!-- Accounting & Tax -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
+          <i class="fa-solid fa-file-invoice-dollar mb-3" style="font-size:48px; color:#4bb368;"></i>
+          <a href="/what-we-offer/tax-and-accounting" class="service-link">Accounting & Tax</a>
+        </div>
+      </div>
+
+      <!-- Sales Tax Consulting -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
+          <i class="fa-solid fa-receipt mb-3" style="font-size:48px; color:#4bb368;"></i>
+          <a href="/what-we-offer/sales-tax-consulting" class="service-link">Sales Tax Consulting</a>
+        </div>
+      </div>
+
+      <!-- Online Payroll -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
+          <i class="fa-solid fa-money-check-dollar mb-3" style="font-size:48px; color:#4bb368;"></i>
+          <a href="/what-we-offer/payroll-services" class="service-link">Online Payroll</a>
+        </div>
+      </div>
+
+      <!-- Incorporation -->
+      <div class="col-md-4 col-sm-6">
+        <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
+             style="background:#fff; border-bottom:4px solid #4bb368; transition:0.3s;">
+          <i class="fa-solid fa-building mb-3" style="font-size:48px; color:#4bb368;"></i>
+          <a href="/what-we-offer/incorporation" class="service-link">Incorporation</a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
+
+<style>
+  .service-link {
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000; /* Default black text */
+    transition: color 0.3s ease;
+  }
+
+  .service-link:hover,
+  .service-link:focus {
+    color: #4bb368; /* Green on hover or focus */
+  }
+
+  .service-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+</style>
+
 
 
     <div class="what-we-do">
@@ -280,11 +301,8 @@
         
         <div class="section-title dark-section text-center">
             <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
-                <span>Finances Made Easy With Accounting Service Firm</span>
+                <span>Bookkeeping Made Easy</span>
             </h2>
-            <p style="color: #000; margin-top: 15px;">
-                If you are looking for a financial partner, then The Bookify is here. We will strategically set up the bookkeeping, tax filing, and payroll procedures. With our full-service accounting firm, you can shift your business potential to a new level.
-            </p>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -361,9 +379,6 @@
             <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
                 <span>Why Do Businesses Trust Us?</span>
             </h2>
-            <p style="color: #000; margin-top: 15px;">
-               With our accounting solutions company, businesses get all-around support. We integrate their records into the cloud accounting software. Our clients have real-time access to the records, quick financial reports, and KPIs all at affordable premiums.
-            </p>
         </div>
 
         <div class="row">
@@ -527,11 +542,43 @@
                            A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
                         </p>
                     </div>
+                    <a href="#free-trial"  class="openPopupBtn"
+                        style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+                        Get Free Trial
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<div class="partners-section py-4" style="background-color:#d8d8d8;">
+  <div class="container">
+    <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
+
+      <!-- Text Section -->
+      <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
+        <h2 class="mb-0" style="font-weight:700; font-size:2.2rem; white-space: nowrap;">
+          Your business + Our accounting </br>
+          <span style="color:#00cc61;">A partnership for success!</span>
+        </h2>
+      </div>
+
+      <!-- Logos + Button Section -->
+      <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
+        <div class="d-inline-flex align-items-center" style="gap: 100px;">
+          <!-- Replaced image with button -->
+          <a href="tel:551-348-1040"
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+            Call Now: 551-348-1040
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
     <div class="our-testimonial">
     <div class="container">
@@ -547,8 +594,8 @@
                             As we onboarded more clients, we saw the value of the Bookkeeper's work to manage our ledger. We decided to work with TheBookify. Their excellent team of certified accounting managers reduces hours of work. They are certainly the best accounting firm.
                         </p>
                     </div>
-                    <div class="testimonial-btn">
-                        <a href="#0" class="btn-default">contact now</a>
+                    <div class="testimonial-btn openPopupBtn">
+                        <a href="#0" class="btn-default">Get Started</a>
                     </div>
                 </div>
             </div>
@@ -815,28 +862,29 @@
 
     <!-- Buttons Below Cards -->
     <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
-      <a href="/pricing" class="btn-default">
-         Select Your Plan
-      </a>
+  <a href="/pricing" class="btn-default"
+     style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+    Select Your Plan
+  </a>
 
-      <a href="tel:51-348-1040" class="btn-default">
-        <i class="fa-solid fa-phone me-2"></i> 
-Call Us : 551-348-1040
-
-      </a>
-    </div>
+  <a href="tel:51-348-1040" class="btn-default"
+     style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+    <i class="fa-solid fa-phone me-2"></i>
+    Call Us : 551-348-1040
+  </a>
+</div>
 
   </div>
 </div>
 
 
-<div class="page-blog">
-     <div class="section-title text-center">
+<div class="page-blog pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
           <h2 class="text-anime-style-2" data-cursor="-opaque">
             Improve your business’s <span>financial health .</span>
           </h2>
         </div>
-    <div class="container">
         <div class="row justify-content-center">
 
             @forelse($blogs as $blog)
@@ -877,10 +925,10 @@ Call Us : 551-348-1040
                                 <h2>
                                     <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <p style="color:#555;">{{ Str::limit($previewText, 120) }}</p>
+                                <p style="color:#555;">{{ $blog->sub_title }}</p>
                             </div>
                             <div class="post-item-btn">
-                                <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">read more</a>
+                                <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -892,42 +940,6 @@ Call Us : 551-348-1040
             @endforelse
 
         </div>
-
-        {{-- Pagination --}}
-        @if($blogs->hasPages())
-            <div class="page-pagination wow fadeInUp" data-wow-delay="0.3s">
-                <ul class="pagination justify-content-center">
-                    {{-- Prev --}}
-                    <li class="{{ $blogs->onFirstPage() ? 'disabled' : '' }}">
-                        @if(!$blogs->onFirstPage())
-                            <a href="{{ $blogs->previousPageUrl() }}"><i class="fa-solid fa-angle-left"></i></a>
-                        @else
-                            <span><i class="fa-solid fa-angle-left"></i></span>
-                        @endif
-                    </li>
-
-                    {{-- Page Numbers --}}
-                    @for($i = 1; $i <= $blogs->lastPage(); $i++)
-                        <li class="{{ $i == $blogs->currentPage() ? 'active' : '' }}">
-                            @if($i == $blogs->currentPage())
-                                <span>{{ $i }}</span>
-                            @else
-                                <a href="{{ $blogs->url($i) }}">{{ $i }}</a>
-                            @endif
-                        </li>
-                    @endfor
-
-                    {{-- Next --}}
-                    <li class="{{ $blogs->hasMorePages() ? '' : 'disabled' }}">
-                        @if($blogs->hasMorePages())
-                            <a href="{{ $blogs->nextPageUrl() }}"><i class="fa-solid fa-angle-right"></i></a>
-                        @else
-                            <span><i class="fa-solid fa-angle-right"></i></span>
-                        @endif
-                    </li>
-                </ul>
-            </div>
-        @endif
     </div>
 </div>
 
@@ -960,13 +972,13 @@ Call Us : 551-348-1040
           </a>
 
           <!-- Button 2 -->
-          <a href="#quote" 
+          <a href="/contact" 
              style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
             Get Quote
           </a>
 
           <!-- Button 3 -->
-          <a href="#free-trial" 
+          <a href="#free-trial" class="openPopupBtn" 
              style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
             Get Free Trial
           </a>

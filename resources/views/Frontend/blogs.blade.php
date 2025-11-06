@@ -64,7 +64,7 @@
                                 <h2>
                                     <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <p style="color:#555;">{{ Str::limit($previewText, 120) }}</p>
+                                <p style="color:#555;">{{ $blog->sub_title }}</p>
                             </div>
                             <div class="post-item-btn">
                                 <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">read more</a>
@@ -79,42 +79,6 @@
             @endforelse
 
         </div>
-
-        {{-- Pagination --}}
-        @if($blogs->hasPages())
-            <div class="page-pagination wow fadeInUp" data-wow-delay="0.3s">
-                <ul class="pagination justify-content-center">
-                    {{-- Prev --}}
-                    <li class="{{ $blogs->onFirstPage() ? 'disabled' : '' }}">
-                        @if(!$blogs->onFirstPage())
-                            <a href="{{ $blogs->previousPageUrl() }}"><i class="fa-solid fa-angle-left"></i></a>
-                        @else
-                            <span><i class="fa-solid fa-angle-left"></i></span>
-                        @endif
-                    </li>
-
-                    {{-- Page Numbers --}}
-                    @for($i = 1; $i <= $blogs->lastPage(); $i++)
-                        <li class="{{ $i == $blogs->currentPage() ? 'active' : '' }}">
-                            @if($i == $blogs->currentPage())
-                                <span>{{ $i }}</span>
-                            @else
-                                <a href="{{ $blogs->url($i) }}">{{ $i }}</a>
-                            @endif
-                        </li>
-                    @endfor
-
-                    {{-- Next --}}
-                    <li class="{{ $blogs->hasMorePages() ? '' : 'disabled' }}">
-                        @if($blogs->hasMorePages())
-                            <a href="{{ $blogs->nextPageUrl() }}"><i class="fa-solid fa-angle-right"></i></a>
-                        @else
-                            <span><i class="fa-solid fa-angle-right"></i></span>
-                        @endif
-                    </li>
-                </ul>
-            </div>
-        @endif
     </div>
 </div>
 @endsection
