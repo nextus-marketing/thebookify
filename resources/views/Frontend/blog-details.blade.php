@@ -190,40 +190,48 @@
 
 
     <div class="page-blog">
-        <div class="container">
-            <div class="section-title dark-section text-center">
+    <div class="container">
+        <div class="section-title dark-section text-center">
             <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
                 <span>Related posts:</span>
             </h2>
         </div>
-            <div class="row">
-               @foreach($latestBlogs as $latest) 
-            <div class="col-lg-4 col-md-6">
+
+        <div class="row">
+            @foreach($latestBlogs as $latest) 
+                <div class="col-lg-4 col-md-6">
                     <div class="post-item wow fadeInUp">
                         <div class="post-featured-image">
                             <a href="{{ route('blogs.details', $latest->slug) }}" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="{{ asset(Storage::url($latest->photo)) }}" alt="">
+                                    <img src="{{ asset(Storage::url($latest->photo)) }}" alt="{{ $latest->title }}">
                                 </figure>
                             </a>
                         </div>
                         <div class="post-item-body">
                             <div class="post-item-meta">
                                 <ul>
-                                    <li><i class="fa-solid fa-calendar-days"></i> {{ $latest->publish_date }}</li>
+                                    <li>
+                                        <i class="fa-solid fa-calendar-days"></i> 
+                                        {{ \Carbon\Carbon::parse($latest->publish_date)->format('M d, Y') }}
+                                    </li>
+                                    <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li>
                                 </ul>
                             </div>
                             <div class="post-item-content">
-                                <h2><a href="{{ route('blogs.details', $latest->slug) }}">{{ $latest->title }}</a></h2>
+                                <h2>
+                                    <a href="{{ route('blogs.details', $latest->slug) }}">{{ $latest->title }}</a>
+                                </h2>
                             </div>
                             <div class="post-item-btn">
-                                <a href="{{ route('blogs.details', $latest->slug) }}" class="readmore-btn">read more</a>
+                                <a href="{{ route('blogs.details', $latest->slug) }}" class="readmore-btn">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-              @endforeach
+            @endforeach
         </div>
     </div>
+</div>
+
 @endsection
