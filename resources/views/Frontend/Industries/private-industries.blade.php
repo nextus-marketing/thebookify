@@ -18,6 +18,10 @@
     .how-it-work {
         padding: 10px 0;
     }
+    .what-we-do {
+    background-color: var(--secondary-color);
+    padding: 35px 0;
+}
 </style>
 
 
@@ -61,10 +65,10 @@
                            Bookify is a bookkeeping service for private firms. The company provides bookkeeping services such as accounts payable, accounts receivable, payroll and other financial transactions. Bookify also offers accounting services such as financial statements, taxes, budgets and business planning.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           We at Bookify understand that every industry has its own set of challenges, and with this understanding, we offer customized solutions tailored to address each client’s specific needs.
+                         Bookify is a cloud-based application for small, medium and large size businesses. The software provides the tools needed to manage your finances, inventory and payroll. Bookify will work with you in formulating the right bookkeeping system for your business.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           Bookify is a reliable provider of CPA for the Medical Industry with a proven track record of success and expertise. 
+                           We provide a hassle-free, cost-effective solution to bookkeeping services so you can focus on what matters most – running your business.
                         </p>
                     </div>
                 </div>
@@ -83,17 +87,17 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Benefits of Joining  <span>hands with Bookify</span>
+                            Why should you   <span>work with us?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           The medical industry can benefit from getting a CPA as they can understand the finances better, identify risks and inefficiencies, and make more informed decisions.
+                         Every business, regardless of size or industry, needs accurate financial insights to stay competitive. Partnering with a professional bookkeeping and CPA service means you’ll have a clear picture of your company’s performance, better control over cash flow, and reliable data for strategic decision-making. We help you streamline accounting processes, identify areas for improvement, and ensure your finances support your long-term growth.
                         </p>
                         </br>
                         <ul style="line-height:30px;">
-                            <li>You can take advantage of our services with the CPA package for your benefit.</li>
-                            <li>Bookify is proud to have created a reputation for being among the leaders in medical copywriting. Therefore, you can have the ability to take advantage of our services with CPA.</li>
-                            <li>We are the experts in medical writing. We offer innovative services that are tailored to your needs and budget. </li>
-                            <li>With our services, you can expect a seamless, pain-free process of content creation that will make you look good when attracting new clients.</li>
+                            <li>Your company’s success is our top priority. </li>
+                            <li>We offer the highest level of service for a reasonable cost.</li>
+                            <li>Our bookkeeping and CPA services can help your business meet its goals and minimize your tax liability.</li>
+                            <li>We offer a range of services to help your company become more profitable.</li>
                         </ul>
                     </div>
                 </div>
@@ -137,18 +141,20 @@
                             OUR  <span>WORK PROCESS</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           The cost of the medical CPA services is measured by the number of services, the complexity of the services delivered and the billed time.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           Our goal is to help medical professionals streamline their accounting processes, reduce financial stress, and focus more on delivering quality patient care.
+                          A professionally trained bookkeeper can save you more time, money and headaches. Our CPAs can offer a wide range of services to help you get your books in order
                         </p>
                         <br>
                         <ul>
-                            <li>The accounting work required for the medical industry is more than for a traditional business.</li>
-                            <li>With long and hectic hours, it can be difficult for medical professionals to find time for CPA services.</li>
-                            <li>We are a team of CPAs with a wide range of experience in the medical industry. </li>
-                            <li>We provide personal attention and tailored services and are always available to answer any questions you might have.</li>
+                            <li>Financial audits </li>
+                            <li>Tax planning and preparation</li>
+                            <li>Consultation on financial reporting and accounting standards</li>
+                            <li>Assisting with financial transactions</li>
+                            <li>Assisting with mergers and acquisitions</li>
+                            <li>Assisting with the acquisition of other companies</li>
                         </ul>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                          CPA services are becoming more critical in the private sector. CPAs are also a valuable resource for small businesses and start-ups that need access to accounting knowledge and financial advice. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -221,6 +227,14 @@
 .pricing-btn .btn {
   min-width: 130px;
 }
+.pricing-box {
+    margin-bottom: -27px;
+}
+
+.our-pricing {
+    background-color: var(--secondary-color);
+    padding: 28px 0;
+}
 </style>
 
 <div class="our-pricing">
@@ -232,8 +246,10 @@
                 <div class="section-title">
                     <h3 class="wow fadeInUp">pricing plan</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Flexible pricing plans for <span>you finance</span>
+                        Only the Best Plans </br><span>Made for You.</span>
                     </h2>
+                    <p>Let’s start the journey towards success and enhance revenue for your business. Take your company
+                        to the next level.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -253,11 +269,13 @@
 
             <!-- Pricing Box 1 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <!-- Pricing Header -->
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
                     </div>
@@ -268,15 +286,9 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
+                            Don’t think of all the mess finance creates in mind while starting-up a business. That is
+                            our job to do!
                         </p>
-                    </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>
@@ -284,10 +296,12 @@
 
             <!-- Pricing Box 2 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
                     </div>
@@ -297,25 +311,23 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
+                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that
+                            momentum. Trust our Accounts executive.
                         </p>
                     </div>
 
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
 
             <!-- Pricing Box 3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
                     </div>
@@ -325,14 +337,9 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
+                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your
+                            maturing business.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>
@@ -340,10 +347,12 @@
 
             <!-- Pricing Box 4 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
                     </div>
@@ -353,27 +362,22 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
+                            We can help you curate the finance strategy just the way you want. Obviously, with
+                            suggestions from the Accounts Executives.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>
             <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1 551-348-1040
-          </a>
-        </div>
-      </div>
+                <a href="tel:+15513481040"
+                    style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
+                    <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
+                    Call Now : +1 551-348-1040
+                </a>
+            </div>
         </div>
     </div>
+</div>
 </div>
 
 

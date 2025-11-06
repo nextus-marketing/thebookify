@@ -180,7 +180,7 @@
         What softwares  <span>do we use?</span>
       </h2>
 </br>
-      <p style="font-size:17px; line-height:1.6; color:#333; max-width:550px; margin:auto;">
+      <p style="font-size:17px; line-height:1.6; color:#333; max-width:550px;">
         For the data of the firm, we utilise the best software. 
         <strong style="color:#00b060;">Xero</strong> and 
         <strong style="color:#00b060;">QuickBooks</strong> are two of the most popular 
@@ -233,6 +233,15 @@
 .pricing-btn .btn {
   min-width: 130px;
 }
+
+.pricing-box {
+    margin-bottom: -27px;
+}
+
+.our-pricing {
+    background-color: var(--secondary-color);
+    padding: 28px 0;
+}
 </style>
 
 <div class="our-pricing">
@@ -244,8 +253,9 @@
                 <div class="section-title">
                     <h3 class="wow fadeInUp">pricing plan</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Flexible pricing plans for <span>you finance</span>
+                        Only the Best Plans  </br><span>Made for You.</span>
                     </h2>
+                    <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -283,13 +293,6 @@
                             Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
                         </p>
                     </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 1 End -->
@@ -313,11 +316,6 @@
                         </p>
                     </div>
 
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
@@ -340,12 +338,6 @@
                             Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
                         </p>
                     </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 3 End -->
@@ -367,12 +359,6 @@
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
                             We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>

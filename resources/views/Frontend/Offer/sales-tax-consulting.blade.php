@@ -135,10 +135,14 @@ element.style {
       margin-top: 30px;
     }
   }
+
+  .how-it-work {
+    padding: 40px 0;
+}
 </style>
 
 
-<div class="how-it-work pt-5">
+<div class="how-it-work ">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -150,10 +154,6 @@ element.style {
                          <p class="wow fadeInUp" data-wow-delay="0.2s">
                           We understand that it can be hard to handle all the different rules and regulations in this field on your own, which is why we are here to help. Our professionals are highly trained professionals with extensive experience in this domain. 
                         </p>
-                    </div>
-
-                    <div class="how-it-work-btn wow fadeInUp text-center" data-wow-delay="0.4s">
-                        <a href="#0" class="btn-default">learn more</a>
                     </div>
                 </div>
             </div>
@@ -188,7 +188,7 @@ element.style {
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                            Our Sales Tax consultants also assist in identifying potential tax savings, minimizing risks of penalties, and streamlining your compliance process. With their deep understanding of multi-state regulations, they ensure your business remains compliant while maximizing efficiency and profitability.
+                            Our Sales Tax consultants also assist in identifying potential tax savings, minimizing risks of penalties, and streamlining your compliance process.
                         </p>
                     </div>
 
@@ -321,6 +321,14 @@ element.style {
 .pricing-btn .btn {
   min-width: 130px;
 }
+.pricing-box {
+    margin-bottom: -27px;
+}
+
+.our-pricing {
+    background-color: var(--secondary-color);
+    padding: 28px 0;
+}
 </style>
 
 <div class="our-pricing">
@@ -332,7 +340,7 @@ element.style {
                 <div class="section-title">
                     <h3 class="wow fadeInUp">pricing plan</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans  <span>Made for You</span>
+                        Only the Best Plans  </br><span>Made for You.</span>
                     </h2>
                     <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
                 </div>
@@ -372,13 +380,6 @@ element.style {
                             Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
                         </p>
                     </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 1 End -->
@@ -402,11 +403,6 @@ element.style {
                         </p>
                     </div>
 
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
@@ -429,12 +425,6 @@ element.style {
                             Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
                         </p>
                     </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 3 End -->
@@ -456,12 +446,6 @@ element.style {
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
                             We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>

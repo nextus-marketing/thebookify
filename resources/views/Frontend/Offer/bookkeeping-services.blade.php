@@ -4,7 +4,7 @@
 <style>
     .page-header-box h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
     letter-spacing: -0.02em;
@@ -34,6 +34,15 @@ element.style {
     border-color: #86f0b9ff !important;  
     box-shadow: 0 0 0 0.2rem rgba(0, 204, 97, 0.25);
     outline: none;
+}
+
+.pricing-box {
+    margin-bottom: -27px;
+}
+
+.our-pricing {
+    background-color: var(--secondary-color);
+    padding: 28px 0;
 }
 </style>
  <div class="page-header" style="background-color:#014652; padding:100px 0;">
@@ -138,25 +147,26 @@ element.style {
 </style>
 
 
-<div class="partners-section py-5" style="background-color: #cdcdcd;">
-    <div class="container">
-        <div class="row align-items-center justify-content-between gy-4">
-            
-            <div class="col-lg-6 col-md-12">
-                <div class="section-title">
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Accounting Softwares We Integrate To 
-                        <span>Make Your Business Easy!</span>
-                    </h2>
-                </div>
-            </div>
+<div class="partners-section py-4" style="background-color:#d8d8d8;">
+  <div class="container">
+    <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
 
-            <div class="col-lg-6 col-md-12 text-lg-end text-center partners-logos">
-                <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo">
-                <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo">
-            </div>
+      <!-- Text Section -->
+      <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
+        <h2 class="mb-0" style="font-weight:700; font-size:2.1rem; white-space: nowrap;">
+          Accounting Softwares We Integrate To </br> <span style="color:#00cc61;">Make Your Business Easy!</span>
+        </h2>
+      </div>
+
+      <!-- Logos Section -->
+      <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
+        <div class="d-inline-flex align-items-center" style="gap: 100px;">
+          <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo" style="width:90px; height:auto;">
+          <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo" style="width:90px; height:auto;">
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 
@@ -354,14 +364,20 @@ element.style {
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Bookkeeping Precision  <span>Expert</span>
+                            Bookkeeping  <span>Precision</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           It is essential to have an expert bookkeeper on board for your company who knows how to organize your finances without wasting a lot of your time. TheBookify offers such expertise, and with our collaboration, you can have a bigger chance of building and growing your business with industry’s best bookkeeper services.
+                           Give your bookkeepers the freedom to succeed in tax and legal compliance. Our account executives assist them with their bookkeeping software to provide the utmost accuracy.
                         </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                          Empower your business with seamless financial management. Our expert team ensures every transaction is recorded accurately, reports are delivered on time, and compliance standards are always met — helping you maintain transparency, reduce errors, and make confident financial decisions with ease.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                          Achieve unmatched financial clarity with our dedicated bookkeeping support. We help streamline your accounting processes, optimize software performance, and maintain precise records — ensuring your books stay organized, compliant, and ready for any audit or business review.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                         Ensure flawless financial records with our expert guidance keeping your bookkeeping accurate, compliant, and effortlessly efficient.
 
-                        <p class="wow fadeInUp" data-wow-delay="0.3s">
-                           At TheBookify, we go beyond basic bookkeeping to give you a clear and complete picture of your company’s financial health. Our experts continuously monitor your income, expenses, assets, and liabilities to identify patterns that influence profitability and sustainability. Through detailed financial analysis, we help you recognize underperforming areas, optimize cash flow, and uncover new opportunities for growth. Whether it’s monthly performance reviews, budget forecasting, or trend evaluations, our proactive approach ensures your business remains financially sound and strategically positioned for success.
                         </p>
                     </div>
 
@@ -549,14 +565,14 @@ element.style {
                 <div class="fact-counter-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque" >
-                            Key facts our <span style="color:#00C853;">expertise</span>
+                            Simplifying <span style="color:#00C853;">Taxes</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Our expertise is built on years of industry experience, proven financial strategies and a commitment to client success.
+                           You’ll have financial data prepared for tax season, and the taxman won’t be on your tail if you have TheBookify’s bookkeeping service in place. 
                         </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our expertise is built on decades of hands-on experience, innovative financial solutions, and a deep understanding of evolving tax regulations. We help businesses streamline their compliance processes, minimize liabilities, and stay focused on sustainable growth.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Enjoy the convenience of complete tax preparation and live tax consultant services throughout the season without stress.</p>
 
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">We also provide personalized tax guidance that aligns with your business goals, ensuring every financial decision contributes to long-term stability and growth.
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">With TheBookify, tax time becomes simple and stress-free. Our experts handle everything from documentation to submission, ensuring your returns are accurate and compliant. Stay confident knowing your taxes are managed with precision, leaving you free to focus on growing your business.
                         </p>
                     </div>
                     <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">
@@ -564,7 +580,7 @@ element.style {
                             <li> Advising, Preparing and Filing Tax Forms.</li>
                             <li> Managing Client and Tax Authority Communication.</li>
                             <li> Checking Legal Compliances of Tax Forms.</li>
-                            <li> Assisting in Future Tax Planning.</li>
+                            <li> Best Assisting in Future Tax Planning.</li>
                         </ul>
                     </div>
                 </div>
@@ -581,14 +597,15 @@ element.style {
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Simplifying <span>Taxes</span>
+                            Account  <span>Reconciliation</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            You’ll have financial data prepared for tax season, and the taxman won’t be on your tail if you have TheBookify’s bookkeeping service in place. Enjoy the convenience of complete tax preparation and live tax consultant services throughout the season without stress.
+                            Keeping accounts for debits and credits properly balanced to prevent troubles. Monitoring of overdue amounts to maintain consistency between your balance sheet and bank statement.
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                            With TheBookify, tax time becomes effortless. Our team ensures every transaction is accurately categorized, every document is in place, and every report is ready when you need it. From linking your accounts to managing vendor data, we simplify complex bookkeeping so you can focus on running your business, not chasing paperwork.
+                           Maintain complete financial harmony with our comprehensive bookkeeping approach. We ensure your debits and credits are always balanced, monitor overdue payments, and keep your bank statements perfectly aligned with your accounts. From connecting bank accounts to managing vendors, products, and services — our expert support keeps your financial operations smooth, transparent, and error-free.
+
                         </p>
                     </div>
 
@@ -928,8 +945,9 @@ element.style {
                 <div class="section-title">
                     <h3 class="wow fadeInUp">pricing plan</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Flexible pricing plans for <span>you finance</span>
+                        Only the Best Plans  </br><span>Made for You.</span>
                     </h2>
+                    <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -967,13 +985,6 @@ element.style {
                             Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
                         </p>
                     </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 1 End -->
@@ -997,11 +1008,6 @@ element.style {
                         </p>
                     </div>
 
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
@@ -1024,12 +1030,6 @@ element.style {
                             Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
                         </p>
                     </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 3 End -->
@@ -1051,12 +1051,6 @@ element.style {
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
                             We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>

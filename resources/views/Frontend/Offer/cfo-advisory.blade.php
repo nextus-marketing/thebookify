@@ -4,7 +4,7 @@
 <style>
     .page-header-box h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2em;
     letter-spacing: -0.02em;
@@ -139,25 +139,26 @@ element.style {
 </style>
 
 
-<div class="partners-section py-5" style="background-color: #cdcdcd;">
-    <div class="container">
-        <div class="row align-items-center justify-content-between gy-4">
-            
-            <div class="col-lg-6 col-md-12">
-                <div class="section-title">
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Softwares We Integrate To 
-                        <span>Make Your Business Easy!</span>
-                    </h2>
-                </div>
-            </div>
+<div class="partners-section py-4" style="background-color:#d8d8d8;">
+  <div class="container">
+    <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
 
-            <div class="col-lg-6 col-md-12 text-lg-end text-center partners-logos">
-                <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo">
-                <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo">
-            </div>
+      <!-- Text Section -->
+      <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
+        <h2 class="mb-0" style="font-weight:700; font-size:2.3rem; white-space: nowrap;">
+          Softwares We Integrate To </br> <span style="color:#00cc61;">Make Your Business Easy!</span>
+        </h2>
+      </div>
+
+      <!-- Logos Section -->
+      <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
+        <div class="d-inline-flex align-items-center" style="gap: 100px;">
+          <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo" style="width:90px; height:auto;">
+          <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo" style="width:90px; height:auto;">
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
   <div class="what-we-do">
@@ -757,6 +758,15 @@ element.style {
 .pricing-btn .btn {
   min-width: 130px;
 }
+
+.pricing-box {
+    margin-bottom: -27px;
+}
+
+.our-pricing {
+    background-color: var(--secondary-color);
+    padding: 28px 0;
+}
 </style>
 
 <div class="our-pricing">
@@ -768,7 +778,7 @@ element.style {
                 <div class="section-title">
                     <h3 class="wow fadeInUp">pricing plan</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans <span>Made for You </span>
+                        Only the Best Plans  </br><span>Made for You.</span>
                     </h2>
                     <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
                 </div>
@@ -808,13 +818,6 @@ element.style {
                             Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
                         </p>
                     </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 1 End -->
@@ -838,11 +841,6 @@ element.style {
                         </p>
                     </div>
 
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
@@ -865,12 +863,6 @@ element.style {
                             Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
                         </p>
                     </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 3 End -->
@@ -892,12 +884,6 @@ element.style {
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
                             We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>

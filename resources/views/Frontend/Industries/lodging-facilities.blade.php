@@ -118,6 +118,7 @@
                             <li>Hotel owners can experience several benefits from partnering with a CPA to help them with their taxes. </li>
                             <li>The hoteliers’ most common uses include simplified tax preparation, increased cash flow, and streamlined financial processes.</li>
                             <li>If you want to increase your occupancy rates and revenue, you must invest in your marketing and customer service. A CPA (Certified Public Accountant) can help you with both.</li>
+                            <li>We can provide you with essential information about increasing your occupancy rates and the best ways to make your customers happy.</li>
                         </ul>
                     </div>
                 </div>
@@ -162,7 +163,7 @@
                             OUR  <span>WORK PROCESS</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          Our work process is designed to deliver precise, transparent, and strategic results for every client. We begin by conducting a thorough assessment of your financial position and assets to ensure accurate valuation and compliance.
+                          The work process of a CPA for lodging is a complicated business. Auditing, tax planning and tax preparation are just some of the tasks that CPA’s are responsible for. In order to be successful at this job, they need to be able to organize and plan their work in advance and have a good understanding of taxation law in their jurisdiction.
                         </p>
                         </br>
                         <ul style="line-height:35px;">
@@ -171,6 +172,7 @@
                             <li>Determine the tax cost of each asset</li>
                             <li>Calculate the tax savings that will result from the transfer</li>
                             <li>Calculate the taxable gain or loss on the transfer by taking into account any difference in the fair market value and tax cost of any asset that is being transferred</li>
+                            <li>Determine the appropriate tax</li>
                         </ul>
                     </div>
                 </div>
@@ -244,6 +246,14 @@
 .pricing-btn .btn {
   min-width: 130px;
 }
+.pricing-box {
+    margin-bottom: -27px;
+}
+
+.our-pricing {
+    background-color: var(--secondary-color);
+    padding: 28px 0;
+}
 </style>
 
 <div class="our-pricing">
@@ -255,8 +265,10 @@
                 <div class="section-title">
                     <h3 class="wow fadeInUp">pricing plan</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Flexible pricing plans for <span>you finance</span>
+                        Only the Best Plans </br><span>Made for You.</span>
                     </h2>
+                    <p>Let’s start the journey towards success and enhance revenue for your business. Take your company
+                        to the next level.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -276,11 +288,13 @@
 
             <!-- Pricing Box 1 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <!-- Pricing Header -->
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
                     </div>
@@ -291,15 +305,9 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
+                            Don’t think of all the mess finance creates in mind while starting-up a business. That is
+                            our job to do!
                         </p>
-                    </div>
-
-                    <!-- Pricing Button -->
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>
@@ -307,10 +315,12 @@
 
             <!-- Pricing Box 2 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
                     </div>
@@ -320,25 +330,23 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
+                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that
+                            momentum. Trust our Accounts executive.
                         </p>
                     </div>
 
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
-                    </div>
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
 
             <!-- Pricing Box 3 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
                     </div>
@@ -348,14 +356,9 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
+                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your
+                            maturing business.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>
@@ -363,10 +366,12 @@
 
             <!-- Pricing Box 4 -->
             <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
+                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
+                    style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
                         <div class="icon-wrapper mb-3">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
+                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid"
+                                style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
                     </div>
@@ -376,27 +381,22 @@
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
+                            We can help you curate the finance strategy just the way you want. Obviously, with
+                            suggestions from the Accounts Executives.
                         </p>
-                    </div>
-
-                    <div class="pricing-btn mt-4">
-                        <a href="#" class="btn btn-success px-4 py-2 rounded-pill fw-semibold" style="background-color:#00cc61; border:none;">
-                            View Plan
-                        </a>
                     </div>
                 </div>
             </div>
             <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1 551-348-1040
-          </a>
-        </div>
-      </div>
+                <a href="tel:+15513481040"
+                    style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
+                    <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
+                    Call Now : +1 551-348-1040
+                </a>
+            </div>
         </div>
     </div>
+</div>
 </div>
 
 
