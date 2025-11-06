@@ -440,6 +440,125 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
     });
 </script>
 
+<!-- Scroll to Top Button -->
+<button id="scrollToTopBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<style>
+/* 🔹 Scroll-to-top button styles */
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #079c4fff;
+    color: #fff;
+    border: none;
+    outline: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 999;
+    display: none;
+    box-shadow: 0 6px 15px rgba(0, 204, 97, 0.4);
+    transition: all 0.3s ease;
+}
+
+/* 🔹 Hover effect */
+#scrollToTopBtn:hover {
+    background-color: #079c4fff; /* slightly darker green */
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 204, 97, 0.6);
+}
+
+/* Optional: smooth icon movement */
+#scrollToTopBtn i {
+    transition: transform 0.3s ease;
+}
+
+#scrollToTopBtn:hover i {
+    transform: translateY(-2px);
+}
+</style>
+
+<script>
+/* 🔹 Show button when user scrolls down */
+const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+window.addEventListener("scroll", () => {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+    scrollToTopBtn.style.display = "block";
+  } else {
+    scrollToTopBtn.style.display = "none";
+  }
+});
+
+/* 🔹 Scroll smoothly to top when clicked */
+scrollToTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+</script>
+
+<!-- 📞 Call Now Button -->
+<a href="tel:+15513481040" class="call-now-btn" title="Call Now">
+  <i class="fa-solid fa-phone"></i>
+</a>
+
+<style>
+/* 🔹 Floating Call Button */
+.call-now-btn {
+  position: fixed;
+  bottom: 30px;          /* distance from bottom */
+  left: 30px;            /* distance from right */
+  background-color: #00cc61;
+  color: #fff;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 6px 15px rgba(0, 204, 97, 0.4);
+  z-index: 1000;
+  transition: all 0.3s ease;
+}
+
+/* 🔹 Hover Effect */
+.call-now-btn:hover {
+  background-color: #00b155; /* slightly darker */
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 204, 97, 0.6);
+}
+
+/* Optional: animated ringing effect */
+@keyframes ring {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(15deg); }
+  20% { transform: rotate(-15deg); }
+  30% { transform: rotate(10deg); }
+  40% { transform: rotate(-10deg); }
+  50% { transform: rotate(5deg); }
+  60% { transform: rotate(-5deg); }
+  70% { transform: rotate(2deg); }
+  80% { transform: rotate(-2deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* 🔹 Add animation when hovering */
+.call-now-btn:hover i {
+  animation: ring 0.6s ease;
+}
+</style>
+
+
+
     <!-- Footer Section End -->
    
     <!-- Jquery Library File -->
