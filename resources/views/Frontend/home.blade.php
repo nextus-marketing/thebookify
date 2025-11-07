@@ -304,7 +304,7 @@
                         <div class="post-item-content text-center">
                             <h2 style="margin: 0;">
                                 <a href="#0" style="display: inline-block; color: inherit; text-decoration: none;">
-                                    Tax Management
+                                Tax Management
                                 </a>
                             </h2>
                         </div>
@@ -671,7 +671,7 @@
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>ellyse p. </h3>
+                                                <h3>ellyse p.</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -756,7 +756,6 @@
     </div>
 </div>
 
-    <!-- Our Testimonial Section End -->
 <style>
  .h-100
     {
@@ -769,23 +768,19 @@
   height: 100%;
 }
 
-/* Ensures equal height for pricing-body so buttons align */
 .pricing-body {
   flex-grow: 1;
 }
 
-/* Optional: adds smooth hover animation */
 .pricing-box:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Center the button and fix alignment */
 .pricing-btn {
   margin-top: auto;
 }
 
-/* Optional: make button width consistent */
 .pricing-btn .btn {
   min-width: 130px;
 }
@@ -893,7 +888,6 @@
     Call Us : 551-348-1040
   </a>
 </div>
-
   </div>
 </div>
 
