@@ -28,9 +28,8 @@
                         </div>
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.4s">
                             <div class="hero-btn text-center">
-                            <a href="#0" class="btn btn-success openPopupBtn"
-                                style="background-color:#00cc61; color:#fff; border:none; padding:12px 25px; border-radius:30px; font-weight:600;">
-                                <i class="fa-solid fa-gift me-2"></i> Get Free Trial
+                            <a href="/contact" class="btn-default">
+                                <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
                             </a>
                             </div>
                             <div class="hero-btn">
@@ -57,7 +56,7 @@
             </div>
         </div>
     </div>
- <div class="partners-section py-4" style="background-color:#d8d8d8;">
+ <div class="partners-section" style="background-color:#d8d8d8;">
   <div class="container">
     <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
 
@@ -126,13 +125,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
-
-
-
 
     <div class="about-us">
         <div class="container">
@@ -148,7 +143,6 @@
                     </div>
                 </div>
             </div>
-                
                 <div class="col-lg-6">
                     <div class="about-us-content">
                         <div class="section-title">
@@ -156,7 +150,6 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">At, The Bookify we serve business owners with all their financial needs through our unmatched technology and human support. Our affordable solutions help you to attain financial mastery.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We are professional accounting service firm.  You can call us your CPA as well. We provide bookkeeping, tax filing, and other financial services for businesses and personal use.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We help with bookkeeping services that would otherwise be very time-consuming and complex. The Bookify also offers accounting & tax solutions and preparation to increase business profits.</p>
-                           
                         </div>
                     </div>
                 </div>
@@ -172,7 +165,6 @@
     </h2>
 
     <div class="row g-4 justify-content-center">
-
       <!-- Bookkeeping -->
       <div class="col-md-4 col-sm-6">
         <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
@@ -181,7 +173,6 @@
           <a href="/what-we-offer/bookkeeping-services" class="service-link">Bookkeeping</a>
         </div>
       </div>
-
       <!-- CFO Advisory -->
       <div class="col-md-4 col-sm-6">
         <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
@@ -190,7 +181,6 @@
           <a href="/what-we-offer/cfo-advisory" class="service-link">CFO Advisory</a>
         </div>
       </div>
-
       <!-- Accounting & Tax -->
       <div class="col-md-4 col-sm-6">
         <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
@@ -199,7 +189,6 @@
           <a href="/what-we-offer/tax-and-accounting" class="service-link">Accounting & Tax</a>
         </div>
       </div>
-
       <!-- Sales Tax Consulting -->
       <div class="col-md-4 col-sm-6">
         <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
@@ -208,7 +197,6 @@
           <a href="/what-we-offer/sales-tax-consulting" class="service-link">Sales Tax Consulting</a>
         </div>
       </div>
-
       <!-- Online Payroll -->
       <div class="col-md-4 col-sm-6">
         <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
@@ -217,7 +205,6 @@
           <a href="/what-we-offer/payroll-services" class="service-link">Online Payroll</a>
         </div>
       </div>
-
       <!-- Incorporation -->
       <div class="col-md-4 col-sm-6">
         <div class="service-box p-4 rounded-4 shadow-sm border-bottom"
@@ -226,7 +213,6 @@
           <a href="/what-we-offer/incorporation" class="service-link">Incorporation</a>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -575,10 +561,9 @@
               A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
             </p>
           </div>
-          <a href="#free-trial" class="openPopupBtn"
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
-             Get Free Trial
-          </a>
+          <a href="/contact" class="btn-default">
+                                <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
+                            </a>
         </div>
       </div>
 
@@ -629,9 +614,9 @@
                             As we onboarded more clients, we saw the value of the Bookkeeper's work to manage our ledger. We decided to work with TheBookify. Their excellent team of certified accounting managers reduces hours of work. They are certainly the best accounting firm.
                         </p>
                     </div>
-                    <div class="testimonial-btn openPopupBtn">
-                        <a href="#0" class="btn-default">Get Started</a>
-                    </div>
+                    <a href="/contact" class="btn-default">
+                        <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
+                    </a>
                 </div>
             </div>
 
@@ -899,7 +884,7 @@
     <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
   <a href="/pricing" class="btn-default"
      style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
-    Select Your Plan
+     <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
   </a>
 
   <a href="tel:51-348-1040" class="btn-default"
@@ -953,14 +938,12 @@
                                         <i class="fa-solid fa-calendar-days"></i> 
                                         {{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}
                                     </li>
-                                    <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li>
                                 </ul>
                             </div>
                             <div class="post-item-content">
                                 <h2>
                                     <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <p style="color:#555;">{{ $blog->sub_title }}</p>
                             </div>
                             <div class="post-item-btn">
                                 <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">Learn More</a>
@@ -1022,7 +1005,6 @@
   transition: all 0.3s ease;
 }
 
-/* ✅ Mobile Responsive Fix */
 @media (max-width: 768px) {
   .unique-profit-wrapper {
     padding: 60px 20px;
@@ -1062,14 +1044,14 @@
 
         <!-- Buttons -->
         <div class="unique-btn-row">
-          <a href="tel:+15513481040" class="unique-btn">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
+          <a href="tel:+15513481040" class="btn-default">
+            <i class="fa-solid fa-phone"></i>
             Call Now : +1 551-348-1040
           </a>
-          <a href="/contact" class="unique-btn">Get Quote</a>
-          <a href="#free-trial" class="unique-btn openPopupBtn">Get Free Trial</a>
+         <a href="/contact" class="btn-default">
+            <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
+        </a>
         </div>
-
       </div>
     </div>
   </div>

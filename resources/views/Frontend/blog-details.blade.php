@@ -5,9 +5,30 @@
 @endsection
 @section('content')
 <style>
-    .page-blog {
-    padding: 15px 0;
+.page-blog {
+ padding: 15px 0;
+ }
+ .post-entry h2 {
+    font-size: 28px;
 }
+.page-header-box h1 {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+    text-align: center;
+    margin-bottom: 10px;
+    cursor: none;
+}
+.post-entry h3 {
+font-size: 26px;
+}
+.post-entry h6 {
+    font-size: 18px;
+}
+
 </style>
 @section('structured_data')
 <script type="application/ld+json">
@@ -84,18 +105,17 @@
         </div>
     </div>
 </br>
-    <div class="page-single-post">
+<div class="page-single-post">
     <div class="container">
         <!-- Blog Title -->
         <h2 class="text-anime-style-2 text-center" data-cursor="-opaque" style="margin: 0 auto;">
             <span>{{ $blog->title }}</span>
         </h2>
- <div class="post-meta text-center mt-3 mb-4">
-                    <span class="me-3"><i class="fa-solid fa-user"></i> By <strong>{{ $blog->author }}</strong></span>
-                    <span class="me-3"><i class="fa-regular fa-calendar-days"></i> Published on <strong>{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('F j Y') }}</strong></span>
-                </div>
+        <div class="post-meta text-center mt-3 mb-4">
+            <span class="me-3"><i class="fa-solid fa-user"></i> By <strong>{{ $blog->author }}</strong></span>
+            <span class="me-3"><i class="fa-regular fa-calendar-days"></i> Published on <strong>{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('F j Y') }}</strong></span>
+        </div>
        
-
         <div class="row">
             <div class="col-lg-12">
                 <!-- Blog Image -->
@@ -197,7 +217,7 @@
             </h2>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
             @foreach($latestBlogs as $latest) 
                 <div class="col-lg-4 col-md-6">
                     <div class="post-item wow fadeInUp">
@@ -215,7 +235,6 @@
                                         <i class="fa-solid fa-calendar-days"></i> 
                                         {{ \Carbon\Carbon::parse($latest->publish_date)->format('M d, Y') }}
                                     </li>
-                                    <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li>
                                 </ul>
                             </div>
                             <div class="post-item-content">

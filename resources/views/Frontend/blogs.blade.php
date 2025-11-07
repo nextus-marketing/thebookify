@@ -57,14 +57,14 @@
                                         <i class="fa-solid fa-calendar-days"></i> 
                                         {{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}
                                     </li>
-                                    <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li>
+                                    <!-- <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li> -->
                                 </ul>
                             </div>
                             <div class="post-item-content">
                                 <h2>
                                     <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <p style="color:#555;">{{ $blog->sub_title }}</p>
+                                <!-- <p style="color:#555;">{{ $blog->sub_title }}</p> -->
                             </div>
                             <div class="post-item-btn">
                                 <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">read more</a>

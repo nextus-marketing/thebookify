@@ -22,11 +22,13 @@ public function home()
 {
     $blogs = Blog::where('status', 'ACTIVE')
         ->withCount('visitors')
-        ->orderBy('publish_date', 'desc')
+        ->orderBy('publish_date', 'desc') // newest first
         ->take(3)
-        ->get(); // no pagination
+        ->get();
+
     return view('Frontend.home', compact('blogs'));
 }
+
 
 
 public function index()

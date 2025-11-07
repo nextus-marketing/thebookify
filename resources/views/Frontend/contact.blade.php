@@ -34,9 +34,9 @@
                                 <img src="/frontend/images/icon-phone.svg" alt="">
                             </div>
                             <div class="contact-info-content">
-                                <h3>call us any time!</h3>
-                                <p>551-348-1040</p></br>
-                               
+                                <h3>Call us any time!</h3>
+                                <p><a href="tel:+15513481040" style="color: inherit; text-decoration: none;">+1 (551) 348-1040</a></p>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>send us e-mail</h3>
-                                <p>info@thebookify.com</p></br>
+                                <p><a href="mailto:info@thebookify.com" style="color: inherit; text-decoration: none;">info@thebookify.com</a></p></br>
                             </div>
                         </div>
                     </div>

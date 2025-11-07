@@ -23,7 +23,8 @@ class BlogController extends Controller
 
     public function data(Request $request)
     {
-        $query = Blog::query();
+      $query = Blog::query()->orderBy('created_at', 'desc');
+
 
         if ($request->has('publish_date') && ! empty($request->publish_date)) {
             $query->whereDate('publish_date', date('Y-m-d', strtotime($request->publish_date)));
@@ -73,7 +74,7 @@ class BlogController extends Controller
                 return $blog->slug;
             })
             ->editColumn('sub_title', function ($blog) {
-                return Str::limit(strip_tags($blog->sub_title), 40, '...');
+                return Str::limit(strip_tags($blog->sub_title), 10, '...');
             })
 
             ->editColumn('status', function ($blog) {

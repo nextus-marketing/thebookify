@@ -100,7 +100,9 @@
             </div>
             <!-- Header Btn Start -->
             <div class="header-btn d-inline-flex">
-              <a href="#0" class="btn-default btn-highlighted openPopupBtn">Get Started</a>
+              <a href="tel:551-348-1040" class="btn-default btn-highlighted">
+                Speak with Us
+              </a>
             </div>
             <!-- Header Btn End -->
 					</div>
@@ -210,7 +212,7 @@
     
 
     <!-- Expert Services Section -->
-   @if (!Request::routeIs('home'))
+   <!-- @if (!Request::routeIs('home'))
 <hr style="border-top:1px solid #00cc61; margin:40px 0;">
 <div class="container">
   <h2 style="color:#fff; font-size:26px; margin-bottom:30px; text-align:center;">Expert Services Near You</h2>
@@ -252,7 +254,7 @@
     </div>
   </div>
 </div>
-@endif
+@endif -->
 
     <!-- Footer Copyright -->
     <div class="footer-copyright" style="border-top:1px solid #00cc61; margin-top:40px; padding-top:20px;">

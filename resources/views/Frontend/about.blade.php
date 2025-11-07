@@ -135,9 +135,11 @@
                         </p>
                     </div>
 
-                    <div class="how-it-work-btn wow fadeInUp text-center" data-wow-delay="0.4s">
-                        <a href="#0" class="btn-default">learn more</a>
-                    </div>
+                   <div class="how-it-work-btn wow fadeInUp text-center" data-wow-delay="0.4s">
+                    <a href="tel:+15513481040" class="btn-default">
+                        <i class="fa-solid fa-phone me-2"></i> Call Now
+                    </a>
+                </div>
                 </div>
             </div>
         </div>
@@ -164,7 +166,7 @@
                         </p>
                     </div>
                     <div class="our-benefit-btn wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="#0" class="btn-default">Contact Us</a>
+                        <a href="#0" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Contact Us</a>
                     </div>
                     <div class="our-benefit-img">
                         <figure class="image-anime reveal">
