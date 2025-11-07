@@ -64,7 +64,7 @@
       <!-- Text Section -->
       <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
         <h2 class="mb-0" style="font-weight:700; font-size:2.8rem; white-space: nowrap;">
-          We partner with the <span style="color:#00cc61;">world’s best</span>
+          We partner with the <span style="color:#00cc61;"></br>world’s best</span>
         </h2>
       </div>
 
@@ -506,51 +506,86 @@
     </div>
 </div>
 
-<div class="what-we-do">
-    <div class="container">
-        <div class="row align-items-center">
-            
-            <!-- Left Image Section (moved here) -->
-            <div class="col-lg-6">
-                <div class="what-we-do-images position-relative text-center">
-                    <div class="what-do-we-img-1">
-                        <figure class="image-anime reveal mb-0">
-                            <img src="/frontend/my-img/new.png" 
-                                alt="Introduction Video" 
-                                class="img-fluid rounded"
-                                style="width:460px; height:452px; object-fit:cover; border-radius:8px;">
-                        </figure>
-                    </div>
-                </div>
-            </div>
+<style>
+.what-we-do-img img {
+  width: 460px;
+  height: 452px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
-            <!-- Right Content Section (moved here) -->
-            <div class="col-lg-6">
-                <div class="what-we-do-content">
-                    <div class="section-title">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">
-                           Your Financial 
-                            <span>Helping Hand</span>
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           At The Bookify, we provide you with the best-in-class CPAs with years of experience in the business. We’re here to help you with your financial management needs.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s">
-                           Because we’ve been in the sector for over 15 years and served countless industry experts, you can rely on “the bookify” for all of your financial management needs. You can grow your firm exponentially with our dedicated small business accounting services.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.4s">
-                           A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
-                        </p>
-                    </div>
-                    <a href="#free-trial"  class="openPopupBtn"
-                        style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
-                        Get Free Trial
-                    </a>
-                </div>
-            </div>
+/* Mobile responsive height */
+@media (max-width: 768px) {
+  .what-we-do-img img {
+    width: 100%;
+    height: 342px;
+  }
+}
+</style>
+
+<style>
+.what-we-do-img img {
+  width: 460px;
+  height: 452px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Mobile responsive height */
+@media (max-width: 768px) {
+  .what-we-do-img img {
+    width: 100%;
+    height: 342px;
+  }
+}
+</style>
+
+<div class="what-we-do">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Image Section -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="what-we-do-images position-relative text-center">
+          <div class="what-do-we-img-1 what-we-do-img">
+            <figure class="reveal mb-0">
+              <img src="/frontend/my-img/new.png" 
+                   alt="Introduction Video" 
+                   class="img-fluid rounded">
+            </figure>
+          </div>
         </div>
+      </div>
+
+      <!-- Right Content Section -->
+      <div class="col-lg-6">
+        <div class="what-we-do-content">
+          <div class="section-title">
+            <h2 class="text-anime-style-2" data-cursor="-opaque">
+              Your Financial 
+              <span>Helping Hand</span>
+            </h2>
+            <p class="wow fadeInUp" data-wow-delay="0.2s">
+              At The Bookify, we provide you with the best-in-class CPAs with years of experience in the business. We’re here to help you with your financial management needs.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Because we’ve been in the sector for over 15 years and served countless industry experts, you can rely on “The Bookify” for all of your financial management needs. You can grow your firm exponentially with our dedicated small business accounting services.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.6s">
+              A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
+            </p>
+          </div>
+          <a href="#free-trial" class="openPopupBtn"
+             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+             Get Free Trial
+          </a>
+        </div>
+      </div>
+
     </div>
+  </div>
 </div>
+
 
 
 <div class="partners-section py-4" style="background-color:#d8d8d8;">
@@ -559,7 +594,7 @@
 
       <!-- Text Section -->
       <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
-        <h2 class="mb-0" style="font-weight:700; font-size:2.2rem; white-space: nowrap;">
+        <h2 class="mb-0" style="font-weight:700; font-size:1.9rem; white-space: nowrap;">
           Your business + Our accounting </br>
           <span style="color:#00cc61;">A partnership for success!</span>
         </h2>
@@ -944,51 +979,102 @@
 </div>
 
 
-<div class="partners-section" 
-     style="background-color:#cdcdcd; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 0;">
-  <div class="container" style="max-width:900px; width:100%;">
-    <div class="row" style="display:flex; justify-content:center;">
-      
-      <!-- Centered Content -->
-      <div class="col-lg-8 col-md-10">
-        
+<style>
+.unique-profit-wrapper {
+  background-color: #cdcdcd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.unique-profit-wrapper .unique-heading h2 {
+  color: #000;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.unique-profit-wrapper .unique-btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+
+.unique-profit-wrapper .unique-btn {
+  background-color: #00cc61;
+  color: #fff;
+  padding: 14px 36px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+/* ✅ Mobile Responsive Fix */
+@media (max-width: 768px) {
+  .unique-profit-wrapper {
+    padding: 60px 20px;
+  }
+
+  .unique-profit-wrapper .unique-heading h2 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .unique-profit-wrapper .unique-btn-row {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .unique-profit-wrapper .unique-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+}
+</style>
+
+<div class="unique-profit-wrapper">
+  <div class="unique-container" style="max-width:900px; width:100%; margin:0 auto;">
+    <div class="unique-row" style="display:flex; justify-content:center;">
+      <div class="unique-col" style="max-width:700px; width:100%;">
+
         <!-- Heading -->
-        <div class="section-title" style="margin-bottom:25px;">
-          <h2 class="text-anime-style-2" data-cursor="-opaque" 
-              style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
+        <div class="unique-heading" style="margin-bottom:25px;">
+          <h2>
             Eliminate Complexity and Increase <br>
             Your <span style="color:#00cc61;">Profit Margins</span>
           </h2>
         </div>
-        
-        <!-- Buttons Row -->
-        <div style="display:flex; justify-content:center; align-items:center; gap:20px; width:100%; flex-wrap:nowrap; margin-top:30px;">
-          
-          <!-- Button 1 -->
-          <a href="tel:+15513481040" 
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+
+        <!-- Buttons -->
+        <div class="unique-btn-row">
+          <a href="tel:+15513481040" class="unique-btn">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
             Call Now : +1 551-348-1040
           </a>
-
-          <!-- Button 2 -->
-          <a href="/contact" 
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
-            Get Quote
-          </a>
-
-          <!-- Button 3 -->
-          <a href="#free-trial" class="openPopupBtn" 
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
-            Get Free Trial
-          </a>
-
+          <a href="/contact" class="unique-btn">Get Quote</a>
+          <a href="#free-trial" class="unique-btn openPopupBtn">Get Free Trial</a>
         </div>
 
       </div>
     </div>
   </div>
 </div>
+
 
 
 

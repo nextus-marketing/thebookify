@@ -327,7 +327,6 @@
           </div>
         </form>
       </div>
-
       <!-- Footer -->
       <div class="text-center p-3" style="background:#f9f9f9;">
         <small style="color:#888;">We respect your privacy. No spam ever.</small>

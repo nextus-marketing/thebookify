@@ -154,7 +154,7 @@ element.style {
       <!-- Text Section -->
       <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
         <h2 class="mb-0" style="font-weight:700; font-size:2.1rem; white-space: nowrap;">
-          Accounting Softwares We Integrate To </br> <span style="color:#00cc61;">Make Your Business Easy!</span>
+          Accounting Softwares </br> We Integrate To </br> <span style="color:#00cc61;">Make Your Business Easy!</span>
         </h2>
       </div>
 

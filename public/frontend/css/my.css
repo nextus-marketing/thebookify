@@ -17,7 +17,7 @@
 
 @media (max-width: 767px) {
     .section-title h1 {
-        font-size: 30px;
+        font-size: 50px;
     }
 }
 
@@ -250,3 +250,17 @@
 }
 
 /* Scroll to top end */
+
+@media (max-width: 767px) {
+    .partners-section h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .partners-section .d-inline-flex {
+        gap: 30px !important;
+    }
+
+    .partners-section img.partner-logo {
+        width: 70px !important;
+    }
+}

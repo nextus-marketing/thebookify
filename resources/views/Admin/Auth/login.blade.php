@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>My Dashbord</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -14,7 +13,6 @@
     <link rel="shortcut icon" type="image/png" href="/frontend/my-img/favicon.png" />
     <link id="themeColors" rel="stylesheet" href="/backend/dist/css/style.min.css" />
 </head>
-
 <body>
 
 <style>
@@ -36,6 +34,7 @@
     transition: all 0.3s ease;
 }
 </style>
+
     <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-sidebartype="full"
         data-sidebar-position="fixed" data-header-position="fixed">
         <div class="position-relative overflow-hidden radial-gradient min-vh-100">
@@ -47,7 +46,7 @@
                         </a>
                         <div class="d-none d-xl-flex align-items-center justify-content-center"
                             style="height: calc(100vh - 80px);">
-                            <img src="/frontend/my-img/dashbord-theme.jpg" alt=""
+                            <img src="/frontend/my-img/dashbord-theme.jpg" alt="dashbord"
                                 class="img-fluid" width="500">
                         </div>
                     </div>
@@ -71,8 +70,7 @@
                                         <label for="exampleInputPassword1" class="form-label">Password</label>
                                         <input type="password" class="form-control" name="password">
                                     </div>
-                                    <button type="submit" class="btn btn-primary w-100 py-8 mb-4 rounded-2">Sign
-                                        In</button>
+                                    <button type="submit" class="btn btn-primary w-100 py-8 mb-4 rounded-2">Sign In</button>
                                 </form>
                             </div>
                         </div>
