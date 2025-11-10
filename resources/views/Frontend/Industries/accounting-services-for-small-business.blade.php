@@ -18,6 +18,10 @@
     .how-it-work {
         padding: 10px 0;
     }
+    .what-we-do {
+    background-color: var(--secondary-color);
+    padding: 10px 0;
+    }
 </style>
 
 

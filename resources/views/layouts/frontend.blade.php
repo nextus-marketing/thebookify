@@ -286,46 +286,7 @@
                 style="position:absolute; top:18px; right:20px; opacity:0.9;"></button>
       </div>
 
-      <!-- Body -->
-      <div class="modal-body p-4" style="background:#fff;">
-        <form id="freeTrialForm">
-          <div class="mb-3">
-            <input type="text" class="form-control"
-                   id="name" placeholder="Enter your full name*"
-                   style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
-          </div>
-          <div class="mb-3">
-            <input type="email" class="form-control"
-                   id="email" placeholder="Enter your email*"
-                   style="border-radius:10px; padding:10px 15px; border:1px solid #ccc;" required>
-          </div>
-          <div class="d-flex justify-content-center">
-            <div class="header-btn d-inline-flex">
-              <a href="#0" class="btn-default btn-highlighted openPopupBtn text-center" 
-               >Next</a>
-            </div>
-          </div>
-        </form>
-      </div>
-      <!-- Footer -->
-      <div class="text-center p-3" style="background:#f9f9f9;">
-        <small style="color:#888;">We respect your privacy. No spam ever.</small>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!-- JS to open popup -->
-<script>
-document.querySelectorAll('.openPopupBtn').forEach(button => {
-  button.addEventListener('click', function (e) {
-    e.preventDefault();
-    const modal = new bootstrap.Modal(document.getElementById('trialFormModal'));
-    modal.show();
-  });
-});
-</script>
+      
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -450,6 +411,106 @@ scrollToTopBtn.addEventListener("click", () => {
   <i class="fa-solid fa-phone"></i>
 </a>
 <!-- Call Now Button end-->
+
+<!-- Popup Modal Start -->
+<div class="popup-overlay" id="popup">
+  <div class="popup-box">
+    <span class="close-btn" onclick="document.getElementById('popup').style.display='none'">&times;</span>
+    <img src="https://cdn-icons-png.flaticon.com/512/3210/3210051.png" alt="Rocket Icon" class="popup-icon">
+    <h2>Start Today</h2>
+    <p>Join us and take your next step. It’s quick and easy to begin your journey with us!</p>
+    <button class="btn-green">Get Started</button>
+    <a href="#" class="popup-link">No thanks, I want to learn more.</a>
+  </div>
+</div>
+<!-- Popup Modal End -->
+<style>
+  /* Popup Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Box */
+.popup-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px; right: 12px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+.popup-icon {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.btn-green {
+  background: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-green:hover {
+  background: #218838;
+}
+
+.popup-link {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #28a745;
+  text-decoration: none;
+}
+
+.popup-link:hover {
+  text-decoration: underline;
+}
+
+@media(max-width:480px) {
+  .popup-box { padding: 20px; }
+  .popup-box h2 { font-size: 20px; }
+}
+
+</style>
+
+<script>
+  function openPopup() {
+    document.getElementById("popup").style.display = "flex";
+  }
+</script>
+
+<!-- Example trigger button -->
+<button onclick="openPopup()" class="btn-green">Open Popup</button>
+
 
     <!-- Footer Section End -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
