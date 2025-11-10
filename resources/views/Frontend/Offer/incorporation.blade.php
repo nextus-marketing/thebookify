@@ -348,15 +348,12 @@ element.style {
   }
 </style>
 
-
-
-
-    <!-- Fact Counter Section -->
+<!-- Fact Counter Section -->
 <section class="fact-counter-section">
   <div class="container">
     <div class="fact-counter-box-list">
 
-      <!-- Fact Counter Box -->
+  <!-- Fact Counter Box -->
       <div class="fact-counter-box">
         <div class="icon-box">
           <img src="/frontend/images/icon-fact-counter-1.svg" alt="">
@@ -455,9 +452,6 @@ element.style {
 }
 </style>
 
-
-
-
     <div class="our-testimonial">
     <div class="container">
         <div class="row">
@@ -466,7 +460,7 @@ element.style {
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">our testimonial</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What our   <span>clients say</span>
+                            What our <span>clients say</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                            Let’s start the journey towards success and enhance revenue for your business. Take your company to the next level.
@@ -626,23 +620,19 @@ element.style {
   height: 100%;
 }
 
-/* Ensures equal height for pricing-body so buttons align */
 .pricing-body {
   flex-grow: 1;
 }
 
-/* Optional: adds smooth hover animation */
 .pricing-box:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
-/* Center the button and fix alignment */
 .pricing-btn {
   margin-top: auto;
 }
 
-/* Optional: make button width consistent */
 .pricing-btn .btn {
   min-width: 130px;
 }
@@ -670,7 +660,6 @@ element.style {
                     </h2>
                     <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
                 </div>
-                <!-- Section Title End -->
             </div>
 
             <div class="col-lg-7">
@@ -682,10 +671,8 @@ element.style {
             </div>
         </div>
         <!-- Section Row End -->
-
         <!-- Pricing Row Start -->
         <div class="row">
-
             <!-- Pricing Box 1 -->
             <div class="col-lg-3 col-md-6">
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
@@ -696,9 +683,7 @@ element.style {
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
                     </div>
-
                     <hr class="my-3" style="border-top:1px solid #eee;">
-
                     <!-- Pricing Body -->
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
@@ -719,20 +704,16 @@ element.style {
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
                     </div>
-
                     <hr class="my-3" style="border-top:1px solid #eee;">
-
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
                             Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
                         </p>
                     </div>
-
                 </div>
             </div>
             <!-- Pricing Box 2 End -->
-
             <!-- Pricing Box 3 -->
             <div class="col-lg-3 col-md-6">
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
@@ -742,9 +723,7 @@ element.style {
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
                     </div>
-
                     <hr class="my-3" style="border-top:1px solid #eee;">
-
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
@@ -764,9 +743,7 @@ element.style {
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
                     </div>
-
                     <hr class="my-3" style="border-top:1px solid #eee;">
-
                     <div class="pricing-body">
                         <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
                         <p style="color:#555; font-size:0.95rem; line-height:1.6;">
@@ -809,7 +786,6 @@ element.style {
           </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>

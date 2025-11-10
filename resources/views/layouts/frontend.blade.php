@@ -40,6 +40,28 @@
 	</div> -->
 	<!-- Preloader End -->
 
+
+<div class="pro-popup-overlay" id="proPopup">
+  <div class="pro-popup">
+    <button class="pro-popup-close" onclick="closeProPopup()">×</button>
+    <div class="popup-image">
+      <a class="navbar-brand" href="/">
+        <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
+      </a>
+    </div>
+    <h2>Discover Our Professional Services</h2>
+    <p>From bookkeeping and payroll to tax management Bookify has everything you need to simplify your business finances. Explore our tailored solutions today!</p>
+    <div class="popup-btns" style="text-align:center;">
+  <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
+    <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-compass"></i> Explore Services</a>
+    <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-message"></i> Contact Us</a>
+  </div>
+</div>
+
+  </div>
+</div>
+
+
     <!-- Header Start -->
 	 <header class="main-header">
 		<div class="header-sticky">
@@ -190,7 +212,7 @@
 
     
 
-    <!-- Expert Services Section -->
+<!-- Expert Services Section -->
 <!-- @if (!Request::routeIs('home'))
 <hr style="border-top:1px solid #00cc61; margin:40px 0;">
 <div class="container">
@@ -286,7 +308,18 @@
                 style="position:absolute; top:18px; right:20px; opacity:0.9;"></button>
       </div>
 
-      
+
+
+<!-- JS to open popup -->
+<script>
+document.querySelectorAll('.openPopupBtn').forEach(button => {
+  button.addEventListener('click', function (e) {
+    e.preventDefault();
+    const modal = new bootstrap.Modal(document.getElementById('trialFormModal'));
+    modal.show();
+  });
+});
+</script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -379,7 +412,6 @@
     });
 </script>
 
-<!-- Scroll to Top Button -->
 <button id="scrollToTopBtn" title="Go to top">
     <i class="fa-solid fa-arrow-up"></i>
 </button>
@@ -412,104 +444,44 @@ scrollToTopBtn.addEventListener("click", () => {
 </a>
 <!-- Call Now Button end-->
 
-<!-- Popup Modal Start -->
-<div class="popup-overlay" id="popup">
-  <div class="popup-box">
-    <span class="close-btn" onclick="document.getElementById('popup').style.display='none'">&times;</span>
-    <img src="https://cdn-icons-png.flaticon.com/512/3210/3210051.png" alt="Rocket Icon" class="popup-icon">
-    <h2>Start Today</h2>
-    <p>Join us and take your next step. It’s quick and easy to begin your journey with us!</p>
-    <button class="btn-green">Get Started</button>
-    <a href="#" class="popup-link">No thanks, I want to learn more.</a>
-  </div>
-</div>
-<!-- Popup Modal End -->
-<style>
-  /* Popup Overlay */
-.popup-overlay {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.6);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-/* Popup Box */
-.popup-box {
-  background: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  max-width: 400px;
-  width: 90%;
-  text-align: center;
-  position: relative;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-  animation: fadeIn 0.4s ease;
-}
-
-@keyframes fadeIn {
-  from { transform: scale(0.9); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-
-.close-btn {
-  position: absolute;
-  top: 12px; right: 12px;
-  font-size: 20px;
-  color: #333;
-  cursor: pointer;
-}
-
-.popup-icon {
-  width: 60px;
-  margin-bottom: 15px;
-}
-
-.btn-green {
-  background: #28a745;
-  color: #fff;
-  border: none;
-  padding: 12px 25px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn-green:hover {
-  background: #218838;
-}
-
-.popup-link {
-  display: block;
-  margin-top: 12px;
-  font-size: 14px;
-  color: #28a745;
-  text-decoration: none;
-}
-
-.popup-link:hover {
-  text-decoration: underline;
-}
-
-@media(max-width:480px) {
-  .popup-box { padding: 20px; }
-  .popup-box h2 { font-size: 20px; }
-}
-
-</style>
-
 <script>
-  function openPopup() {
-    document.getElementById("popup").style.display = "flex";
-  }
-</script>
+  // Hide popup on /what-we-offer route
+  document.addEventListener("DOMContentLoaded", function () {
+    if (window.location.pathname === "/what-we-offer") {
+      const popup = document.getElementById("proPopup");
+      if (popup) {
+        popup.style.display = "none";
+        return; // stop further popup logic
+      }
+    }
 
-<!-- Example trigger button -->
-<button onclick="openPopup()" class="btn-green">Open Popup</button>
+    // Auto open after 3 seconds
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const popup = document.getElementById('proPopup');
+        if (popup) {
+          popup.classList.add('show');
+          document.body.classList.add('no-scroll');
+        }
+      }, 3000);
+    });
+
+    // Close popup function
+    window.closeProPopup = function () {
+      const popup = document.getElementById('proPopup');
+      if (popup) {
+        popup.classList.remove('show');
+        document.body.classList.remove('no-scroll');
+      }
+    };
+
+    // Close when clicking outside popup
+    window.addEventListener('click', (e) => {
+      const popup = document.getElementById('proPopup');
+      if (e.target === popup) closeProPopup();
+    });
+  });
+</script>
 
 
     <!-- Footer Section End -->
@@ -530,7 +502,8 @@ scrollToTopBtn.addEventListener("click", () => {
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
     <script src="/frontend/js/wow.min.js"></script>
     <script src="/frontend/js/function.js"></script>
-	  <script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+
+	<script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
 </body>
 
 </html>

@@ -1,7 +1,29 @@
 @extends('layouts.frontend')
 @section('title')  What We Offer | The Bookify @endsection
 @section('content')
+<style>
+    .service-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 
+.service-item-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.service-item-content p {
+  flex-grow: 1;
+}
+
+.service-btn {
+  align-self: flex-start;
+  margin-top: auto;
+}
+
+</style>
 <div class="page-header">
         <div class="container">
             <div class="row align-items-center">
@@ -87,7 +109,11 @@
 
                         <div class="service-item-content">
                             <h3>Incorporation</h3>
-                            <p>TheBookify have been providing incorporation services for over 10 years. We incorporate a wide range of entities to meet the diverse needs of our clients.</p>
+                            <p>TheBookify have been providing incorporation services for over 10 years. We incorporate a wide range of entities to meet the diverse needs of our clients.
+</br>
+</br>
+</br>
+                            </p>
                             <a href="/what-we-offer/incorporation" class="service-btn"><img src="/frontend/images/arrow-white.svg" alt=""></a>
                         </div>
                     </div>
