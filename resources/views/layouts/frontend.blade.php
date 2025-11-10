@@ -1,43 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<!-- Page Title -->
    <title>@yield('title')</title>
     @if(View::hasSection('meta'))
     @yield('meta')
-@elseif(View::hasSection('meta_description'))
-    <meta name="description" content="@yield('meta_description')">
-@endif
-@yield('structured_data')
-	<!-- Favicon Icon -->
+    @elseif(View::hasSection('meta_description'))
+        <meta name="description" content="@yield('meta_description')">
+    @endif
+    @yield('structured_data')
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
-	<!-- Google Fonts Css-->
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
 	<link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
 	<link href="/frontend/css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
 	<link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
 	<link href="/frontend/css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
 	<link href="/frontend/css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
 	<link rel="stylesheet" href="/frontend/css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
-	<!-- Main Custom Css -->
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
-    <!-- My Custom Css -->
     <link rel="stylesheet" href=" /frontend/css/my.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -59,13 +45,9 @@
 		<div class="header-sticky">
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
-					<!-- Logo Start -->
 					<a class="navbar-brand" href="/">
               <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
           </a>
-					<!-- Logo End -->
-
-					<!-- Main Menu Start -->
 					<div class="collapse navbar-collapse main-menu">
             <div class="nav-menu-wrapper">
                 <ul class="navbar-nav mr-auto" id="menu">
@@ -98,15 +80,12 @@
                     <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>                           
                 </ul>
             </div>
-            <!-- Header Btn Start -->
             <div class="header-btn d-inline-flex">
               <a href="tel:551-348-1040" class="btn-default btn-highlighted">
                 Speak with Us
               </a>
             </div>
-            <!-- Header Btn End -->
 					</div>
-					<!-- Main Menu End -->
 					<div class="navbar-toggle"></div>
 				</div>
 			</nav>
@@ -212,7 +191,7 @@
     
 
     <!-- Expert Services Section -->
-   <!-- @if (!Request::routeIs('home'))
+<!-- @if (!Request::routeIs('home'))
 <hr style="border-top:1px solid #00cc61; margin:40px 0;">
 <div class="container">
   <h2 style="color:#fff; font-size:26px; margin-bottom:30px; text-align:center;">Expert Services Near You</h2>
@@ -272,23 +251,23 @@
           <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
             <ul class="list-inline m-0">
               <li class="list-inline-item">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/TBOOKIFY"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/company/the-bookify/"><i class="fa-brands fa-linkedin-in"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/the.bookify/"><i class="fa-brands fa-instagram"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://x.com/TBookify"><i class="fa-brands fa-x-twitter"></i></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  </div> <!-- end container -->
+  </div>
 </footer>
 
 <div class="modal fade" id="trialFormModal" tabindex="-1" aria-labelledby="trialFormLabel" aria-hidden="true">
@@ -296,7 +275,6 @@
     <div class="modal-content"
          style="border:none; border-radius:20px; box-shadow:0 8px 40px rgba(0,0,0,0.15); overflow:hidden;">
       
-      <!-- Header -->
       <div style="background:linear-gradient(135deg,#00cc61,#00b556); padding:25px 25px 15px 25px; position:relative; text-align:center;">
         
         <h4 class="text-white mb-1" style="font-weight:700;">Start Your Free Trial</h4>
@@ -473,44 +451,25 @@ scrollToTopBtn.addEventListener("click", () => {
 </a>
 <!-- Call Now Button end-->
 
-
-
     <!-- Footer Section End -->
-   
-    <!-- Jquery Library File -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
     <script src="/frontend/js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
     <script src="/frontend/js/validator.min.js"></script>
-    <!-- SlickNav js file -->
     <script src="/frontend/js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
     <script src="/frontend/js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
     <script src="/frontend/js/jquery.waypoints.min.js"></script>
     <script src="/frontend/js/jquery.counterup.min.js"></script>
-    <!-- Magnific js file -->
     <script src="/frontend/js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
     <script src="/frontend/js/SmoothScroll.js"></script>
-    <!-- Parallax js -->
     <script src="/frontend/js/parallaxie.js"></script>
-    <!-- MagicCursor js file -->
     <script src="/frontend/js/gsap.min.js"></script>
     <script src="/frontend/js/magiccursor.js"></script>
-    <!-- Text Effect js file -->
     <script src="/frontend/js/SplitText.js"></script>
-
     <script src="/frontend/js/ScrollTrigger.min.js"></script>
-    <!-- YTPlayer js File -->
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
     <script src="/frontend/js/wow.min.js"></script>
-    <!-- Main Custom js file -->
     <script src="/frontend/js/function.js"></script>
-
-	<script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+	  <script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
 </body>
 
 </html>

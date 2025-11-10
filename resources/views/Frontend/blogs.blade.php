@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<!-- Blog Section -->
+<!-- Blog Section Start -->
 <div class="page-blog pt-100 pb-70">
     <div class="container">
         <div class="row justify-content-center">
@@ -38,7 +38,7 @@
                 @endphp
 
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="post-item wow fadeInUp">
+                    <div class="post-item wow fadeInUp" data-wow-delay="0.3s">
                         <div class="post-featured-image">
                             <a href="{{ route('blogs.details', $blog->slug) }}" data-cursor-text="View">
                                 <figure class="image-anime">
@@ -57,14 +57,12 @@
                                         <i class="fa-solid fa-calendar-days"></i> 
                                         {{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('d M, Y') }}
                                     </li>
-                                    <!-- <li><i class="fa-solid fa-user"></i> {{ $blog->author }}</li> -->
                                 </ul>
                             </div>
                             <div class="post-item-content">
                                 <h2>
                                     <a href="{{ route('blogs.details', $blog->slug) }}">{{ $blog->title }}</a>
                                 </h2>
-                                <!-- <p style="color:#555;">{{ $blog->sub_title }}</p> -->
                             </div>
                             <div class="post-item-btn">
                                 <a href="{{ route('blogs.details', $blog->slug) }}" class="readmore-btn">read more</a>
@@ -78,7 +76,41 @@
                 </div>
             @endforelse
 
+            {{-- Dynamic Pagination --}}
+            @if ($blogs->hasPages())
+                <div class="col-lg-12">
+                    <div class="page-pagination  text-center" data-wow-delay="1.2s">
+                        <ul class="pagination justify-content-center">
+                            {{-- Previous Page Link --}}
+                            @if ($blogs->onFirstPage())
+                                <li class="disabled"><span><i class="fa-solid fa-angle-left"></i></span></li>
+                            @else
+                                <li><a href="{{ $blogs->previousPageUrl() }}"><i class="fa-solid fa-angle-left"></i></a></li>
+                            @endif
+
+                            {{-- Page Numbers --}}
+                            @foreach ($blogs->getUrlRange(1, $blogs->lastPage()) as $page => $url)
+                                @if ($page == $blogs->currentPage())
+                                    <li class="active"><a href="#">{{ $page }}</a></li>
+                                @else
+                                    <li><a href="{{ $url }}">{{ $page }}</a></li>
+                                @endif
+                            @endforeach
+
+                            {{-- Next Page Link --}}
+                            @if ($blogs->hasMorePages())
+                                <li><a href="{{ $blogs->nextPageUrl() }}"><i class="fa-solid fa-angle-right"></i></a></li>
+                            @else
+                                <li class="disabled"><span><i class="fa-solid fa-angle-right"></i></span></li>
+                            @endif
+                        </ul>
+                    </div>
+                </div>
+            @endif
+
         </div>
     </div>
 </div>
+<!-- Blog Section End -->
+
 @endsection

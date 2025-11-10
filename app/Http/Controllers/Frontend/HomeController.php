@@ -35,11 +35,12 @@ public function index()
 {
     $blogs = Blog::where('status', 'ACTIVE')
         ->withCount('visitors')
-        ->orderBy('publish_date', 'desc')
-        ->get(); // no pagination
+        ->orderBy('publish_date', 'desc') // newest first
+        ->paginate(6); // 6 per page (you can change number)
 
     return view('Frontend.blogs', compact('blogs'));
 }
+
    
     public function blog_details(Request $request, $slug)
 {
@@ -164,13 +165,11 @@ public function index()
     $latestBlogs = Blog::where('status', 'ACTIVE')
         ->where('slug', '!=', $slug)
         ->orderBy('publish_date', 'desc')
-        ->take(5)
+        ->take(3)
         ->get();
 
     return view('Frontend.blog-details', compact('blog', 'htmlContent', 'latestBlogs'));
 }
-
-
 
 
 public function contactEnquiry(Request $request)
@@ -235,7 +234,5 @@ public function contactEnquiry(Request $request)
 
     return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);
 }
-
-
 
 }
