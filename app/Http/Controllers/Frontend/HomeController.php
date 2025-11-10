@@ -14,8 +14,6 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Mail;
 
-
-
 class HomeController extends Controller
 {
 public function home()
@@ -36,14 +34,13 @@ public function index()
     $blogs = Blog::where('status', 'ACTIVE')
         ->withCount('visitors')
         ->orderBy('publish_date', 'desc') // newest first
-        ->paginate(6); // 6 per page (you can change number)
-
+        ->paginate(6); 
     return view('Frontend.blogs', compact('blogs'));
 }
 
    
     public function blog_details(Request $request, $slug)
-{
+    {
     $blog = Blog::withCount('visitors')
         ->where('slug', $slug) 
         ->where('status', 'ACTIVE')
@@ -199,7 +196,7 @@ public function contactEnquiry(Request $request)
         'mobile.required' => 'The mobile number field is required.',
         'mobile.digits' => 'The mobile number must be exactly 10 digits.',
     ];
-
+     
     $request->validate($rules, $messages);
 
     // Verify Google reCAPTCHA (only if present)

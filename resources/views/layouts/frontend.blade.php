@@ -210,8 +210,6 @@
       </div>
     </div>
 
-    
-
 <!-- Expert Services Section -->
 <!-- @if (!Request::routeIs('home'))
 <hr style="border-top:1px solid #00cc61; margin:40px 0;">
@@ -307,7 +305,6 @@
                 data-bs-dismiss="modal" aria-label="Close"
                 style="position:absolute; top:18px; right:20px; opacity:0.9;"></button>
       </div>
-
 
 
 <!-- JS to open popup -->
@@ -415,8 +412,6 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
 <button id="scrollToTopBtn" title="Go to top">
     <i class="fa-solid fa-arrow-up"></i>
 </button>
-<!-- Scroll to Top Button end-->
-
 <script>
 /* Show button when user scrolls down */
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
