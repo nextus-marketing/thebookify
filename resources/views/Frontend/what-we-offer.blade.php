@@ -110,9 +110,9 @@
                         <div class="service-item-content">
                             <h3>Incorporation</h3>
                             <p>TheBookify have been providing incorporation services for over 10 years. We incorporate a wide range of entities to meet the diverse needs of our clients.
-</br>
-</br>
-</br>
+                            </br>
+                            </br>
+                            </br>
                             </p>
                             <a href="/what-we-offer/incorporation" class="service-btn"><img src="/frontend/images/arrow-white.svg" alt=""></a>
                         </div>
