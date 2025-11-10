@@ -162,7 +162,6 @@
             dataTable.draw();
         });
 
-        // ✅ Toggle status
         $(document).on('change', '.blogs-status-switch', function (e) {
             e.preventDefault();
             const routeKey = $(this).data('routekey');
