@@ -113,40 +113,7 @@
 		</div>
 	</header>
 	<!-- Header End -->
-     <style>
-/* Navbar background color */
-.main-header .navbar {
-  background-color: #ffffff !important;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-}
 
-/* Nav link color */
-.main-header .navbar-nav .nav-link {
-  color: #000000 !important;
-  font-weight: 500;
-  transition: color 0.3s ease;
-}
-
-/* Hover and active link color */
-.main-header .navbar-nav .nav-link:hover,
-.main-header .navbar-nav .nav-link:focus,
-.main-header .navbar-nav .nav-link.active {
-  color: #004050 !important; 
-}
-
-/* Dropdown (submenu) background and text */
-.main-header .navbar-nav .submenu ul {
-  background-color: #ffffff;
-}
-
-.main-header .navbar-nav .submenu ul li a {
-  color: #000000 !important;
-}
-
-.main-header .navbar-nav .submenu ul li a:hover {
-  color: #004050 !important;
-}
-</style>
 
    @yield('content')
     <!-- Footer Section Start -->
