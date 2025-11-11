@@ -46,7 +46,7 @@
     <button class="pro-popup-close" onclick="closeProPopup()">×</button>
     <div class="popup-image">
       <a class="navbar-brand" href="/">
-        <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
+        <img src="/frontend/my-img/logo.png" alt="Logo" style="width:157px; height:39px; object-fit:contain;">
       </a>
     </div>
     <h2>Discover Our Professional Services</h2>
@@ -66,7 +66,7 @@
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<a class="navbar-brand" href="/">
-              <img src="/frontend/my-img/logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
+              <img src="/frontend/my-img/logo.png" alt="Logo" style="width:147px; height:39px; object-fit:contain;">
           </a>
 					<div class="collapse navbar-collapse main-menu">
             <div class="nav-menu-wrapper">

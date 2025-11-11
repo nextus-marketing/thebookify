@@ -37,7 +37,7 @@
 }
 
 .btn-default.btn-highlighted {
-    padding: 15px 30px;
+    padding: 14px 22px;
 }
 
 .section-title h1 {
@@ -168,9 +168,7 @@
 .call-now-btn {
     position: fixed;
     bottom: 30px;
-    /* distance from bottom */
     left: 30px;
-    /* distance from right */
     background-color: #00cc61;
     color: #fff;
     font-size: 20px;
@@ -186,15 +184,12 @@
     transition: all 0.3s ease;
 }
 
-/* 🔹 Hover Effect */
 .call-now-btn:hover {
     background-color: #00b155;
-    /* slightly darker */
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0, 204, 97, 0.6);
 }
 
-/* Optional: animated ringing effect */
 @keyframes ring {
     0% {
         transform: rotate(0deg);
@@ -237,14 +232,9 @@
     }
 }
 
-/* 🔹 Add animation when hovering */
 .call-now-btn:hover i {
     animation: ring 0.6s ease;
 }
-
-/* 🔹 Floating Call Button end */
-
-/* Scroll to top start */
 
 #scrollToTopBtn {
     position: fixed;
@@ -265,15 +255,12 @@
     transition: all 0.3s ease;
 }
 
-/* 🔹 Hover effect */
 #scrollToTopBtn:hover {
     background-color: #079c4fff;
-    /* slightly darker green */
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0, 204, 97, 0.6);
 }
 
-/* Optional: smooth icon movement */
 #scrollToTopBtn i {
     transition: transform 0.3s ease;
 }
@@ -281,8 +268,6 @@
 #scrollToTopBtn:hover i {
     transform: translateY(-2px);
 }
-
-/* Scroll to top end */
 
 @media (max-width: 767px) {
     .partners-section h2 {
@@ -298,8 +283,6 @@
     }
 }
 
-
-/* pop up */
 .pro-popup-overlay {
     position: fixed;
     inset: 0;
@@ -319,7 +302,6 @@
     opacity: 1;
 }
 
-/* Popup Box */
 .pro-popup {
     background: #fff;
     border-radius: 16px;
@@ -407,3 +389,9 @@
 }
 
 /* pop up end */
+
+.main-menu .nav-menu-wrapper {
+    flex: 1;
+    text-align: center;
+    margin: 0 5px;
+}

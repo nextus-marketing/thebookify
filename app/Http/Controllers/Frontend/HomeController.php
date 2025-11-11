@@ -162,7 +162,7 @@ public function index()
     $latestBlogs = Blog::where('status', 'ACTIVE')
         ->where('slug', '!=', $slug)
         ->orderBy('publish_date', 'desc')
-        ->take(3)
+        ->take(5)
         ->get();
 
     return view('Frontend.blog-details', compact('blog', 'htmlContent', 'latestBlogs'));

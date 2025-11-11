@@ -534,7 +534,7 @@
       <div class="col-lg-6 mb-4 mb-lg-0">
         <div class="what-we-do-images position-relative text-center">
           <div class="what-do-we-img-1 what-we-do-img">
-            <figure class="reveal mb-0">
+            <figure class="reveal mb-0 image-anime">
               <img src="/frontend/my-img/new.png" 
                    alt="Introduction Video" 
                    class="img-fluid rounded">
