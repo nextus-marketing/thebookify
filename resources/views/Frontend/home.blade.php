@@ -590,7 +590,7 @@
         <div class="d-inline-flex align-items-center" style="gap: 100px;">
           <!-- Replaced image with button -->
           <a href="tel:551-348-1040"
-             style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; white-space:nowrap; transition:all 0.3s ease;">
+             class="btn-default">
             Call Now: 551-348-1040
           </a>
         </div>

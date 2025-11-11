@@ -5,17 +5,17 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 	<meta name="description" content="">
-   <title>@yield('title')</title>
-    @if(View::hasSection('meta'))
-    @yield('meta')
-    @elseif(View::hasSection('meta_description'))
-        <meta name="description" content="@yield('meta_description')">
-    @endif
-    @yield('structured_data')
+  <title>@yield('title')</title>
+  @if(View::hasSection('meta'))
+  @yield('meta')
+  @elseif(View::hasSection('meta_description'))
+  <meta name="description" content="@yield('meta_description')">
+  @endif
+  @yield('structured_data')
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;display=swap" rel="stylesheet">
 	<link href="/frontend/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="/frontend/css/slicknav.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/frontend/css/swiper-bundle.min.css">
@@ -24,9 +24,9 @@
 	<link rel="stylesheet" href="/frontend/css/magnific-popup.css">
 	<link rel="stylesheet" href="/frontend/css/mousecursor.css">
 	<link href="/frontend/css/custom.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href=" /frontend/css/my.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href=" /frontend/css/my.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 <body>
@@ -56,11 +56,9 @@
     <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-compass"></i> Explore Services</a>
     <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-message"></i> Contact Us</a>
   </div>
-</div>
-
+  </div>
   </div>
 </div>
-
 
     <!-- Header Start -->
 	 <header class="main-header">
@@ -150,9 +148,7 @@
 }
 </style>
 
-
    @yield('content')
-
     <!-- Footer Section Start -->
 <footer class="main-footer" style="color:#fff;">
   <div class="container">
@@ -165,7 +161,7 @@
           </a>
           <p style="color:#fff; margin-top:15px; line-height:1.7;">
             The Bookify is a platform that can solve all your financial hustle. <br>
-            We provide financial support for your books, taxation, and expenses.
+            We provide financial support for your books, taxation, and expenses. 
             From bookkeeping and payroll to strategic financial planning, we handle everything with transparency and precision.
           </p>
         </div>
@@ -289,6 +285,15 @@
     </div>
   </div>
 </footer>
+<button id="scrollToTopBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- Call Now Button -->
+<a href="tel:+15513481040" class="call-now-btn" title="Call Now">
+  <i class="fa-solid fa-phone"></i>
+</a>
+<!-- Call Now Button end-->
 
 <div class="modal fade" id="trialFormModal" tabindex="-1" aria-labelledby="trialFormLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
@@ -364,7 +369,7 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
                         }, 1000);
                     }
                 },
-                error: function(xhr) {
+                    error: function(xhr) {
                     console.log(xhr);
                     toastr.error(
                         'There are some errors in the form. Please check your inputs.',
@@ -373,7 +378,7 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
                             hideMethod: "slideUp",
                             timeOut: 1500,
                             closeButton: true,
-                        });
+                    });
 
                     if (xhr.responseJSON && xhr.responseJSON.errors) {
                         $.each(xhr.responseJSON.errors, function(key, value) {
@@ -408,10 +413,6 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
         });
     });
 </script>
-
-<button id="scrollToTopBtn" title="Go to top">
-    <i class="fa-solid fa-arrow-up"></i>
-</button>
 <script>
 /* Show button when user scrolls down */
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
@@ -433,11 +434,7 @@ scrollToTopBtn.addEventListener("click", () => {
 });
 </script>
 
-<!-- Call Now Button -->
-<a href="tel:+15513481040" class="call-now-btn" title="Call Now">
-  <i class="fa-solid fa-phone"></i>
-</a>
-<!-- Call Now Button end-->
+
 
 <script>
   // Hide popup on /what-we-offer route
@@ -497,8 +494,7 @@ scrollToTopBtn.addEventListener("click", () => {
     <script src="/frontend/js/jquery.mb.YTPlayer.min.js"></script>
     <script src="/frontend/js/wow.min.js"></script>
     <script src="/frontend/js/function.js"></script>
-
-	<script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
+	  <script src="/frontend//demo.awaikenthemes.com/assets/js/theme-panel.js"></script>
 </body>
 
 </html>

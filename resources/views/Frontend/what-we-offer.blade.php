@@ -7,22 +7,18 @@
   flex-direction: column;
   height: 100%;
 }
-
 .service-item-content {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
-
 .service-item-content p {
   flex-grow: 1;
 }
-
 .service-btn {
   align-self: flex-start;
   margin-top: auto;
 }
-
 </style>
 <div class="page-header">
         <div class="container">
@@ -48,7 +44,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-service-1.svg" alt="">
+                            <img src="/frontend/images/icon-service-1.svg" alt="icon-service">
                         </div>
 
                         <div class="service-item-content">
@@ -62,7 +58,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-service-2.svg" alt="">
+                            <img src="/frontend/images/icon-service-2.svg" alt="icon-service">
                         </div>
 
                         <div class="service-item-content">
@@ -76,9 +72,8 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
                         <div class="icon-box">
-                            <img src="/frontend/images/icon-service-3.svg" alt="">
+                            <img src="/frontend/images/icon-service-3.svg" alt="icon-service">
                         </div>
-
                         <div class="service-item-content">
                             <h3>Tax and Accounting</h3>
                             <p>You may have heard of the term “accountant” and may be wondering what they do. Thebookify is a firm that offers tax planning, accounting, bookkeeping, and payroll services.</p>

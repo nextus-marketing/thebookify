@@ -393,7 +393,7 @@
             </div>
             <div style="display:flex; justify-content:center; width:100%;">
                 <a href="tel:+15513481040"
-                    style="background-color:#00cc61; color:#fff; padding:14px 36px; border-radius:50px; text-decoration:none; font-weight:600; display:inline-flex; align-items:center; justify-content:center; font-size:1rem; transition:all 0.3s ease;">
+                   class="btn-default">
                     <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
                     Call Now : +1 551-348-1040
                 </a>
