@@ -234,16 +234,16 @@
           <div class="post-social-sharing wow fadeInUp" data-wow-delay="0.5s">
             <ul class="list-inline m-0">
               <li class="list-inline-item">
-                <a href="https://www.facebook.com/TBOOKIFY"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/TBOOKIFY"  target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/company/the-bookify/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/company/the-bookify/"  target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.instagram.com/the.bookify/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/the.bookify/"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
               </li>
               <li class="list-inline-item">
-                <a href="https://x.com/TBookify"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://x.com/TBookify"  target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
               </li>
             </ul>
           </div>
@@ -271,15 +271,10 @@
         
         <h4 class="text-white mb-1" style="font-weight:700;">Start Your Free Trial</h4>
         <p class="text-white-50 mb-0" style="font-size:14px;">Just enter your details below to get started.</p>
-
-        <!-- Close button -->
         <button type="button" class="btn-close btn-close-white" 
                 data-bs-dismiss="modal" aria-label="Close"
                 style="position:absolute; top:18px; right:20px; opacity:0.9;"></button>
       </div>
-
-
-<!-- JS to open popup -->
 <script>
 document.querySelectorAll('.openPopupBtn').forEach(button => {
   button.addEventListener('click', function (e) {
@@ -289,8 +284,6 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
   });
 });
 </script>
-
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>
@@ -301,7 +294,6 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
-
         $('#contactForm').submit(function(e) {
             e.preventDefault();
             var form = $(this);
@@ -381,7 +373,6 @@ document.querySelectorAll('.openPopupBtn').forEach(button => {
     });
 </script>
 <script>
-/* Show button when user scrolls down */
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
 window.addEventListener("scroll", () => {
@@ -392,7 +383,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-/* Scroll smoothly to top when clicked */
 scrollToTopBtn.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
@@ -404,17 +394,15 @@ scrollToTopBtn.addEventListener("click", () => {
 
 
 <script>
-  // Hide popup on /what-we-offer route
   document.addEventListener("DOMContentLoaded", function () {
     if (window.location.pathname === "/what-we-offer") {
       const popup = document.getElementById("proPopup");
       if (popup) {
         popup.style.display = "none";
-        return; // stop further popup logic
+        return; 
       }
     }
 
-    // Auto open after 3 seconds
     window.addEventListener('load', () => {
       setTimeout(() => {
         const popup = document.getElementById('proPopup');
@@ -425,7 +413,6 @@ scrollToTopBtn.addEventListener("click", () => {
       }, 3000);
     });
 
-    // Close popup function
     window.closeProPopup = function () {
       const popup = document.getElementById('proPopup');
       if (popup) {
@@ -434,7 +421,6 @@ scrollToTopBtn.addEventListener("click", () => {
       }
     };
 
-    // Close when clicking outside popup
     window.addEventListener('click', (e) => {
       const popup = document.getElementById('proPopup');
       if (e.target === popup) closeProPopup();
