@@ -809,7 +809,7 @@
       <!-- Card 1 -->
       <div class="col-lg-3 col-md-6">
         <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
-          <div class="pricing-header mb-3">
+          <div class="pricing-header mb-3 image-anime">
             <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
             <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
           </div>
@@ -826,7 +826,7 @@
       <!-- Card 2 -->
       <div class="col-lg-3 col-md-6">
         <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
-          <div class="pricing-header mb-3">
+          <div class="pricing-header mb-3 image-anime">
             <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
             <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
           </div>
@@ -843,7 +843,7 @@
       <!-- Card 3 -->
       <div class="col-lg-3 col-md-6">
         <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
-          <div class="pricing-header mb-3">
+          <div class="pricing-header mb-3 image-anime">
             <img src="/frontend/my-img/expansion.webp" alt="Expansion Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
             <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Expansion</h3>
           </div>
@@ -860,7 +860,7 @@
       <!-- Card 4 -->
       <div class="col-lg-3 col-md-6">
         <div class="pricing-box shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp">
-          <div class="pricing-header mb-3">
+          <div class="pricing-header mb-3 image-anime">
             <img src="/frontend/my-img/personalized.webp" alt="Personalized Icon" class="img-fluid mb-3" style="width:70px; height:70px;">
             <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
           </div>

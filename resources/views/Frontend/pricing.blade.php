@@ -219,7 +219,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <div class="our-partners-list">
+                    <div class="our-partners-list image-anime">
                        <img src="/frontend/my-img/exceptional.webp" alt="">
                     </div>
                 </div>

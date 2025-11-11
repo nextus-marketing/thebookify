@@ -678,7 +678,7 @@ element.style {
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
                     <!-- Pricing Header -->
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
@@ -699,7 +699,7 @@ element.style {
             <div class="col-lg-3 col-md-6">
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
@@ -718,7 +718,7 @@ element.style {
             <div class="col-lg-3 col-md-6">
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
@@ -738,7 +738,7 @@ element.style {
             <div class="col-lg-3 col-md-6">
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
                         </div>
                         <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>

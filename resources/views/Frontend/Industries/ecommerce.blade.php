@@ -314,7 +314,7 @@
                     style="transition: all 0.3s ease;">
                     <!-- Pricing Header -->
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid"
                                 style="width:70px; height:70px;">
                         </div>
@@ -340,7 +340,7 @@
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
                     style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid"
                                 style="width:70px; height:70px;">
                         </div>
@@ -366,7 +366,7 @@
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
                     style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid"
                                 style="width:70px; height:70px;">
                         </div>
@@ -391,7 +391,7 @@
                 <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
                     style="transition: all 0.3s ease;">
                     <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3">
+                        <div class="icon-wrapper mb-3 image-anime">
                             <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid"
                                 style="width:70px; height:70px;">
                         </div>
