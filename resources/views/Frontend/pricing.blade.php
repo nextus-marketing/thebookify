@@ -360,7 +360,6 @@
         </div>
     </div>
 
- 
 
 <section style="background-color:#f5f7fa; padding:70px 20px; font-family:'Poppins',sans-serif; color:#222;">
   <div style="max-width:1200px; margin:0 auto;">
@@ -458,7 +457,7 @@
 </section>
 
 
-    <style>
+<style>
 .contact-form .form-control {
     border: 1px solid #ccc !important; 
     border-radius: 6px;             
@@ -473,6 +472,5 @@
     box-shadow: 0 0 0 0.2rem rgba(0, 204, 97, 0.25);
     outline: none;
 }
-
-    </style>
+</style>
 @endsection
