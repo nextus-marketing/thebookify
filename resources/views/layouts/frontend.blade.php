@@ -97,7 +97,7 @@
                     <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
                     <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="/blogs">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>                           
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="header-btn d-inline-flex">
@@ -390,8 +390,6 @@ scrollToTopBtn.addEventListener("click", () => {
   });
 });
 </script>
-
-
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

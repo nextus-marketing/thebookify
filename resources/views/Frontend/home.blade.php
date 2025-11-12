@@ -83,7 +83,6 @@
 <div class="what-we-do">
     <div class="container">
         <div class="row align-items-center">
- 
             <div class="col-lg-6">
                 <div class="what-we-do-content">
                     <div class="section-title">
@@ -238,8 +237,6 @@
   }
 </style>
 
-
-
     <div class="what-we-do">
     <div class="container">
         <div class="row align-items-start">
@@ -360,7 +357,6 @@
 
 <div class="page-blog">
     <div class="container">
-        
         <div class="section-title dark-section text-center">
             <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
                 <span>Why Do Businesses Trust Us?</span>
@@ -562,11 +558,10 @@
             </p>
           </div>
           <a href="/contact" class="btn-default">
-                                <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
-                            </a>
+            <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
+          </a>
         </div>
       </div>
-
     </div>
   </div>
 </div>
@@ -877,20 +872,18 @@
 
     <!-- Buttons Below Cards -->
     <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
-  <a href="/pricing" class="btn-default"
-     style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
-     <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
-  </a>
-
-  <a href="tel:51-348-1040" class="btn-default"
-     style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
-    <i class="fa-solid fa-phone me-2"></i>
-    Call Us : 551-348-1040
-  </a>
+    <a href="/pricing" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
+    </a>
+    <a href="tel:51-348-1040" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-phone me-2"></i>
+        Call Us : 551-348-1040
+    </a>
 </div>
   </div>
 </div>
-
 
 <div class="page-blog pt-100 pb-70">
     <div class="container">
@@ -920,8 +913,7 @@
                                     <img 
                                         src="{{ $blog->photo ? asset(Storage::url($blog->photo)) : asset('frontend/images/default-blog.jpg') }}" 
                                         alt="{{ $blog->title }}" 
-                                        style="width:100%; height:300px; object-fit:cover; border-radius:10px;"
-                                    >
+                                        style="width:100%; height:300px; object-fit:cover; border-radius:10px;">
                                 </figure>
                             </a>
                         </div>
@@ -950,7 +942,6 @@
                     <h4>No blogs available right now.</h4>
                 </div>
             @endforelse
-
         </div>
     </div>
 </div>
@@ -1042,7 +1033,7 @@
             <i class="fa-solid fa-phone"></i>
             Call Now : +1 551-348-1040
           </a>
-         <a href="/contact" class="btn-default">
+        <a href="/contact" class="btn-default">
             <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
         </a>
         </div>

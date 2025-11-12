@@ -395,3 +395,17 @@
     text-align: center;
     margin: 0 5px;
 }
+
+footer.main-footer {
+    background: url(../images/footer-bg.svg), var(--dark-color);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 51px 0 0 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .post-social-sharing ul {
+        text-align: center;
+    }
+}
