@@ -25,7 +25,7 @@ element.style {
     border: 1px solid #ccc !important; 
     border-radius: 6px;             
     background-color: #fff;       
-    padding: 10px 15px;        
+    padding: 6px 15px;         
     box-shadow: none;          
     color: #000;      
 }

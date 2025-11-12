@@ -275,15 +275,15 @@
                 data-bs-dismiss="modal" aria-label="Close"
                 style="position:absolute; top:18px; right:20px; opacity:0.9;"></button>
       </div>
-<script>
-document.querySelectorAll('.openPopupBtn').forEach(button => {
-  button.addEventListener('click', function (e) {
-    e.preventDefault();
-    const modal = new bootstrap.Modal(document.getElementById('trialFormModal'));
-    modal.show();
-  });
-});
-</script>
+    <script>
+    document.querySelectorAll('.openPopupBtn').forEach(button => {
+      button.addEventListener('click', function (e) {
+        e.preventDefault();
+        const modal = new bootstrap.Modal(document.getElementById('trialFormModal'));
+        modal.show();
+      });
+    });
+    </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>
@@ -425,7 +425,6 @@ scrollToTopBtn.addEventListener("click", () => {
     });
   });
 </script>
-
 
     <!-- Footer Section End -->
     <script src="/frontend/js/jquery-3.7.1.min.js"></script>

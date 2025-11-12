@@ -409,3 +409,12 @@ footer.main-footer {
         text-align: center;
     }
 }
+
+.contact-form .form-control {
+    border: 1px solid #ccc !important;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 6px 15px;
+    box-shadow: none;
+    color: #000;
+}

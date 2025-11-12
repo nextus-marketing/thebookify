@@ -59,14 +59,12 @@
  <div class="partners-section" style="background-color:#d8d8d8;">
   <div class="container">
     <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
-
       <!-- Text Section -->
       <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
         <h2 class="mb-0" style="font-weight:700; font-size:2.8rem; white-space: nowrap;">
           We partner with the <span style="color:#00cc61;"></br>world’s best</span>
         </h2>
       </div>
-
       <!-- Logos Section -->
       <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
         <div class="d-inline-flex align-items-center" style="gap: 100px;">
@@ -77,8 +75,6 @@
     </div>
   </div>
 </div>
-
-
 
 <div class="what-we-do">
     <div class="container">
