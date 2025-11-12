@@ -31,16 +31,6 @@
 </head>
 <body>
 
-    <!-- Preloader Start -->
-	<!-- <div class="preloader">
-		<div class="loading-container">
-			<div class="loading"></div>
-			<div id="loading-icon"><img src="images/loader.svg" alt=""></div>
-		</div>
-	</div> -->
-	<!-- Preloader End -->
-
-
 <div class="pro-popup-overlay" id="proPopup">
   <div class="pro-popup">
     <button class="pro-popup-close" onclick="closeProPopup()">×</button>
