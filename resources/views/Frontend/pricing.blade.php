@@ -213,7 +213,7 @@
                       
                         </div>
                         <div class="our-partner-btn wow fadeInUp" data-wow-delay="0.4s">
-                            <a href="#0" class="btn-default">all partners</a>
+                            <a href="tel:+15513481040" class="btn-default">Contact Us</a>
                         </div>
                     </div>
                 </div>

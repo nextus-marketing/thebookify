@@ -180,7 +180,7 @@ element.style {
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Put the right foot with our  <span>certified bookkeepers.</span></h2>
                         </div>
                         <div class="service-content-btn wow fadeInUp" data-wow-delay="0.25s">
-                            <a href="/contact" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Contact Us</a>
+                            <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Contact Us</a>
                         </div>
                     </div>
                 </div>
@@ -761,7 +761,7 @@ element.style {
                         </p>
                     </div>
                     <div class="testimonial-btn">
-                        <a href="/contact" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
+                        <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
                     </div>
                 </div>
             </div>
@@ -955,7 +955,7 @@ element.style {
             <div class="col-lg-7">
                 <!-- Section Button Start -->
                 <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="/contact" class="btn-default"><i class="fa-solid fa-phone me-2"></i>contact now</a>
+                    <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i>contact now</a>
                 </div>
                 <!-- Section Button End -->
             </div>
@@ -1058,7 +1058,7 @@ element.style {
           <a href="tel:+15513481040" 
              class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1 551-348-1040
+            Call Now : +1(551) 348-1040
           </a>
         </div>
       </div>
@@ -1084,7 +1084,7 @@ element.style {
           <a href="tel:+15513481040" 
             class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1 551-348-1040
+            Call Now : +1(551) 348-1040
           </a>
         </div>
       </div>

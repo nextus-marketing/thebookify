@@ -580,7 +580,7 @@
       <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
         <div class="d-inline-flex align-items-center" style="gap: 100px;">
           <!-- Replaced image with button -->
-          <a href="tel:551-348-1040"
+          <a href="tel:+551-348-1040"
              class="btn-default">
             Call Now: 551-348-1040
           </a>
@@ -872,10 +872,11 @@
         style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
         <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
     </a>
-    <a href="tel:51-348-1040" class="btn-default"
+    <a href="tel:+51-348-1040" class="btn-default"
         style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
         <i class="fa-solid fa-phone me-2"></i>
-        Call Us : 551-348-1040
+        Call Us : +1(551) 348-1040
+ 
     </a>
 </div>
   </div>
@@ -1027,7 +1028,7 @@
         <div class="unique-btn-row">
           <a href="tel:+15513481040" class="btn-default">
             <i class="fa-solid fa-phone"></i>
-            Call Now : +1 551-348-1040
+            Call Now : +1(551) 348-1040
           </a>
         <a href="/contact" class="btn-default">
             <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch

@@ -166,7 +166,7 @@
                         </p>
                     </div>
                     <div class="our-benefit-btn wow fadeInUp" data-wow-delay="0.4s">
-                        <a href="#0" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Contact Us</a>
+                        <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Contact Us</a>
                     </div>
                     <div class="our-benefit-img">
                         <figure class="image-anime reveal">
@@ -258,7 +258,7 @@
                     <a href="tel:+15513481040"
                       class="btn-default">
                         <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-                        Call Now : +1 551-348-1040
+                        Call Now : +1(551) 348-1040
                     </a>
                 </div>
             </div>
