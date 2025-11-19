@@ -44,7 +44,7 @@
     <div class="popup-btns" style="text-align:center;">
   <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
     <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-compass"></i> Explore Services</a>
-    <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-message"></i> Contact Us</a>
+    <a href="/contact" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-message"></i> Contact Us</a>
   </div>
   </div>
   </div>
