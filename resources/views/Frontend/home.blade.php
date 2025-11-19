@@ -1,6 +1,44 @@
 @extends('layouts.frontend')
 @section('title') The Bookify | Online Accounting Services for Businesses @endsection
 @section('meta_description') Get expert online accounting & bookkeeping with The Bookify — secure, real-time financial management, tax filing, payroll & CFO advisory for over 500+ clients. @endsection
+@section('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "The Bookify",
+  "legalName": "The Bookify",
+  "url": "https://the-bookify.com/",
+  "logo": "https://the-bookify.com/frontend/my-img/logo.png",
+  "description": "Get expert online accounting & bookkeeping with The Bookify — secure, real-time financial management, tax filing, payroll & CFO advisory for over 500+ clients.",
+  "telephone": "+1-551-348-1040",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-551-348-1040",
+      "contactType": "customer service",
+      "areaServed": "US",
+      "availableLanguage": "English"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/TBOOKIFY",
+    "https://www.linkedin.com/company/the-bookify/",
+    "https://www.instagram.com/the.bookify/",
+    "https://x.com/TBookify"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "101 Hudson St, 21st Floor",
+    "addressLocality": "Jersey City",
+    "addressRegion": "NJ",
+    "postalCode": "07302",
+    "addressCountry": "US"
+  }
+}
+</script>
+
+@endsection
 @section('content')
 <style>
 .pricing-body {
@@ -14,6 +52,7 @@
     padding: 30px 0;
 }
 </style>
+
  <!-- Hero Section Start -->
     <div class="hero">
         <div class="container">

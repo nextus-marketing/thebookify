@@ -1,6 +1,82 @@
 @extends('layouts.frontend')
 @section('title')  What We Offer | The Bookify @endsection
 @section('meta_description') Explore The Bookify’s full range of accounting, bookkeeping, payroll, tax, and CFO services designed to support business growth with accuracy, transparency, and expertise. @endsection
+@section('structured_data')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "What We Offer",
+  "url": "https://the-bookify.com/what-we-offer",
+  "description": " Explore The Bookify’s full range of accounting, bookkeeping, payroll, tax, and CFO services designed to support business growth with accuracy, transparency, and expertise.",
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://the-bookify.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "What We Offer",
+        "item": "https://the-bookify.com/what-we-offer"
+      }
+    ]
+  },
+  "about": {
+    "@type": "Organization",
+    "name": "The Bookify",
+    "url": "https://the-bookify.com/",
+    "logo": "https://the-bookify.com/frontend/my-img/logo.png"
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "Accounting Services List",
+    "itemListOrder": "Ascending",
+    "itemListElement": [
+      {
+        "@type": "Service",
+        "name": "Bookkeeping Services",
+        "url": "https://the-bookify.com/bookkeeping",
+        "description": "Accurate and reliable bookkeeping services for small businesses including transaction recording, monthly reports, and financial organization."
+      },
+      {
+        "@type": "Service",
+        "name": "Payroll Services",
+        "url": "https://the-bookify.com/payroll",
+        "description": "End-to-end payroll services including salary processing, tax deductions, compliance management, and employee payroll setup."
+      },
+      {
+        "@type": "Service",
+        "name": "Tax Management & Filing",
+        "url": "https://the-bookify.com/tax-management",
+        "description": "Professional tax preparation and filing services for individuals and businesses, ensuring compliance and maximum savings."
+      },
+      {
+        "@type": "Service",
+        "name": "CFO Advisory Services",
+        "url": "https://the-bookify.com/cfo-advisory",
+        "description": "Expert virtual CFO services including financial planning, budgeting, forecasting, and strategy for business growth."
+      },
+      {
+        "@type": "Service",
+        "name": "Business Incorporation",
+        "url": "https://the-bookify.com/business-incorporation",
+        "description": "Business formation and incorporation assistance including LLC, S-Corp, and compliance setup for new businesses."
+      },
+      {
+        "@type": "Service",
+        "name": "Sales Tax Services",
+        "url": "https://the-bookify.com/sales-tax-services",
+        "description": "Sales tax registration, filing, compliance, and reporting for businesses operating across different states."
+      }
+    ]
+  }
+}
+</script>
 @section('content')
 <style>
     .service-item {
