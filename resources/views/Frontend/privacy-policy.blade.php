@@ -270,7 +270,7 @@
                        If you have any questions about this Privacy Policy, You can contact us:
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                       By email: <a href="mailto:info@thebookify.com"> info@thebookify.com</a>
+                       By email: <a href="mailto:info@the-bookify.com"> info@the-bookify.com</a>
                         </p>
                     </div>
                 </div>

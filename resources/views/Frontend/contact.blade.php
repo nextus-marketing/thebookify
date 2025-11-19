@@ -56,7 +56,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>send us e-mail</h3>
-                                <p><a href="mailto:info@thebookify.com" style="color: inherit; text-decoration: none;">info@thebookify.com</a></p></br>
+                                <p><a href="mailto:info@the-bookify.com" style="color: inherit; text-decoration: none;">info@the-bookify.com</a></p></br>
                             </div>
                         </div>
                     </div>
