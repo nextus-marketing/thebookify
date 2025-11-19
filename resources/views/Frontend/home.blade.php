@@ -84,7 +84,7 @@
                     <div class="hero-image">
                         <div class="hero-img">
                             <figure>
-                                <img src="/frontend/images/hero-img.png" alt="">
+                                <img src="/frontend/images/hero-img.png" alt="hero">
                             </figure>
                         </div>
                         <div class="company-experience">
@@ -329,7 +329,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/tax.webp" alt="">
+                                <img src="/frontend/my-img/old_img/tax.webp" alt="tax">
                             </figure>
                         </a>
                     </div>
@@ -351,7 +351,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/data graph.webp" alt="">
+                                <img src="/frontend/my-img/old_img/data graph.webp" alt="graph">
                             </figure>
                         </a>
                     </div>
@@ -372,7 +372,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/banking.webp" alt="">
+                                <img src="/frontend/my-img/old_img/banking.webp" alt="banking">
                             </figure>
                         </a>
                     </div>
@@ -405,7 +405,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/code.webp" alt="">
+                                <img src="/frontend/my-img/old_img/code.webp" alt="code">
                             </figure>
                         </a>
                     </div>
@@ -425,7 +425,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/team-colleagues.webp" alt="">
+                                <img src="/frontend/my-img/old_img/team-colleagues.webp" alt="colleagues">
                             </figure>
                         </a>
                     </div>
@@ -445,7 +445,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/trust.webp" alt="">
+                                <img src="/frontend/my-img/old_img/trust.webp" alt="trust">
                             </figure>
                         </a>
                     </div>
@@ -465,7 +465,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/23.webp" alt="">
+                                <img src="/frontend/my-img/old_img/23.webp" alt="img">
                             </figure>
                         </a>
                     </div>
@@ -485,7 +485,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/5.webp" alt="">
+                                <img src="/frontend/my-img/old_img/5.webp" alt="5">
                             </figure>
                         </a>
                     </div>
@@ -505,7 +505,7 @@
                     <div class="post-featured-image">
                         <a href="#0" >
                             <figure class="image-anime">
-                                <img src="/frontend/my-img/old_img/data.webp" alt="">
+                                <img src="/frontend/my-img/old_img/data.webp" alt="data">
                             </figure>
                         </a>
                     </div>
@@ -660,10 +660,10 @@
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="footer">
                                             </div>
                                             <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
+                                                <img src="/frontend/images/testimonial-quotes.svg" alt="testimonial">
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
@@ -672,7 +672,7 @@
                                         <div class="testimonial-author">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="/frontend/images/author-1.jpg" alt="">
+                                                    <img src="/frontend/images/author-1.jpg" alt="author">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
@@ -686,10 +686,10 @@
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="footer-logo">
                                             </div>
                                             <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
+                                                <img src="/frontend/images/testimonial-quotes.svg" alt="testimonial-quotes">
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
@@ -698,7 +698,7 @@
                                         <div class="testimonial-author">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="/frontend/images/author-2.jpg" alt="">
+                                                    <img src="/frontend/images/author-2.jpg" alt="author">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
@@ -712,10 +712,10 @@
                                     <div class="testimonial-item">
                                         <div class="testimonial-header">
                                             <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
+                                                <img src="/frontend/my-img/footer-logo.png" alt="footer-lo">
                                             </div>
                                             <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
+                                                <img src="/frontend/images/testimonial-quotes.svg" alt="testimonial">
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
@@ -724,7 +724,7 @@
                                         <div class="testimonial-author">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="/frontend/images/author-3.jpg" alt="">
+                                                    <img src="/frontend/images/author-3.jpg" alt="author">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
@@ -742,7 +742,7 @@
                     <div class="customer-rating-boxes">
                         <div class="customer-rating-box">
                             <div class="customer-rating-image">
-                                <img src="/frontend/images/icon-google.svg" alt="">
+                                <img src="/frontend/images/icon-google.svg" alt="icon-google">
                             </div>
                             <div class="customer-rating-content">
                                 <p>google rating</p>
@@ -772,7 +772,7 @@
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                                 <div class="star-rating-img">
-                                    <img src="/frontend/images/customer-rating-img.svg" alt="">
+                                    <img src="/frontend/images/customer-rating-img.svg" alt="customer">
                                 </div>
                             </div>
                         </div>

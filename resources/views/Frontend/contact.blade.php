@@ -27,12 +27,12 @@
                     <div class="contact-info-item wow fadeInUp">
                         <div class="contact-info-img">
                             <figure class="image-anime">
-                                <img src="/frontend/images/contact-info-img-1.jpg" alt="">
+                                <img src="/frontend/images/contact-info-img-1.jpg" alt="contact-info">
                             </figure>
                         </div>
                         <div class="contact-info-body">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-phone.svg" alt="">
+                                <img src="/frontend/images/icon-phone.svg" alt="icon-phone">
                             </div>
                             <div class="contact-info-content">
                                 <h3>Call us any time!</h3>
@@ -47,12 +47,12 @@
                     <div class="contact-info-item wow fadeInUp" data-wow-delay="0.2s">
                         <div class="contact-info-img">
                             <figure class="image-anime">
-                                <img src="/frontend/images/contact-info-img-2.jpg" alt="">
+                                <img src="/frontend/images/contact-info-img-2.jpg" alt="contact-info">
                             </figure>
                         </div>
                         <div class="contact-info-body">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-mail.svg" alt="">
+                                <img src="/frontend/images/icon-mail.svg" alt="icon-mail">
                             </div>
                             <div class="contact-info-content">
                                 <h3>send us e-mail</h3>
@@ -66,12 +66,12 @@
                     <div class="contact-info-item wow fadeInUp" data-wow-delay="0.4s">
                         <div class="contact-info-img">
                             <figure class="image-anime">
-                                <img src="/frontend/images/contact-info-img-1.jpg" alt="">
+                                <img src="/frontend/images/contact-info-img-1.jpg" alt="contact-info">
                             </figure>
                         </div>
                         <div class="contact-info-body">
                             <div class="icon-box">
-                                <img src="/frontend/images/icon-location.svg" alt="">
+                                <img src="/frontend/images/icon-location.svg" alt="icon-location">
                             </div>
                             <div class="contact-info-content">
                                 <h3>finance office address</h3>
@@ -91,7 +91,7 @@
                 <div class="col-lg-6">
                     <div class="contact-form-img">
                         <figure class="image-anime reveal">
-                            <img src="/frontend/images/contact-us-img.jpg" alt="">
+                            <img src="/frontend/images/contact-us-img.jpg" alt="contact-us">
                         </figure>
                     </div>
                 </div>
