@@ -63,7 +63,7 @@
                             <li><b>Service</b> refers to the Website.</li>
                             <li><b>Terms and Conditions</b> (also referred as “Terms”) mean these Terms and Conditions that form the entire agreement between You and the Company regarding the use of the Service. This Terms and Conditions agreement has been created with the help of the <a href="https://www.freeprivacypolicy.com/blog/sample-terms-conditions-template/" target="_blank">Terms and Conditions Template.</a></li>
                             <li><b>Third-party Social Media Service </b> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</li>
-                            <li><b>Website </b> refers to The Bookify, accessible from <a href="/">https://thebookify.com/</a></li>
+                            <li><b>Website </b> refers to The Bookify, accessible from <a href="/">https://the-bookify.com/</a></li>
                             <li><b>You </b> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li>
                         </ul>
                         <h4 class="text-anime-style-2" data-cursor="-opaque">
