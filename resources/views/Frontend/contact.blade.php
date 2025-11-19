@@ -35,7 +35,7 @@
                             </div>
                             <div class="contact-info-content">
                                 <h3>Call us any time!</h3>
-                                <p><a href="tel:+15513481040" style="color: inherit; text-decoration: none;">+1 (551) 348-1040</a></p>
+                                <p><a href="tel:+15513481040" style="color: inherit; text-decoration: none;">+1(551) 348-1040</a></p>
                                 <br>
                             </div>
                         </div>
