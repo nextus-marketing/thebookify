@@ -2,7 +2,7 @@
 @section('title') The Bookify @endsection
 @section('content')
 <style>
-    .pricing-body {
+.pricing-body {
     margin-bottom: 0px;
 }
 .what-we-do {
