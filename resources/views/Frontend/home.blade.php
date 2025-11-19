@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
-@section('title') The Bookify @endsection
+@section('title') The Bookify | Online Accounting Services for Businesses @endsection
+@section('meta_description') Get expert online accounting & bookkeeping with The Bookify — secure, real-time financial management, tax filing, payroll & CFO advisory for over 500+ clients. @endsection
 @section('content')
 <style>
 .pricing-body {

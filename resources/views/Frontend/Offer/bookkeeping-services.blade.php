@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Bookkeeping Services | The Bookify @endsection
+@section('meta_description') Get reliable bookkeeping services with real-time reports, clean accounts, and expert support. The Bookify helps businesses stay compliant, organized, and financially confident. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

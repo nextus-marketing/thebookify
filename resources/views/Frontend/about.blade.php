@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') About Us | The Bookify @endsection
+@section('meta_description') Learn how The Bookify helps businesses grow with reliable online accounting, expert bookkeepers, and tailored financial solutions backed by trust, accuracy & innovation. @endsection
 @section('content')
 
 <style>

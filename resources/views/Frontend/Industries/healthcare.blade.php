@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Health Care Providers | The Bookify @endsection
+@section('meta_description') Reliable accounting for healthcare providers with compliant bookkeeping, payroll, billing support, and financial reporting designed for clinics and medical practices. @endsection
 @section('content')
 
 <style>

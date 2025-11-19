@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Contact Us | The Bookify @endsection
+@section('meta_description') Get in touch with The Bookify for expert support in accounting, bookkeeping, tax services and business finance. Our team is here to assist you with fast, reliable help. @endsection
 @section('content')
  <div class="page-header">
         <div class="container">

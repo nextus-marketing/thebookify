@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Sales tax Consultant | The Bookify @endsection
+@section('meta_description') Get expert sales tax consulting with accurate filings, compliance support, nexus guidance, and state-specific strategies to help businesses avoid penalties and stay compliant. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title')  What We Offer | The Bookify @endsection
+@section('meta_description') Explore The Bookify’s full range of accounting, bookkeeping, payroll, tax, and CFO services designed to support business growth with accuracy, transparency, and expertise. @endsection
 @section('content')
 <style>
     .service-item {

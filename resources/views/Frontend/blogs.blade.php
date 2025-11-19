@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Blogs | The Bookify @endsection
+@section('meta_description') Explore The Bookify blog for expert insights on accounting, bookkeeping, tax tips, financial planning, and business growth strategies to help you manage finances smarter. @endsection
 @section('content')
 
 <!-- Page Header Start -->

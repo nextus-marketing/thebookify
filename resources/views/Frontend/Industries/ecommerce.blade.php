@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') E-commerce | The Bookify @endsection
+@section('meta_description') End-to-end e-commerce accounting with automated bookkeeping, inventory tracking, sales tax compliance, and profit insights to help your online store scale. @endsection
 @section('content')
 
 <style>

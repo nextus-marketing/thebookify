@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Incorporation | The Bookify @endsection
+@section('meta_description') Start your business with The Bookify’s seamless incorporation services, including entity setup, compliance support, documentation, and expert financial guidance. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

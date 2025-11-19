@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') CFO Advisory | The Bookify @endsection
+@section('meta_description') Access professional CFO advisory services for budgeting, forecasting, cash-flow planning, and strategic financial insights to drive smarter decisions and business growth. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

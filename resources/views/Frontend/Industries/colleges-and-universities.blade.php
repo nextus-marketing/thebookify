@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') College & Universities | The Bookify @endsection
+@section('meta_description') Accounting services for colleges and universities with transparent reporting, budgeting support, payroll management, and compliance-driven financial accuracy. @endsection
 @section('content')
 
 <style>

@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Tax & Accounting | The Bookify @endsection
+@section('meta_description') Simplify tax and accounting with expert guidance, accurate filings, financial reports, and compliance support to help businesses save time, reduce errors, and stay organized. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

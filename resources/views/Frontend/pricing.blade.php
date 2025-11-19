@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Pricing | The Bookify @endsection
+@section('meta_description') Discover transparent and affordable pricing at The Bookify for online accounting, bookkeeping, payroll, and tax services designed to fit every business size and budget. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

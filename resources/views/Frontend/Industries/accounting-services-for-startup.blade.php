@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
-@section('title') Accounting services For Start Ups | The Bookify @endsection
+@section('title') Accounting services For Startup | The Bookify @endsection
+@section('meta_description') Affordable accounting services for startups with expert bookkeeping, tax filing, payroll, and financial guidance to help new businesses grow and stay compliant.  @endsection
 @section('content')
 
 <style>

@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Real Estate | The Bookify @endsection
+@section('meta_description') Specialized real estate accounting with property bookkeeping, expense tracking, tax management, and financial reporting for agents, investors, and developers. @endsection
 @section('content')
 
 <style>

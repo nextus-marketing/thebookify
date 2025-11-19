@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Payroll Services | The Bookify @endsection
+@section('meta_description') Streamline payroll with The Bookify’s accurate processing, tax compliance, employee management, and automated solutions tailored for businesses of every size. @endsection
 @section('content')
 <style>
     .page-header-box h1 {

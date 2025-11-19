@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Private Industries | The Bookify @endsection
+@section('meta_description') Tailored accounting solutions for private industries, offering bookkeeping, payroll, tax planning, and financial insights to streamline operations and boost profits. @endsection
 @section('content')
 
 <style>

@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
-@section('title') Small Business | The Bookify @endsection
+@section('title') Accounting Services for Small Business | The Bookify @endsection
+@section('meta_description') Get expert accounting services for small businesses with accurate bookkeeping, payroll, tax compliance, and financial guidance to help you grow confidently. @endsection
 @section('content')
 
 <style>

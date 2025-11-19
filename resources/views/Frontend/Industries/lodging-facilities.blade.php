@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title') Lodging Facilities | The Bookify @endsection
+@section('meta_description') Accurate accounting for hotels, resorts, and lodging facilities with revenue tracking, payroll, tax compliance, and financial planning to increase efficiency. @endsection
 @section('content')
 
 <style>
