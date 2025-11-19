@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title')  Privacy Policy | The Bookify @endsection
+@section('meta_description') Privacy Policy | The Bookify @endsection
 @section('content')
 <!-- Page Header Start -->
 <div class="page-header">

@@ -1,5 +1,6 @@
 @extends('layouts.frontend')
 @section('title')  Terms & Conditions | The Bookify @endsection
+@section('meta_description') Terms & Conditions | The Bookify @endsection
 @section('content')
 <!-- Page Header Start -->
 <div class="page-header">
