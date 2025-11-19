@@ -12,7 +12,7 @@
   <meta name="description" content="@yield('meta_description')">
   @endif
   @yield('structured_data')
-  <link rel="canonical" href="https://the-bookify.com/"/>
+  <link rel="canonical" href="{{ url()->current() }}"/>
 	<link rel="shortcut icon" type="image/x-icon" href="/frontend/my-img/favicon.png">
 	<link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
