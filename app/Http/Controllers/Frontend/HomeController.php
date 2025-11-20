@@ -226,7 +226,7 @@ public function contactEnquiry(Request $request)
     $enquiry->save();
 
     // Send mail
-    Mail::to('siddhesh.sonavane024@gmail.com')->send(new ContactMail($enquiry));
+    Mail::to('info@the-bookify.com')->send(new ContactMail($enquiry));
     Mail::to($request->email)->send(new Thankyou($enquiry));
 
     return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);
