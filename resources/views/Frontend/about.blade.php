@@ -261,6 +261,6 @@
         </div>
     </div>
 </div>
-<!-- Partners Section End -->
+<!-- Partners Section Ends-->
 
 @endsection
