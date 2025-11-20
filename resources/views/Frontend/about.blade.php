@@ -34,7 +34,7 @@
                         <div class="hero-btn">
                             <a href="tel:+15513481040" class="btn-default"
                                 style="display:inline-flex; align-items:center; justify-content:center;">
-                                <i class="fa-solid fa-phone me-2"></i> Requests A Quote
+                                <i class="fa-solid fa-phone me-2"></i> Request A Quote
                             </a>
                         </div>
                     </nav>
