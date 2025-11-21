@@ -71,9 +71,16 @@
 /* ---------- MAIN BLOG SECTION ---------- */
 .page-single-post {
     background-color: #fff;
-    padding: 50px 0;
+    padding: 50px 15px; /* small padding for smaller screens */
 }
 
+/* Use a max-width container to prevent sticking to edges on laptops */
+.page-single-post .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Post content styling */
 .post-entry h2 {
     font-size: 28px;
     font-weight: 700;
@@ -88,7 +95,7 @@
     color: #555;
 }
 
-/* ---------- RELATED BLOGS SIDEBAR ---------- */
+/* Related blogs sidebar */
 .related-blogs {
     background: #f9f9f9;
     border-radius: 10px;
@@ -97,7 +104,6 @@
     top: 100px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.08);
 }
-
 .related-blogs h4 {
     font-size: 20px;
     font-weight: 600;
@@ -105,17 +111,14 @@
     border-bottom: 2px solid #eee;
     padding-bottom: 10px;
 }
-
 .related-item {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
 }
-
 .related-item:last-child {
     margin-bottom: 0;
 }
-
 .related-thumb img {
     width: 80px;
     height: 60px;
@@ -123,15 +126,12 @@
     border-radius: 6px;
     transition: transform 0.3s ease;
 }
-
 .related-thumb img:hover {
     transform: scale(1.05);
 }
-
 .related-info {
     flex: 1;
 }
-
 .related-title {
     display: block;
     font-weight: 600;
@@ -140,11 +140,9 @@
     line-height: 1.3em;
     text-decoration: none;
 }
-
 .related-title:hover {
     color: var(--primary-color);
 }
-
 .related-date {
     font-size: 13px;
     color: #777;
@@ -152,6 +150,12 @@
 }
 
 /* ---------- RESPONSIVE DESIGN ---------- */
+@media (max-width: 1199px) {
+    .page-single-post .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
 @media (max-width: 991px) {
     .related-blogs {
         position: relative;
@@ -194,7 +198,7 @@
         <div class="post-meta text-center mb-4">
           <span class="me-3"><i class="fa-solid fa-user"></i> By <strong>{{ $blog->author }}</strong></span>
           <span class="me-3"><i class="fa-regular fa-calendar-days"></i> 
-            Published on <strong>{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('F j Y') }}</strong>
+            Published on <strong>{{ \Carbon\Carbon::parse($blog->publish_date)->timezone('Asia/Kolkata')->format('F j, Y') }}</strong>
           </span>
         </div>
 
