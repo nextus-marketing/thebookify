@@ -174,6 +174,7 @@
           <nav class="wow fadeInUp">
             <ol class="breadcrumb">
               <li class="breadcrumb-item"><a href="/">home</a></li>
+              <li class="breadcrumb-item"><a href="/blogs">Blogs</a></li>
               <li class="breadcrumb-item active" aria-current="page">{{ $blog->title }}</li>
             </ol>
           </nav>

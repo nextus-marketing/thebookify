@@ -276,7 +276,7 @@
                                 </div>
                                 <div class="form-group col-md-12 mb-4 text-center">
                                     <div class="d-inline-block">
-                                        <div class="g-recaptcha" data-sitekey="6LfjaAIsAAAAANXgl59wn5VOIhzNoRlCTJY-8bUF"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Lf5KxMsAAAAAPmSX6ShrBobBt-I0g2OqOa762Kf"></div>
                                         <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px;"></div>
                                     </div>
                                 </div>
