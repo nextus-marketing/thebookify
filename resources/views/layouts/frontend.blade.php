@@ -97,7 +97,7 @@
             </div>
             <div class="header-btn d-inline-flex">
               <a href="tel:+551-348-1040" class="btn-default btn-highlighted">
-                Call Us Now
+                Call Us Nows
               </a>
             </div>
 					</div>
