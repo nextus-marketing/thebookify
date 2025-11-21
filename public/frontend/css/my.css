@@ -418,3 +418,53 @@ footer.main-footer {
     box-shadow: none;
     color: #000;
 }
+
+/* ---------- UNIVERSAL CONTAINER FIX FOR DESKTOP/LAPTOP ---------- */
+.container {
+    max-width: 1200px;   /* limits container width on large screens */
+    margin-left: auto;    /* centers container */
+    margin-right: auto;   /* centers container */
+    padding-left: 15px;   /* default horizontal padding */
+    padding-right: 15px;  /* default horizontal padding */
+    box-sizing: border-box;
+}
+
+/* ---------- RESPONSIVE ADJUSTMENTS ---------- */
+@media (max-width: 1199px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.customer-rating-box {
+    width: calc(45.33% - 26.67px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid var(--dark-divider-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.customer-rating-star i {
+    color: gold; /* makes the stars golden */
+    font-size: 20px; /* optional, adjust size */
+    margin-right: 2px; /* optional spacing between stars */
+}
+
+
+.fact-counter-box-list {
+    display: flex;
+    gap: 30px;
+    border-bottom: none !important;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}

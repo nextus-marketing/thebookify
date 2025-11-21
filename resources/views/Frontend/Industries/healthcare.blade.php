@@ -98,7 +98,6 @@
                             <li>Bookify is proud to have created a reputation for being among the leaders in medical copywriting. Therefore, you can have the ability to take advantage of our services with CPA.</li>
                             <li>We are the experts in medical writing. We offer innovative services that are tailored to your needs and budget. </li>
                             <li>With our services, you can expect a seamless, pain-free process of content creation that will make you look good when attracting new clients.</li>
-                            <li>You will be able to see the different pricing packages we have in place, which will make it possible for you to access the one that will be the most appropriate for your needs.</li>
                         </ul>
                     </div>
                 </div>
@@ -360,7 +359,7 @@
           <a href="tel:+15513481040" 
             class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
+            Speak with an Expert
           </a>
         </div>
       </div>

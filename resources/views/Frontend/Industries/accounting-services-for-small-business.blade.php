@@ -33,7 +33,7 @@
             <div class="col-lg-12">
                 <div class="page-header-box text-center">
                     <h1 class="text-anime-style-2" data-cursor="-opaque">
-                       Small Business
+                      Accounting Services for Small Business
                     </h1>
                     <p style="color:#fff; font-size:20px;">Get accountants and attorneys for the price of one and the opportunity for marketing and management ideas off our MBAs</p>
                     <nav class="wow fadeInUp d-flex justify-content-center">
@@ -162,9 +162,6 @@
                         </ul>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                            Legal and Consulting Services for Business Payroll and Cash Flow Management
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           We streamline your financial operations with expert accounting, tax planning, and business advisory services to help your company grow efficiently and stay compliant.
                         </p>
                     </div>
                 </div>
@@ -371,7 +368,7 @@
           <a href="tel:+15513481040" 
              class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
+            Speak with an Expert
           </a>
         </div>
       </div>

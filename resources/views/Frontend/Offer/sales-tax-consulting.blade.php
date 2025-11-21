@@ -454,10 +454,10 @@ element.style {
           <a href="tel:+15513481040" 
              class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
+           Speak with an Expert
           </a>
         </div>
-      </div>
+        </div>
         </div>
     </div>
 </div>

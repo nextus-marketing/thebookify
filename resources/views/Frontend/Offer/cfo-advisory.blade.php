@@ -176,7 +176,7 @@ element.style {
                            As organizations expand, executives need knowledge and data to make wise choices. Eventually, you spend more time managing finances than running the company. Or, even worse, you are overwhelmed by your complex financial situation and make expensive judgments on inaccurate information. Later you understand that you do need assistance with financial competence instead of a full-time CFO. 
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
-                            TheBookify team goes above and beyond to fully comprehend your organization so that we can assist you in modernizing finance in ways that support your long-term business objectives. We can assist CFO’s and other finance leaders in establishing themselves as seasoned experts within the organization thanks to our in-depth knowledge of finance and accounting. Together, we create and enhance your operational model while keeping financial objectives of utmost priority. While choosing CFO consulting services, the reliable and trusted firm is TheBookify.
+                            TheBookify team goes above and beyond to fully comprehend your organization so that we can assist you in modernizing finance in ways that support your long-term business objectives. We can assist CFO’s and other finance leaders in establishing themselves as seasoned experts within the organization thanks to our in-depth knowledge of finance and accounting.
                         </p>
                     </div>
                 </div>
@@ -687,7 +687,6 @@ element.style {
                             <div class="customer-rating-content">
                                 <p>google rating</p>
                                 <div class="customer-rating-counter">
-                                    <h3><span class="counter">5.0</span></h3>
                                     <div class="customer-rating-star">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -699,26 +698,8 @@ element.style {
                             </div>
                         </div>
 
-                        <div class="customer-rating-box">
-                            <div class="customer-rating-counter">
-                                <p><span class="counter">5.0</span> rated</p>
-                            </div>
-                            <div class="customer-rating-star-box">
-                                <div class="customer-rating-star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <div class="star-rating-img">
-                                    <img src="/frontend/images/customer-rating-img.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="customer-rating-box customer-rating-content">
-                            <p>Total rating <span class="counter">5.0</span> base on 1250+ review</p>
+                            <p>Total rating <span>5.0</span> base on 1250+ review</p>
                         </div>
                     </div>
                 </div>
@@ -888,13 +869,6 @@ element.style {
                     </div>
                 </div>
             </div>
-            <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-             class="btn-default">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
-          </a>
-        </div>
       </div>
         </div>
     </div>
@@ -918,7 +892,7 @@ element.style {
           <a href="tel:+15513481040" 
              class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
+            Speak with an Expert
           </a>
         </div>
       </div>

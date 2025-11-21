@@ -230,14 +230,6 @@
 
     <div class="our-faqs">
         <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">faqs</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Frequently Asked Questions </br> <span>Some Common Queries</span></h2>
-                    </div>
-                </div>
-            </div>
 
             <div class="row align-items-center">
                 <div class="col-lg-6">

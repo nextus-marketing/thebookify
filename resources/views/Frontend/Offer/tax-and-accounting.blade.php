@@ -564,7 +564,6 @@ element.style {
                             <div class="customer-rating-content">
                                 <p>google rating</p>
                                 <div class="customer-rating-counter">
-                                    <h3><span class="counter">5.0</span></h3>
                                     <div class="customer-rating-star">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -576,26 +575,8 @@ element.style {
                             </div>
                         </div>
 
-                        <div class="customer-rating-box">
-                            <div class="customer-rating-counter">
-                                <p><span class="counter">5.0</span> rated</p>
-                            </div>
-                            <div class="customer-rating-star-box">
-                                <div class="customer-rating-star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <div class="star-rating-img">
-                                    <img src="/frontend/images/customer-rating-img.svg" alt="">
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="customer-rating-box customer-rating-content">
-                            <p>Total rating <span class="counter">5.0</span> base on 1250+ review</p>
+                            <p>Total rating <span>5.0</span> base on 1250+ review</p>
                         </div>
                     </div>
                 </div>
@@ -765,13 +746,6 @@ element.style {
                     </div>
                 </div>
             </div>
-            <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-             class="btn-default">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
-          </a>
-        </div>
       </div>
         </div>
     </div>
@@ -794,7 +768,7 @@ element.style {
           <a href="tel:+15513481040" 
              class="btn-default">
             <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-            Call Now : +1(551) 348-1040
+           Speak with an Expert
           </a>
         </div>
       </div>

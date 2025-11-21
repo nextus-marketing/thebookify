@@ -72,11 +72,6 @@
                                 <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
                             </a>
                             </div>
-                            <div class="hero-btn">
-                                <a href="tel:+15513481040" class="btn-default">
-                                    <i class="fa-solid fa-phone me-2"></i> +1 (551) 348-1040
-                                </a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,6 +110,7 @@
     </div>
   </div>
 </div>
+
 
 <div class="what-we-do">
     <div class="container">
@@ -181,7 +177,7 @@
                 <div class="col-lg-6">
                     <div class="about-us-content">
                         <div class="section-title">
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">America’s Largest Professional Accounting Service – <span>TheBookify</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">America’s Largest Professional Accounting Service <span>TheBookify</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">At, The Bookify we serve business owners with all their financial needs through our unmatched technology and human support. Our affordable solutions help you to attain financial mastery.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We are professional accounting service firm.  You can call us your CPA as well. We provide bookkeeping, tax filing, and other financial services for businesses and personal use.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We help with bookkeeping services that would otherwise be very time-consuming and complex. The Bookify also offers accounting & tax solutions and preparation to increase business profits.</p>
@@ -292,7 +288,7 @@
                             We are best at bookkeeping because we provide you with a detailed workflow and efficiently organize your finances. This can help you better understand your financial state and make informed decisions in the future.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s" style="margin-top: 10px; color: #555; line-height: 1.8;">
-                           In addition, The Bookify ensures complete transparency and real-time insights into your business finances through advanced accounting tools and expert support. Our team continuously monitors your accounts to maintain accuracy and compliance, saving you time and reducing errors. Whether you’re a startup or an established business, we tailor our services to meet your unique financial needs—helping you focus on growth while we take care of the numbers.
+                           In addition, The Bookify ensures complete transparency and real-time insights into your business finances through advanced accounting tools and expert support. 
                         </p>
                     </div>
                 </div>
@@ -593,7 +589,7 @@
               A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
             </p>
           </div>
-          <a href="/contact" class="btn-default">
+          <a href="tel:+551-348-1040" class="btn-default">
             <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
           </a>
         </div>
@@ -620,9 +616,8 @@
       <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
         <div class="d-inline-flex align-items-center" style="gap: 100px;">
           <!-- Replaced image with button -->
-          <a href="tel:+551-348-1040"
-             class="btn-default">
-            Call Now: 551-348-1040
+          <a href="tel:+551-348-1040" class="btn-default">
+              <i class="fa-solid fa-phone"></i> We’re Here for You
           </a>
         </div>
       </div>
@@ -747,7 +742,6 @@
                             <div class="customer-rating-content">
                                 <p>google rating</p>
                                 <div class="customer-rating-counter">
-                                    <h3><span class="counter">5.0</span></h3>
                                     <div class="customer-rating-star">
                                         <i class="fa-solid fa-star"></i>
                                         <i class="fa-solid fa-star"></i>
@@ -759,26 +753,8 @@
                             </div>
                         </div>
 
-                        <div class="customer-rating-box">
-                            <div class="customer-rating-counter">
-                                <p><span class="counter">5.0</span> rated</p>
-                            </div>
-                            <div class="customer-rating-star-box">
-                                <div class="customer-rating-star">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                </div>
-                                <div class="star-rating-img">
-                                    <img src="/frontend/images/customer-rating-img.svg" alt="customer">
-                                </div>
-                            </div>
-                        </div>
-
                         <div class="customer-rating-box customer-rating-content">
-                            <p>Total rating <span class="counter">5.0</span> base on 1250+ review</p>
+                            <p>Total rating <span>5.0</span> base on 1250+ review</p>
                         </div>
                     </div>
                 </div>
@@ -915,8 +891,7 @@
     <a href="tel:+51-348-1040" class="btn-default"
         style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
         <i class="fa-solid fa-phone me-2"></i>
-        Call Us : +1(551) 348-1040
- 
+       Speak with Expert
     </a>
 </div>
   </div>
@@ -1068,7 +1043,7 @@
         <div class="unique-btn-row">
           <a href="tel:+15513481040" class="btn-default">
             <i class="fa-solid fa-phone"></i>
-            Call Now : +1(551) 348-1040
+            Speak with Expert
           </a>
         <a href="/contact" class="btn-default">
             <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
