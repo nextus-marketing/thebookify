@@ -74,7 +74,7 @@
                                 <img src="/frontend/images/icon-location.svg" alt="icon-location">
                             </div>
                             <div class="contact-info-content">
-                                <h3>finance office address</h3>
+                                <h3>office address</h3>
                                 <p>101 Hudson St 21st Floor Jersey City, NJ 07302</p>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
 
                 <div class="col-lg-6">
                     <div class="section-title">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Raise your <span>Query </span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Raise Your <span>Query </span></h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">Have questions or need assistance? Reach out to us today! We're here to provide expert solutions and friendly support.</p>
                     </div>
 

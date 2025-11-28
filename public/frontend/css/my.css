@@ -468,3 +468,21 @@ footer.main-footer {
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
+
+.what-we-do-images {
+    position: relative;
+    padding: 0 11px 44px 15px;
+}
+
+.main-menu ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding: 15px 20px !important;
+    color: var(--white-color);
+    opacity: 80%;
+    text-transform: capitalize;
+    transition: all 0.3s 
+ease-in-out;
+}
+

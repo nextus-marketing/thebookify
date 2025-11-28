@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title') Sales tax Consultant | The Bookify @endsection
+@section('title') Sales Tax Consultant | The Bookify @endsection
 @section('meta_description') Get expert sales tax consulting with accurate filings, compliance support, nexus guidance, and state-specific strategies to help businesses avoid penalties and stay compliant. @endsection
 @section('content')
 <style>
@@ -15,8 +15,8 @@
     cursor: none;
 }
 
-
-element.style {
+.section-title {
+    margin-bottom: 16px;
 }
 .what-we-do {
     background-color: transparent;
@@ -43,15 +43,15 @@ element.style {
 
       <!-- Left Content -->
       <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
-        <div class="page-header-box text-lg-start text-center">
+        <div class="page-header-box">
           <h1 class="text-anime-style-2" data-cursor="-opaque" style="color:#fff; font-weight:700; line-height:1.3;">
-            Sales tax Consultant
+            Sales Tax Consultant
           </h1>
           <p style="color:#fff; margin-top:15px;">
             Our experts will help you stay up-to-date with recent changes in law, advise the most profitable way to sell your products and suggest ways to avoid paying sales tax.
           </p>
 
-          <div class="hero-btn mt-4">
+          <div class="hero-btn mt-4 d-flex justify-content-center">
             <a href="tel:+15513481040" class="btn-default">
               <i class="fa-solid fa-phone me-2"></i> 
               Book A Free Consultation
@@ -141,6 +141,27 @@ element.style {
     padding: 40px 0;
 }
 </style>
+<div class="partners-section py-4" style="background-color:#d8d8d8;">
+  <div class="container">
+    <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
+
+      <!-- Text Section -->
+      <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
+        <h2 class="mb-0" style="font-weight:700; font-size:2.4rem; white-space: nowrap;">
+          Softwares We Integrate To </br> <span style="color:#00cc61;">Make Your Business Easy!</span>
+        </h2>
+      </div>
+
+      <!-- Logos Section -->
+      <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
+        <div class="d-inline-flex align-items-center" style="gap: 100px;">
+          <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo" style="width:90px; height:auto;">
+          <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo" style="width:90px; height:auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <div class="how-it-work ">
@@ -150,9 +171,7 @@ element.style {
                 <div class="how-it-work-content">
                     <div class="section-title text-center">
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          TheBookify is a group of qualified and experienced experts in the field of taxation who strive to offer the best Sale tax consulting services. 
-                        </p>
-                         <p class="wow fadeInUp" data-wow-delay="0.2s">
+                          The Bookify is a group of qualified and experienced experts in the field of taxation who strive to offer the best Sale tax consulting services. 
                           We understand that it can be hard to handle all the different rules and regulations in this field on your own, which is why we are here to help. Our professionals are highly trained professionals with extensive experience in this domain. 
                         </p>
                     </div>
@@ -174,7 +193,7 @@ element.style {
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What are Sales <span>Tax consulting services?</span>
+                            What Are Sales <span>Tax Consulting Services?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             With the extensive complexities of state and federal laws, it can be difficult to understand the requirements for sales tax. In order to stay compliant with regulations, you need expert advice and guidance.
@@ -239,7 +258,7 @@ element.style {
                 <div class="fact-counter-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque" >
-                          Why should you choose us for your  <span style="color:#00C853;">company's Sales Tax Consulting?</span>
+                          Why Should You Choose Us For Your  <span style="color:#00C853;">Company's Sales Tax Consulting?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             We have provided our services for over a decade in the field and have been acknowledged by all the top-tier organizations.
@@ -250,14 +269,12 @@ element.style {
 </p>
 
                     </div>
-                    <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
-                            <li> Sales tax consulting.</li>
-                            <li> Software development .</li>
-                            <li> Outsourcing.</li>
-                            <li> Compliance management.</li>
+                            <li> Sales tax consulting</li>
+                            <li> Software development</li>
+                            <li> Outsourcing</li>
+                            <li> Compliance management</li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -265,34 +282,90 @@ element.style {
 </div>
 
 
-<div class="how-it-work pt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="how-it-work-content">
-                    <div class="section-title text-center">
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            How do Sales  <span>Tax consulting services work?</span>
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           Taxes are one of those things that nobody likes to deal with, but they’re something that we all need to face. When dealing with taxes, it’s always best to get help from a professional.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           Sales Tax consulting services are the next best thing. These professionals can ensure that all your sales tax obligations are taken care of and reported correctly.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           Taxes are a part of life, but they don’t have to be the scary and confusing process that most people make them out to be. You can always consult a Sales Tax Adviser for help when you’re unsure about something. 
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          TheBookify is a great place to find professionals who know all about taxes and can answer any questions you might have.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<section id="payroll-services-2x2" style="padding:70px 20px; background:#f5f7fa; font-family: 'DM Sans', sans-serif;">
+  <div style="max-width:1200px; margin:0 auto; text-align:center;">
+    <h2 style="font-size:32px; font-weight:700; color:#111; margin-bottom:10px;">
+      Our Payroll Services
+    </h2>
+    <div style="width:60px; height:3px; background:#00cc61; margin:10px auto 40px auto;"></div>
+  </div>
 
+  <!-- Grid Container -->
+  <div id="ps-grid" style="display:grid; grid-template-columns:repeat(2,1fr); gap:30px; max-width:1100px; margin:0 auto;">
+
+    <!-- Box 1 -->
+    <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:transform .25s ease, box-shadow .25s ease;">
+      <div style="display:flex; align-items:center; margin-bottom:15px;">
+        <i class="fa-solid fa-scale-balanced" style="font-size:30px; color:#e63946; margin-right:12px;"></i>
+        <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Why Professional Tax Help Matters</h3>
+      </div>
+      <p style="color:#555; font-size:15px; margin-bottom:10px;">
+       Taxes are one of those things that nobody likes to deal with, but they’re something that we all need to face. When dealing with taxes, it’s always best to get help from a professional.
+      </p>
+    </div>
+
+    <!-- Box 2 -->
+    <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:transform .25s ease, box-shadow .25s ease;">
+      <div style="display:flex; align-items:center; margin-bottom:15px;">
+        <i class="fa-solid fa-user-check" style="font-size:30px; color:#0077b6; margin-right:12px;"></i>
+        <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Trusted Sales Tax Experts</h3>
+      </div>
+      <p style="color:#555; font-size:15px; margin-bottom:10px;">
+        Sales Tax consulting services are the next best thing. These professionals can ensure that all your sales tax obligations are taken care of and reported correctly.
+      </p>
+    </div>
+
+    <!-- Box 3 -->
+    <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:transform .25s ease, box-shadow .25s ease;">
+      <div style="display:flex; align-items:center; margin-bottom:15px;">
+        <i class="fa-solid fa-comments-dollar" style="font-size:30px; color:#f4a261; margin-right:12px;"></i>
+        <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Sales Tax Advice Made Simple</h3>
+      </div>
+      <p style="color:#555; font-size:15px; margin-bottom:10px;">
+        Taxes are a part of life, but they don’t have to be the scary and confusing process that most people make them out to be. You can always consult a Sales Tax Adviser for help when you’re unsure about something.
+      </p>
+    </div>
+
+    <!-- Box 4 -->
+    <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:transform .25s ease, box-shadow .25s ease;">
+      <div style="display:flex; align-items:center; margin-bottom:15px;">
+        <i class="fa-solid fa-hand-holding-usd" style="font-size:30px; color:#7b2cbf; margin-right:12px;"></i>
+        <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Your Hub For Professional Tax Help</h3>
+      </div>
+      <p style="color:#555; font-size:15px; margin-bottom:10px;">
+       The Bookify is a great place to find professionals who know all about taxes and can answer any questions you might have.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Small scoped styles to ensure responsiveness and hover effect only for this section -->
+<style>
+  /* make sure this targets only our section */
+
+
+  /* Responsive: 1 column on narrow screens */
+  @media (max-width: 767px) {
+    #ps-grid {
+      grid-template-columns: 1fr !important;
+      gap:20px !important;
+      padding: 0 12px;
+    }
+    #payroll-services-2x2 h2 {
+      font-size:24px !important;
+    }
+  }
+
+  /* On medium screens show two columns but tighter spacing */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    #ps-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap:20px;
+      padding: 0 20px;
+    }
+  }
+</style>
 
 <style>
  .h-100
@@ -332,136 +405,38 @@ element.style {
 }
 </style>
 
-<div class="our-pricing">
-    <div class="container">
-        <!-- Section Row Start -->
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">pricing plan</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans  </br><span>Made for You.</span>
-                    </h2>
-                    <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Section Button Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
-                </div>
-                <!-- Section Button End -->
-            </div>
+<div class="our-pricing py-5">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row section-row align-items-center text-center mb-5">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h3 class="wow fadeInUp">pricing plan</h3>
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Only the Best Plans <span>Made for You</span>
+          </h2>
+          <p class="mx-auto" style="max-width:700px;">
+            Let’s start the journey towards success and enhance revenue for your business. 
+            Take your company to the next level.
+          </p>
         </div>
-        <!-- Section Row End -->
-
-        <!-- Pricing Row Start -->
-        <div class="row">
-
-            <!-- Pricing Box 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <!-- Pricing Header -->
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <!-- Pricing Body -->
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 1 End -->
-
-            <!-- Pricing Box 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Pricing Box 2 End -->
-
-            <!-- Pricing Box 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 3 End -->
-
-            <!-- Pricing Box 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-             class="btn-default">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-           Speak with an Expert
-          </a>
-        </div>
-        </div>
-        </div>
+      </div>
     </div>
+
+
+    <!-- Buttons Below Cards -->
+    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
+    <a href="/pricing" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
+    </a>
+    <a href="tel:+15513481040" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-phone me-2"></i>
+       Speak with Expert
+    </a>
 </div>
-
-
+  </div>
+</div>
 
 @endsection

@@ -232,4 +232,68 @@ public function contactEnquiry(Request $request)
     return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);
 }
 
+
+public function modalEnquiry(Request $request)
+{
+    // Determine which form is submitted based on available fields
+    $isProfessionForm = $request->has('profession') && !$request->has('subject');
+
+    // Validation rules
+    $rules = [
+        'full_name' => 'required',
+        'email' => 'required|email',
+        'mobile' => 'required|digits:10',
+    ];
+
+    if ($isProfessionForm) {
+        $rules['profession'] = 'required';
+    } else {
+        $rules['subject'] = 'required';
+    }
+
+    $messages = [
+        'full_name.required' => 'Your Full Name is required',
+        'subject.required' => 'Your Subject is required',
+        'profession.required' => 'Your Profession is required',
+        'email.required' => 'Email is required',
+        'email.email' => 'Email should be a valid email',
+        'mobile.required' => 'The mobile number field is required.',
+        'mobile.digits' => 'The mobile number must be exactly 10 digits.',
+    ];
+     
+    $request->validate($rules, $messages);
+
+    // Verify Google reCAPTCHA (only if present)
+    if ($request->has('g-recaptcha-response')) {
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => env('RECAPTCHA_SECRET_KEY'),
+            'response' => $request->input('g-recaptcha-response'),
+            'remoteip' => $request->ip(),
+        ]);
+
+        $responseBody = $response->json();
+
+        if (!isset($responseBody['success']) || !$responseBody['success']) {
+            return response()->json(['status' => 'error', 'message' => 'Captcha verification failed. Please try again.'], 422);
+        }
+    }
+
+    // Save enquiry
+    $enquiry = new Enquiry();
+    $enquiry->full_name = $request->full_name;
+    $enquiry->email = $request->email;
+    $enquiry->mobile = $request->mobile;
+    $enquiry->subject = $request->subject ?? null;
+    $enquiry->profession = $request->profession ?? null;
+     $enquiry->enquiry_type = $request->enquiry_type;
+    $enquiry->message = $request->message ?? null;
+    $enquiry->save();
+
+    // Send mail
+    Mail::to('info@the-bookify.com')->send(new ContactMail($enquiry));
+    Mail::to($request->email)->send(new Thankyou($enquiry));
+
+    return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);
+}
+
 }

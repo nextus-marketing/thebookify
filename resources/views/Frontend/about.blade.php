@@ -28,7 +28,7 @@
             <div class="col-lg-12">
                 <div class="page-header-box text-center">
                     <h1 class="text-anime-style-2" data-cursor="-opaque">
-                        Grow Seamless with Industry-specific Experts and Advance Tools.
+                        Grow Seamless With Industry-Specific Experts And Advance Tools
                     </h1>
                     <nav class="wow fadeInUp d-flex justify-content-center">
                         <div class="hero-btn">
@@ -125,7 +125,7 @@
                 <div class="how-it-work-content">
                     <div class="section-title text-center">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Expert in Keeping Track of <span>Finances</span>
+                            Expert In Keeping Track Of <span>Finances</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             TheBookify has established a solid reputation as a top-tier provider of accounting services in
@@ -241,9 +241,9 @@
                 <div class="section-title" style="margin-bottom:25px;">
                     <h2 class="text-anime-style-2" data-cursor="-opaque"
                         style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
-                        Connect with </br> our
-                        <span style="color:#00cc61;"> certified professionals </span> and get </br>
-                        the assistance you require.
+                        Connect With </br> Our
+                        <span style="color:#00cc61;"> Certified Professionals </span> And Get </br>
+                        The Assistance You Require
                     </h2>
                 </div>
 

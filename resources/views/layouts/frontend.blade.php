@@ -45,7 +45,7 @@
       </a>
     </div>
     <h2>Discover Our Professional Services</h2>
-    <p>From bookkeeping and payroll to tax management Bookify has everything you need to simplify your business finances. Explore our tailored solutions today!</p>
+    <p>From bookkeeping and payroll to tax management The Bookify has everything you need to simplify your business finances. Explore our tailored solutions today!</p>
     <div class="popup-btns" style="text-align:center;">
   <div style="display: flex; justify-content: center; gap: 5px; flex-wrap: wrap;">
     <a href="/what-we-offer" class="btn-default btn-highlighted" style="padding: 12px 15px;"><i class="fa-solid fa-compass"></i> Explore Services</a>
@@ -97,6 +97,7 @@
             </div>
             <div class="header-btn d-inline-flex">
               <a href="tel:+551-348-1040" class="btn-default btn-highlighted">
+                <i class="fa-solid fa-phone me-2"></i>
                 Call Us Now
               </a>
             </div>
@@ -122,7 +123,7 @@
             <img src="/frontend/my-img/footer-logo.png" alt="Logo" style="width:167px; height:39px; object-fit:contain;">
           </a>
           <p style="color:#fff; margin-top:15px; line-height:1.7;">
-            The Bookify is a platform that can solve all your financial hustle. <br>
+            The Bookify is a platform that can solve all your financial hustle.
             We provide financial support for your books, taxation, and expenses. 
             From bookkeeping and payroll to strategic financial planning, we handle everything with transparency and precision.
           </p>
@@ -132,7 +133,7 @@
       <!-- Footer Columns -->
       <div class="col-lg-2 col-md-4 col-6">
         <div class="footer-links">
-          <h3 style="font-size:18px; margin-bottom:15px;">Why TheBookify?</h3>
+          <h3 style="font-size:18px; margin-bottom:15px;">Why The Bookify?</h3>
           <ul style="list-style:none; padding:0; margin:0;">
             <li><a href="/" style="color:#fff; text-decoration:none;">Home</a></li>
             <li><a href="/about" style="color:#fff; text-decoration:none;">About Us</a></li>
@@ -219,9 +220,9 @@
         <div class="col-md-5 text-center text-md-start">
           <p style="margin:0;">
             Copyright © 2025
-            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
+            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">The Bookify</a>
             | Powered by
-            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">TheBookify</a>
+            <a href="/" style="color:#00cc61; text-decoration:none; font-weight:600;">The Bookify</a>
           </p>
         </div>
 
@@ -282,90 +283,72 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script>
-    $(document).ready(function() {
-       
-        $.ajaxSetup({
-            headers: {
-                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-            }
-        });
-        $('#contactForm').submit(function(e) {
-            e.preventDefault();
-            var form = $(this);
-            form.find('div[id$="-error"]').empty(); 
+   $(document).ready(function() {
 
-            var url = form.attr('action');
+    // === POPUP OPEN ===
+    $('.contactPopup').on('click', function(e) {
+        e.preventDefault();
+        var planName = $(this).data('plan');
+        $('#enquiry_type').val(planName); // Set hidden input
+        $('.popup-wrapper').fadeIn();
+    });
 
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: new FormData(this),
-                contentType: false,
-                cache: false,
-                processData: false,
-                beforeSend: function() {
-                    form.find('#started').attr('disabled', true).hide();
-                    form.find('#form_loader').show();
-                },
-                success: function(data) {
-                    if (data.status === 'success') {
-                        toastr.success(data.message, '', {
-                            showMethod: "slideDown",
-                            hideMethod: "slideUp",
-                            timeOut: 1500,
-                            closeButton: true,
-                        });
+    // === POPUP CLOSE ===
+    $('.popup-close, .popup-wrapper').on('click', function(e){
+        if(e.target !== this && !$(e.target).hasClass('popup-close')) return;
+        $('.popup-wrapper').fadeOut();
+    });
 
-                        form[0].reset();
+    // === AJAX FORM SUBMISSION ===
+    $.ajaxSetup({
+        headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') }
+    });
 
-                        setTimeout(function() {
-                            window.location.href = '/thankyou';
-                        }, 1000);
-                    }
-                },
-                    error: function(xhr) {
-                    console.log(xhr);
-                    toastr.error(
-                        'There are some errors in the form. Please check your inputs.',
-                        '', {
-                            showMethod: "slideDown",
-                            hideMethod: "slideUp",
-                            timeOut: 1500,
-                            closeButton: true,
+    $('#contactForm').submit(function(e) {
+        e.preventDefault();
+        var form = $(this);
+        form.find('div[id$="-error"]').empty(); // Clear errors
+
+        $.ajax({
+            type: "POST",
+            url: form.attr('action'),
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData: false,
+            beforeSend: function() {
+                form.find('.contactSubmit').attr('disabled', true);
+            },
+            success: function(data) {
+                if(data.status === 'success') {
+                    toastr.success(data.message, '', { showMethod: "slideDown", hideMethod: "slideUp", timeOut: 1500, closeButton: true });
+                    form[0].reset();
+                    $('.popup-wrapper').fadeOut();
+
+                    setTimeout(function() { window.location.href = '/thankyou'; }, 1000);
+                }
+            },
+            error: function(xhr) {
+                toastr.error('Please fix the errors in the form.', '', { showMethod: "slideDown", hideMethod: "slideUp", timeOut: 1500, closeButton: true });
+
+                if(xhr.responseJSON && xhr.responseJSON.errors) {
+                    $.each(xhr.responseJSON.errors, function(key, value) {
+                        var errorText = Array.isArray(value) ? value.join(', ') : value;
+                        form.find('#' + key + '-error').html(errorText);
                     });
 
-                    if (xhr.responseJSON && xhr.responseJSON.errors) {
-                        $.each(xhr.responseJSON.errors, function(key, value) {
-                            var errorText = Array.isArray(value) ? value.join(
-                                ', ') : value;
-                            form.find('#' + key + '-error').html(
-                                errorText); 
-                        });
-
-                        var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
-                        $('html, body').animate({
-                            scrollTop: form.find('#' + firstErrorKey + '-error')
-                                .offset().top - 200
-                        }, 500);
-
-                    } else {
-                        toastr.error(
-                            'An unexpected error occurred. Please try again later.',
-                            '', {
-                                showMethod: "slideDown",
-                                hideMethod: "slideUp",
-                                timeOut: 1500,
-                                closeButton: true,
-                            });
-                    }
-                },
-                complete: function() {
-                    form.find('#started').attr('disabled', false).show();
-                    form.find('#form_loader').hide();
+                    var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
+                    $('html, body').animate({ scrollTop: form.find('#' + firstErrorKey + '-error').offset().top - 100 }, 500);
                 }
-            });
+            },
+            complete: function() {
+                form.find('.contactSubmit').attr('disabled', false);
+            }
         });
     });
+
+});
+
 </script>
 <script>
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
@@ -419,6 +402,78 @@ scrollToTopBtn.addEventListener("click", () => {
       if (e.target === popup) closeProPopup();
     });
   });
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script>
+   $(document).ready(function() {
+
+    // === POPUP OPEN ===
+    $('.contactPopup').on('click', function(e) {
+        e.preventDefault();
+        var planName = $(this).data('plan');
+        $('#enquiry_type').val(planName); // Set hidden input
+        $('.popup-wrapper').fadeIn();
+    });
+
+    // === POPUP CLOSE ===
+    $('.popup-close, .popup-wrapper').on('click', function(e){
+        if(e.target !== this && !$(e.target).hasClass('popup-close')) return;
+        $('.popup-wrapper').fadeOut();
+    });
+
+    // === AJAX FORM SUBMISSION ===
+    $.ajaxSetup({
+        headers: { 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content') }
+    });
+
+    $('#modalForm').submit(function(e) {
+        e.preventDefault();
+        var form = $(this);
+        form.find('div[id$="-error"]').empty(); // Clear errors
+
+        $.ajax({
+            type: "POST",
+            url: form.attr('action'),
+            data: new FormData(this),
+            contentType: false,
+            cache: false,
+            processData: false,
+            beforeSend: function() {
+                form.find('.contactSubmit').attr('disabled', true);
+            },
+            success: function(data) {
+                if(data.status === 'success') {
+                    toastr.success(data.message, '', { showMethod: "slideDown", hideMethod: "slideUp", timeOut: 1500, closeButton: true });
+                    form[0].reset();
+                    $('.popup-wrapper').fadeOut();
+
+                    setTimeout(function() { window.location.href = '/thankyou'; }, 1000);
+                }
+            },
+            error: function(xhr) {
+                toastr.error('Please fix the errors in the form.', '', { showMethod: "slideDown", hideMethod: "slideUp", timeOut: 1500, closeButton: true });
+
+                if(xhr.responseJSON && xhr.responseJSON.errors) {
+                    $.each(xhr.responseJSON.errors, function(key, value) {
+                        var errorText = Array.isArray(value) ? value.join(', ') : value;
+                        form.find('#' + key + '-error').html(errorText);
+                    });
+
+                    var firstErrorKey = Object.keys(xhr.responseJSON.errors)[0];
+                    $('html, body').animate({ scrollTop: form.find('#' + firstErrorKey + '-error').offset().top - 100 }, 500);
+                }
+            },
+            complete: function() {
+                form.find('.contactSubmit').attr('disabled', false);
+            }
+        });
+    });
+
+});
+
 </script>
 
     <!-- Footer Section End -->

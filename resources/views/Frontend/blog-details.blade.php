@@ -209,34 +209,161 @@
         <div class="post-content">
           <div class="post-entry">
             @php
-              $description = json_decode($blog->description, true);
-              if (!empty($description['blocks']) && is_array($description['blocks'])) {
-                  foreach ($description['blocks'] as $d) {
-                      switch ($d['type']) {
-                          case 'header':
-                              $level = $d['data']['level'] ?? 2;
-                              echo "<h{$level}>{$d['data']['text']}</h{$level}>";
-                              break;
-                          case 'paragraph':
-                              echo "<p>{$d['data']['text']}</p>";
-                              break;
-                          case 'image':
-                              if (!empty($d['data']['file']['url'])) {
-                                  $url = htmlspecialchars($d['data']['file']['url']);
-                                  echo "<div class='text-center my-3'><img src='{$url}' alt='blog image' class='img-fluid rounded'></div>";
-                              }
-                              break;
-                          case 'list':
-                              $items = $d['data']['items'] ?? [];
-                              echo "<ul>";
-                              foreach ($items as $item) echo "<li>{$item['content']}</li>";
-                              echo "</ul>";
-                              break;
-                      }
-                  }
-              } else {
-                  echo '<p>No description available.</p>';
-              }
+            $description = json_decode($blog->description, true);
+
+            /**
+            * Helper: safely get string (handles null)
+            */
+            function _s($v) {
+                return is_null($v) ? '' : $v;
+            }
+
+            if (!empty($description['blocks']) && is_array($description['blocks'])) {
+                foreach ($description['blocks'] as $d) {
+                    $type = $d['type'] ?? '';
+                    $data = $d['data'] ?? [];
+
+                    switch ($type) {
+                        case 'header':
+                            $level = isset($data['level']) ? intval($data['level']) : 2;
+                            $text = _s($data['text']);
+                            echo "<h{$level}>{$text}</h{$level}>";
+                            break;
+
+                        case 'paragraph':
+                            $text = _s($data['text']);
+                            echo "<p>{$text}</p>";
+                            break;
+
+                        case 'raw':
+                            // Raw HTML — output as-is
+                            $html = _s($data['html'] ?? $data['content'] ?? '');
+                            echo $html;
+                            break;
+
+                        case 'delimiter':
+                            echo '<hr>';
+                            break;
+
+                        case 'image':
+                            // Editor.js image block often stores file.url or a base64 data URL
+                            $url = '';
+                            if (!empty($data['file']['url'])) $url = $data['file']['url'];
+                            elseif (!empty($data['url'])) $url = $data['url'];
+                            // caption
+                            $caption = _s($data['caption'] ?? '');
+                            if ($url) {
+                                $safeUrl = htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
+                                $safeCaption = htmlspecialchars(strip_tags($caption), ENT_QUOTES, 'UTF-8');
+                                echo "<div class='image-container'>";
+                                echo "<img src='{$safeUrl}' alt='{$safeCaption}'>";
+                                if ($caption) echo "<p class='caption'>{$caption}</p>";
+                                echo "</div>";
+                            }
+                            break;
+
+                        case 'list':
+                            $items = $data['items'] ?? [];
+                            $style = $data['style'] ?? 'unordered';
+
+                            // items can be array of strings or array of arrays/objects
+                            if ($style === 'ordered') {
+                                echo "<ol>";
+                                foreach ($items as $item) {
+                                    if (is_string($item)) {
+                                        $content = $item;
+                                    } elseif (is_array($item)) {
+                                        // new List plugin might store ['content' => 'text'] or ['text' => 'text']
+                                        $content = $item['content'] ?? $item['text'] ?? '';
+                                    } else {
+                                        $content = '';
+                                    }
+                                    echo "<li>{$content}</li>";
+                                }
+                                echo "</ol>";
+                            } elseif ($style === 'unordered') {
+                                echo "<ul>";
+                                foreach ($items as $item) {
+                                    if (is_string($item)) {
+                                        $content = $item;
+                                    } elseif (is_array($item)) {
+                                        $content = $item['content'] ?? $item['text'] ?? '';
+                                    } else {
+                                        $content = '';
+                                    }
+                                    echo "<li>{$content}</li>";
+                                }
+                                echo "</ul>";
+                            } elseif ($style === 'checklist') {
+                                echo "<ul class='checklist'>";
+                                foreach ($items as $item) {
+                                    // Checklist items may be objects with 'text' and 'checked' or 'meta' => ['checked' => true]
+                                    if (is_string($item)) {
+                                        $content = $item;
+                                        $checked = false;
+                                    } elseif (is_array($item)) {
+                                        $content = $item['content'] ?? $item['text'] ?? '';
+                                        $checked = !empty($item['checked']) || !empty($item['meta']['checked']);
+                                    } else {
+                                        $content = '';
+                                        $checked = false;
+                                    }
+                                    $checkedAttr = $checked ? 'checked' : '';
+                                    echo "<li><input type='checkbox' disabled {$checkedAttr}> {$content}</li>";
+                                }
+                                echo "</ul>";
+                            }
+                            break;
+
+                        case 'table':
+                            $content = $data['content'] ?? [];
+                            if (is_array($content) && count($content)) {
+                                echo '<table class="editor-table">';
+                                foreach ($content as $r) {
+                                    echo '<tr>';
+                                    foreach ($r as $cell) {
+                                        echo '<td>' . _s($cell) . '</td>';
+                                    }
+                                    echo '</tr>';
+                                }
+                                echo '</table>';
+                            }
+                            break;
+
+                        case 'linkTool':
+                            // linkTool stores link and meta
+                            $link = _s($data['link'] ?? $data['url'] ?? '');
+                            $metaTitle = _s($data['meta']['title'] ?? $data['meta']['ogTitle'] ?? '');
+                            if ($link) {
+                                $href = htmlspecialchars($link, ENT_QUOTES, 'UTF-8');
+                                $text = $metaTitle ?: $href;
+                                echo "<p><a href='{$href}' target='_blank' rel='noopener noreferrer'>{$text}</a></p>";
+                            }
+                            break;
+
+                        case 'spacer':
+                        case 'spaced':
+                            // custom spacer block — height may be in data.height
+                            $height = isset($data['height']) ? intval($data['height']) : (isset($data['size']) ? intval($data['size']) : 30);
+                            // render invisible spacer (no dashed border) for frontend
+                            echo "<div style='height:{$height}px; width:100%;'></div>";
+                            break;
+
+                        default:
+                            // If unknown block type, try to render any textual data available (fallback)
+                            if (!empty($data['text'])) {
+                                echo "<p>" . _s($data['text']) . "</p>";
+                            } elseif (!empty($data['html'])) {
+                                echo $data['html'];
+                            } else {
+                                // silently ignore unknown blocks to avoid exposing debug info
+                            }
+                            break;
+                    }
+                }
+            } else {
+                echo '<p>No description available.</p>';
+            }
             @endphp
           </div>
         </div>

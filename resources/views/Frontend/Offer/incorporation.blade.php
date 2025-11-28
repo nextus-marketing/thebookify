@@ -16,7 +16,8 @@
 }
 
 
-element.style {
+.section-title {
+    margin-bottom: 16px;
 }
 .what-we-do {
     background-color: transparent;
@@ -36,6 +37,16 @@ element.style {
     box-shadow: 0 0 0 0.2rem rgba(0, 204, 97, 0.25);
     outline: none;
 }
+
+.our-feature
+ {
+    padding: 50px 0;
+    background-color: var(--dark-color);
+    background-image: url(../images/our-feature-bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 </style>
  <div class="page-header" style="background-color:#014652; padding:100px 0;">
   <div class="container">
@@ -43,15 +54,15 @@ element.style {
 
       <!-- Left Content -->
       <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
-        <div class="page-header-box text-lg-start text-center">
+        <div class="page-header-box">
           <h1 class="text-anime-style-2" data-cursor="-opaque" style="color:#fff; font-weight:700; line-height:1.3;">
-            Incorporation Service Made Simple to Support Business Expansion
+            Incorporation Service Made Simple To Support Business Expansion
           </h1>
           <p style="color:#fff; margin-top:15px;">
-            Streamline your business registrations, Licenses, Permits, Tax Filings, and more with TheBookify Incorporation Services.
+            Streamline your business registrations, Licenses, Permits, Tax Filings, and more with The Bookify Incorporation Services.
           </p>
 
-          <div class="hero-btn mt-4">
+          <div class="hero-btn mt-4 d-flex justify-content-center">
             <a href="tel:+15513481040" class="btn-default">
               <i class="fa-solid fa-phone me-2"></i> 
               Book A Free Consultation
@@ -139,6 +150,27 @@ element.style {
 
   }
 </style>
+<div class="partners-section py-4" style="background-color:#d8d8d8;">
+  <div class="container">
+    <div class="row align-items-center justify-content-between text-center text-lg-start" style="margin:0;">
+
+      <!-- Text Section -->
+      <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
+        <h2 class="mb-0" style="font-weight:700; font-size:2.4rem; white-space: nowrap;">
+          Softwares We Integrate To </br> <span style="color:#00cc61;">Make Your Business Easy!</span>
+        </h2>
+      </div>
+
+      <!-- Logos Section -->
+      <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
+        <div class="d-inline-flex align-items-center" style="gap: 100px;">
+          <img src="/frontend/my-img/xero.png" alt="Xero" class="partner-logo" style="width:90px; height:auto;">
+          <img src="/frontend/my-img/quickbook.png" alt="QuickBooks" class="partner-logo" style="width:90px; height:auto;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
  <div class="fact-counter" style="padding: 60px 0;">
@@ -160,22 +192,20 @@ element.style {
                 <div class="fact-counter-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque" >
-                           Expert Incorporation Services for  <span style="color:#00C853;">Future Milestones</span>
+                           Expert Incorporation Services For  <span style="color:#00C853;">Future Milestones</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           It may be challenging for small business incorporation. So, if you consider a business incorporation package, you should speak with a professional first. Whether it is a small business owner or a venture capitalist, TheBookify can complete the required paperwork to set up your firm and assist you in taking advantage of the built-in tax benefits for your selected structure because of our expertise in financial and tax services.
+                           It may be challenging for small business incorporation. So, if you consider a business incorporation package, you should speak with a professional first. Whether it is a small business owner or a venture capitalist, The Bookify can complete the required paperwork to set up your firm and assist you in taking advantage of the built-in tax benefits for your selected structure because of our expertise in financial and tax services.
                         </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">TheBookify can assist you in selecting and maintaining the proper structure for your requirements, whether it is:</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">The Bookify can assist you in selecting and maintaining the proper structure for your requirements, whether it is:</p>
 
                     </div>
-                    <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
                             <li> Corporations (C-corp, S-corp, sometimes B-corp)</li>
                             <li> Limited Liability Companies (LLC)</li>
                             <li> Partnerships and sole proprietorships</li>
                             <li> Nonprofit Corporations and other Other Tax-Exempt</li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -183,145 +213,178 @@ element.style {
 </div>
 
 
-<section id="payroll-services-2x2" style="padding:70px 20px; background:#f5f7fa;">
-  <div style="max-width:1200px; margin:0 auto; text-align:center;">
-    <h2 style="font-size:32px; font-weight:700; color:#111; margin-bottom:10px;">
-   Our Incorporation Services
-    </h2>
-    <div style="width:60px; height:3px; background:#00cc61; margin:10px auto 40px auto;"></div>
-    <p>There are many things to think about while starting a new business. What is your company model? Do you have a business plan? How much money do you have to put into your business? And how exactly are you going to set up the business? Working with an online incorporation firm is frequently a wise choice because it may help you save a ton of time and effort. With our company incorporation services you can access lot of modules. </p>
-  </div>
+<div class="our-feature">
+    <div class="container">
+        
+        <!-- Section Title -->
+        <div class="row section-row align-items-center">
+            <div class="col-lg-12">
+                <div class="section-title dark-section">
+                    <h2 class="text-anime-style-2 text-center" data-cursor="-opaque">
+                        Our  <span>Incorporation Services</span>
+                    </h2>
+                    <p class="text-center">
+                        There are many things to think about while starting a new business. What is your company model? Do you have a business plan? How much money do you have to put into your business? And how exactly are you going to set up the business? Working with an online incorporation firm is frequently a wise choice because it may help you save a ton of time and effort. With our company incorporation services you can access lot of modules.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Section Title End -->
 
-  <!-- Grid Container -->
- <div id="ps-grid" style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:30px; max-width:1200px; margin:0 auto;">
+        <!-- Feature List -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="our-feature-list">
 
-  <!-- Box 1 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s; text-align:left;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-building-columns" style="font-size:30px; color:#0077b6; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Corporate Supplies</h3>
+                    <div class="our-feature-item wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-2.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3 class="text-center">Corporate Supplies</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Corporate and LLC Kits</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> LLC Member Share Certificates</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Corporate Stock Certificates</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Forms &amp; Templates</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Corporate Minutes and Bylaws</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Meeting Minutes Templates</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> LLC Operating Agreement</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-3.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3 class="text-center">Forms & Templates</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Corporate Minutes and Bylaws</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Meeting Minutes Templates</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> LLC Operating Agreement</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-1.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3 class="text-center">Services & Supplies</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>  Registered Agent Services</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>  Corporate Supplies</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Express Filing Services</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Licenses, Permits, & Tax Filings</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>  Entity Classification</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> S Corp Elections Form 2553</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> 501C (3) Filings</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-1.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3  class="text-center">Licenses & Registrations</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Employer Identification Numbers (EINs)</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Sales & Use Tax Permits</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Payroll Tax Registration (SUI/SIT)</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Business Licenses</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Secretary of State Filings</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> FEIN from the IRS</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-1.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3  class="text-center">Business Structures</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> C Corporation</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>S Corporation</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Nonprofit Corporation</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Sole Proprietorship</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Partnership</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Limited Liability Partnership (LLP)</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Limited Liability Company (LLC)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-1.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3  class="text-center">Business Filings</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Doing Business As (DBAs)</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Change a Registered Agent</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Articles of Amendments</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Entity Conversions</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Reinstatements</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Articles of Dissolution (Close a Business)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-1.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3  class="text-center">Compliance Services</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Registered Agent Services</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Initial Reports</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Annual Reports</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Certificates Of Good Standing</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Certified Copies Of Documents</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="our-feature-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="/frontend/images/icon-our-feature-1.svg" alt="">
+                        </div>
+                        <div class="feature-item-content">
+                            <h3  class="text-center">Names & Trademark Protection</h3>
+                            <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Doing Business As (DBAs)</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i> Trademark Search and Registration</li>
+                              <li style="color:#fffff4;"><i class="fa-solid fa-check" style="color:#fffff4; margin-right:8px;"></i>Business Name Search and Reservations</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Feature List End -->
+
+        <!-- Contact Button -->
+        <div class="row mt-4">
+            <div class="col-lg-12 text-center">
+                <a href="tel:+15513481040" class="btn-default">
+                    <i class="fa-solid fa-phone me-2"></i> Contact Now
+                </a>
+            </div>
+        </div>
+
     </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Corporate and LLC Kits</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> LLC Member Share Certificates</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Corporate Stock Certificates</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Forms & Templates</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Corporate Minutes and Bylaws</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Meeting Minutes Templates</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> LLC Operating Agreement</li>
-    </ul>
-  </div>
-
-  <!-- Box 2 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-     <i class="fa-solid fa-file-lines" style="font-size:30px; color:#f4a261; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Forms & Templates</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Corporate Minutes and Bylaws</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Meeting Minutes Templates</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> LLC Operating Agreement</li>
-    </ul>
-  </div>
-
-  <!-- Box 3 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-briefcase" style="font-size:30px; color:#f4a261; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Services & Supplies</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Registered Agent Services</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Corporate Supplies</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Express Filing Services</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Licenses, Permits, & Tax Filings</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Entity Classification</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> S Corp Elections Form 2553</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> 501C (3) Filings</li>
-    </ul>
-  </div>
-
-  <!-- Box 3 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-id-card" style="font-size:30px; color:#7b2cbf; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Licenses & Registrations</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Employer Identification Numbers (EINs)</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Sales & Use Tax Permits</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Payroll Tax Registration (SUI/SIT)</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Business Licenses</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Secretary of State Filings</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> FEIN from the IRS</li>
-    </ul>
-  </div>
-
-  <!-- Box 4 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-diagram-project" style="font-size:30px; color:#e63946; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Business Structures</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> C Corporation</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> S Corporation</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Nonprofit Corporation</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Sole Proprietorship</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Partnership</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Limited Liability Partnership (LLP)</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Limited Liability Company (LLC)</li>
-    </ul>
-  </div>
-
-  <!-- Box 5 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-file-contract" style="font-size:30px; color:#00a896; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Business Filings</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Doing Business As (DBAs)</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Change a Registered Agent</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Articles of Amendments</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Entity Conversions</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Reinstatements</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Articles of Dissolution (Close a Business)</li>
-    </ul>
-  </div>
-
-  <!-- Box 6 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-file-shield" style="font-size:30px; color:#ff9f1c; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Compliance Services</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Registered Agent Services</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Initial Reports</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Annual Reports</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Certificates Of Good Standing</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Certified Copies Of Documents</li>
-    </ul>
-  </div>
-
-  <!-- Box 7 -->
-  <div style="background:#fff; border-radius:12px; padding:30px; box-shadow:0 4px 20px rgba(0,0,0,0.08); transition:.3s;">
-    <div style="display:flex; align-items:center; margin-bottom:15px;">
-      <i class="fa-solid fa-certificate" style="font-size:30px; color:#264653; margin-right:12px;"></i>
-      <h3 style="font-size:20px; font-weight:700; color:#111; margin:0;">Names & Trademark Protection</h3>
-    </div>
-    <ul style="list-style:none; padding:0; margin:0; color:#555; font-size:15px;">
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Doing Business As (DBAs)</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Trademark Search and Registration</li>
-      <li><i class="fa-solid fa-check" style="color:#00cc61; margin-right:8px;"></i> Business Name Search and Reservations</li>
-    </ul>
-  </div>
-
 </div>
 
-</section>
 
 <style>
   /* make sure this targets only our section */
@@ -360,7 +423,7 @@ element.style {
           <img src="/frontend/images/icon-fact-counter-1.svg" alt="">
         </div>
         <div class="fact-counter-box-content">
-          <h2><span class="counter">25</span>+</h2>
+          <h2><span class="counter">250</span>+</h2>
           <p>Invoices Processed</p>
         </div>
       </div>
@@ -382,7 +445,7 @@ element.style {
           <img src="/frontend/images/icon-fact-counter-3.svg" alt="">
         </div>
         <div class="fact-counter-box-content">
-          <h2><span class="counter">20</span>+</h2>
+          <h2><span class="counter">300</span>+</h2>
           <p>Happy Customers</p>
         </div>
       </div>
@@ -453,142 +516,6 @@ element.style {
 }
 </style>
 
-    <div class="our-testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="testimonial-content">
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">our testimonial</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What our <span>clients say</span>
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           Let’s start the journey towards success and enhance revenue for your business. Take your company to the next level.
-                        </p>
-                    </div>
-                    <div class="testimonial-btn">
-                        <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-7">
-                <div class="testimonial-slider-box">
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
-                                            </div>
-                                            <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <p>"The Bookify team has been outstanding to work with from day 1. They know what they are doing and are very efficient with it. Their accounting and tax solutions are unmatched."</p>
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="/frontend/images/author-1.jpg" alt="">
-                                                </figure>
-                                            </div>
-                                            <div class="author-content">
-                                                <h3>sarah t. </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
-                                            </div>
-                                            <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <p>"We chose the outsourced accounting services of TheBookify. They are very thorough and efficient. It has helped me save both time and money by keeping my books in order. I strongly recommend their services."</p>
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="/frontend/images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>
-                                            <div class="author-content">
-                                                <h3>ellyse p. </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
-                                            </div>
-                                            <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <p>" We saw the industry moving toward what Botkeeper is doing—automating bookkeeping—and we knew this would be crucial to our long-term success." Your company has helped us take that further step easily."</p>
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="/frontend/images/author-3.jpg" alt="">
-                                                </figure>
-                                            </div>
-                                            <div class="author-content">
-                                                <h3>robert t.</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="testimonial-pagination"></div>
-                        </div>
-                    </div>
-
-                    <div class="customer-rating-boxes">
-                        <div class="customer-rating-box">
-                            <div class="customer-rating-image">
-                                <img src="/frontend/images/icon-google.svg" alt="">
-                            </div>
-                            <div class="customer-rating-content">
-                                <p>google rating</p>
-                                <div class="customer-rating-counter">
-                                    <div class="customer-rating-star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="customer-rating-box customer-rating-content">
-                            <p>Total rating <span>5.0</span> base on 1250+ review</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <style>
  .h-100
@@ -629,139 +556,37 @@ element.style {
 }
 </style>
 
-<div class="our-pricing">
-    <div class="container">
-        <!-- Section Row Start -->
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">pricing plan</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans  </br><span>Made for You.</span>
-                    </h2>
-                    <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
-                </div>
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Section Button Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
-                </div>
-                <!-- Section Button End -->
-            </div>
-        </div>
-        <!-- Section Row End -->
-        <!-- Pricing Row Start -->
-        <div class="row">
-            <!-- Pricing Box 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <!-- Pricing Header -->
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-                    <!-- Pricing Body -->
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 1 End -->
-
-            <!-- Pricing Box 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
-                    </div>
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 2 End -->
-            <!-- Pricing Box 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 3 End -->
-
-            <!-- Pricing Box 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
-                    </div>
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
-                        </p>
-                    </div>
-                </div>
-            </div>
-      </div>
-        </div>
-    </div>
-</div>
-
-<div class="partners-section" style="background-color:#cdcdcd; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 0;">
-  <div class="container" style="max-width:900px; width:100%;">
-    <div class="row" style="display:flex; justify-content:center;">
-      
-      <!-- Centered Content -->
-      <div class="col-lg-8 col-md-10" style="margin:0 auto;">
-        <div class="section-title" style="margin-bottom:25px;">
-          <h2 class="text-anime-style-2" data-cursor="-opaque" style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
-           Need professional help with <br>
-             <span style="color:#00cc61;"> your CFO Advisory ?</span>
+<div class="our-pricing py-5">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row section-row align-items-center text-center mb-5">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h3 class="wow fadeInUp">pricing plan</h3>
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Only The Best Plans <span>Made For You</span>
           </h2>
-        </div>
-        
-        <!-- Centered Button -->
-        <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-            class="btn-default">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-           Speak with an Expert
-          </a>
+          <p class="mx-auto" style="max-width:700px;">
+            Let’s start the journey towards success and enhance revenue for your business. 
+            Take your company to the next level.
+          </p>
         </div>
       </div>
     </div>
+
+
+    <!-- Buttons Below Cards -->
+    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
+    <a href="/pricing" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
+    </a>
+    <a href="tel:+15513481040" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-phone me-2"></i>
+       Speak with Expert
+    </a>
+</div>
   </div>
 </div>
 

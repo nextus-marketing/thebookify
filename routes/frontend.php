@@ -13,3 +13,5 @@ Route::get('/blogs', [HomeController::class, 'index'])->name('blogs');
 
 Route::get('/blogs/{slug}', [HomeController::class, 'blog_details'])->name('blogs.details');
 
+Route::post('/modal-enquiry', [HomeController::class, 'modalEnquiry'])->name('modal-enquiry');
+

@@ -40,7 +40,7 @@
                         <div class="hero-btn">
                             <a href="tel:+15513481040" class="btn-default"
                                 style="display:inline-flex; align-items:center; justify-content:center;">
-                                <i class="fa-solid fa-phone me-2"></i> Request A Quote
+                                <i class="fa-solid fa-phone me-2"></i>  Speak with an Expert
                             </a>
                         </div>
                     </nav>
@@ -51,6 +51,42 @@
 </div>
 <!-- Page Header End -->
 
+<div class="how-it-work pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="how-it-work-content">
+                    <div class="section-title ">
+                        <h2 class="text-anime-style-2 text-center" data-cursor="-opaque">
+                          Why Does A  <span>Startup Need Our Services?</span>
+                        </h2>
+                        <p class="wow fadeInUp " data-wow-delay="0.2s">
+                           The medical industry can benefit from getting a CPA as they can understand the finances better, identify risks and inefficiencies, and make more informed decisions.
+                        </p>
+                        <ul style="line-height:30px;">
+                            <li>You can take advantage of our services with the CPA package for your benefit.</li>
+                            <li>The Bookify is proud to have created a reputation for being among the leaders in medical copywriting. Therefore, you can have the ability to take advantage of our services with CPA.</li>
+                            <li>We are the experts in medical writing. We offer innovative services that are tailored to your needs and budget. </li>
+                            <li>With our services, you can expect a seamless, pain-free process of content creation that will make you look good when attracting new clients.</li>
+                            <li>You will be able to see the different pricing packages we have in place, which will make it possible for you to access the one that will be the most appropriate for your needs.</li>
+                        </ul>
+                        <h4 class="text-anime-style-2" data-cursor="-opaque">
+                            Don’t worry!
+                        </h4>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                            You are right where you need to be; that is with us, The Bookify!
+                              This is how we make it easy for you.
+                        </p>
+                        <ul style="line-height:30px;">
+                            <li>The Bookify assures that any business is assisted with the optimum service required to ensure growth. We at The Bookify believe that Startup need a perfect start in terms of financial services and assistance.</li>
+                            <li>Availing of our services will simplify the complex and hectic difficulties of a Startup and ensure an easy start along with larger productivity and simplicity.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="what-we-do">
     <div class="container">
@@ -61,19 +97,14 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                           Why does a <span> Startup need our services?</span>
+                           What Are The Benefits Of Joining  <span> The Bookify For Your Startup?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           The medical industry can benefit from getting a CPA as they can understand the finances better, identify risks and inefficiencies, and make more informed decisions.
+                          At the Bookify, we suggest that Startups are the ventures that do need financial assistance, consulting and other services the most. Availing of such services at the start of your business ensures a boosted growth and a quick possibility of expanding.
                         </p>
-                        </br>
-                        <ul style="line-height:30px;">
-                            <li>You can take advantage of our services with the CPA package for your benefit.</li>
-                            <li>Bookify is proud to have created a reputation for being among the leaders in medical copywriting. Therefore, you can have the ability to take advantage of our services with CPA.</li>
-                            <li>We are the experts in medical writing. We offer innovative services that are tailored to your needs and budget. </li>
-                            <li>With our services, you can expect a seamless, pain-free process of content creation that will make you look good when attracting new clients.</li>
-                            <li>You will be able to see the different pricing packages we have in place, which will make it possible for you to access the one that will be the most appropriate for your needs.</li>
-                        </ul>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">
+                        Our consultation department holds expertise in such areas as they assist our clients with absolutely everything a promising Startup should have.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -91,64 +122,77 @@
 
         </div>
 
-        <h4 class="text-anime-style-2" data-cursor="-opaque">
-            Don’t worry!
-        </h4>
-        </br>
-        <p class="wow fadeInUp" data-wow-delay="0.2s">
-            You are right where you need to be; that is with us, the Bookify!
-        </p>
-        <p class="wow fadeInUp" data-wow-delay="0.3s">
-            This is how we make it easy for you.
-        </p>
-        <ul style="line-height:30px;">
-            <li>The Bookify assures that any business is assisted with the optimum service required to ensure growth. We at The BOOKIFY believe that STARTUPS need a perfect start in terms of financial services and assistance.</li>
-            <li>Availing of our services will simplify the complex and hectic difficulties of a STARTUP and ensure an easy start along with larger productivity and simplicity.</li>
-        </ul>
-
         <!-- ================= New Content Added Below ================= -->
+<div class="what-we-do">
+    <div class="container">
+        <div class="row align-items-center">
 
-        <div class="startup-benefits-section mt-5">
-            <h4 class="text-anime-style-2" data-cursor="-opaque">
-                What are the benefits of joining <span>The Bookify</span> for your startup?
-            </h4>
-            </br>
-            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                At the Bookify, we suggest that Startups are the ventures that do need financial assistance, consulting and other services the most.
-                Availing of such services at the start of your business ensures a boosted growth and a quick possibility of expanding.
-            </p>
-            <p class="wow fadeInUp" data-wow-delay="0.3s">
-                Our consultation department holds expertise in such areas as they assist our clients with absolutely everything a promising STARTUP should have.
-            </p>
+            <!-- Left Image -->
+            <div class="col-lg-6">
+                <div class="what-we-do-images">
+                    <div class="what-do-we-img-1">
+                        <figure class="image-anime reveal">
+                            <img src="/frontend/my-img/process.jpg" alt="Simplifying Taxes">
+                        </figure>
+                    </div>
+                </div>
+            </div>
 
-            <h4 class="text-anime-style-2 mt-4" data-cursor="-opaque">
-                What is the work process for your STARTUP at the Bookify?
-            </h4>
-            </br>
-            <ul style="line-height:30px;">
-                <li>Firstly, our team will understand the structure of your STARTUP, primarily based on your vision of the Startup.</li>
-                <li>Secondly, based on the perception of your STARTUP, our expert team will assist you with all the professional knowledge and wisdom you might need to boost your venture.</li>
-                <li>Our services and consultation will revolve around the market area your business will look to target.</li>
-                <li>The Bookify simply has vital knowledge of your potential competition in the market, and the services provided to you will attempt to keep you on the top.</li>
-                <li>Also, the Bookify provides a free trial of its service to simply give you an experience of what we are known for.</li>
-            </ul>
+            <!-- Right Content -->
+            <div class="col-lg-6">
+                <div class="what-we-do-content">
+                    <div class="section-title">
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">
+                            Our  <span>Work Process</span>
+                        </h2>
+                       
+                        <ul class="mt-3">
+                            <li>Firstly, our team will understand the structure of your Startup, primarily based on your vision of the Startup</li>
+                            <li>Secondly, based on the perception of your Startup, our expert team will assist you with all the professional knowledge and wisdom you might need to boost your venture</li>
+                            <li>Our services and consultation will revolve around the market area your business will look to target</li>
+                            <li>The Bookify simply has vital knowledge of your potential competition in the market, and the services provided to you will attempt to keep you on the top</li>
+                            <li>Also, The Bookify provides a free trial of its service to simply give you an experience of how efficiently it can simplify your accounting tasks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-            <h4 class="text-anime-style-2 mt-4" data-cursor="-opaque">
-                What software does the Bookify use?
-            </h4>
-            </br>
-            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                At the Bookify, we believe in keeping our interface smooth and easy to access.
-                <strong>Xero</strong> and <strong>QuickBooks</strong> are the premium softwares we rely on to ensure accuracy, transparency, and smooth financial management.
-            </p>
         </div>
+    </div>
+</div>
 
         <!-- ================= End of New Content ================= -->
 
     </div>
 </div>
 
+<section class="container py-5" style="background-color:#f9fafb;">
+  <div class="row align-items-center">
+    
+    <!-- Text Section -->
+    <div class="section-title col-lg-6 col-md-12 text-center text-lg-start">
+        <h2 class="text-anime-style-2" data-cursor="-opaque">
+           What <span> Softwares Do We Use?</span>
+            </h2>
+        <p style="font-size:17px; line-height:1.6; color:#333; max-width:550px;">
+            For the data of the firm, we utilise the best software. 
+            <strong style="color:#00b060;">Xero</strong> and 
+            <strong style="color:#00b060;">QuickBooks</strong> are two of the most popular 
+            accounting software programmes that help us manage financial data efficiently and securely.
+            These tools ensure accuracy, real-time insights, and seamless collaboration, allowing us to deliver reliable and efficient financial management for your business.
+        </p>
+    </div>
 
+    <!-- Image Section -->
+    <div class="col-lg-6 col-md-12 text-center mt-4 mt-lg-0">
+      <img src="/frontend/my-img/erp-vs-accouting.jpg" 
+           alt="ERP vs Accounting Software" 
+           class="img-fluid rounded shadow"
+           style="max-width:100%; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.1);">
+    </div>
+
+  </div>
+</section>
 
 
  <div class="our-faqs">
@@ -157,7 +201,7 @@
                 <div class="col-lg-6">
                     <div class="section-title">
                         <h3 class="wow fadeInUp">faqs</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Your most frequently asked <span>questions answered</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Your Most Frequently Asked <span>Questions Answered</span></h2>
                     </div>
                 </div>
 
@@ -171,7 +215,7 @@
                             <div class="accordion-item wow fadeInUp">
                                 <h2 class="accordion-header" id="heading1">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                      When should I look for professional help in a STARTUP?
+                                      When should I look for professional help in a Startup?
                                     </button>
                                 </h2>
                                 <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
@@ -256,146 +300,38 @@
 }
 </style>
 
-<div class="our-pricing">
-    <div class="container">
-        <!-- Section Row Start -->
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">pricing plan</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans </br><span>Made for You.</span>
-                    </h2>
-                    <p>Let’s start the journey towards success and enhance revenue for your business. Take your company
-                        to the next level.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Section Button Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
-                </div>
-                <!-- Section Button End -->
-            </div>
+<div class="our-pricing py-5">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row section-row align-items-center text-center mb-5">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h3 class="wow fadeInUp">pricing plan</h3>
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Only The Best Plans <span>Made For You</span>
+          </h2>
+          <p class="mx-auto" style="max-width:700px;">
+            Let’s start the journey towards success and enhance revenue for your business. 
+            Take your company to the next level.
+          </p>
         </div>
-        <!-- Section Row End -->
-
-        <!-- Pricing Row Start -->
-        <div class="row">
-
-            <!-- Pricing Box 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <!-- Pricing Header -->
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <!-- Pricing Body -->
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is
-                            our job to do!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 1 End -->
-
-            <!-- Pricing Box 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that
-                            momentum. Trust our Accounts executive.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Pricing Box 2 End -->
-
-            <!-- Pricing Box 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your
-                            maturing business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 3 End -->
-
-            <!-- Pricing Box 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with
-                            suggestions from the Accounts Executives.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div style="display:flex; justify-content:center; width:100%;">
-                <a href="tel:+15513481040"
-                   class="btn-default">
-                    <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-                   Speak with an Expert
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
+
+
+    <!-- Buttons Below Cards -->
+    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
+    <a href="/pricing" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
+    </a>
+    <a href="tel:+15513481040" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-phone me-2"></i>
+       Speak with Expert
+    </a>
+</div>
+  </div>
 </div>
 
 

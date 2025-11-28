@@ -16,7 +16,8 @@
 }
 
 
-element.style {
+.section-title {
+    margin-bottom: 16px;
 }
 .what-we-do {
     background-color: transparent;
@@ -45,27 +46,31 @@ element.style {
     background-color: var(--secondary-color);
     padding: 28px 0;
 }
+
+
 </style>
+
  <div class="page-header" style="background-color:#014652; padding:100px 0;">
   <div class="container">
     <div class="row align-items-center justify-content-between">
 
       <!-- Left Content -->
       <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">
-        <div class="page-header-box text-lg-start text-center">
+        <div class="page-header-box">
           <h1 class="text-anime-style-2" data-cursor="-opaque" style="color:#fff; font-weight:700; line-height:1.3;">
-            Professional Bookkeeping Services to Ease the Burden of Accounting
+            Professional Bookkeeping Services To Ease The Burden Of Accounting
           </h1>
           <p style="color:#fff; margin-top:15px;">
-            Comprehensive and Professional bookkeeping services to sole traders, partnerships, and limited companies.
+            Comprehensive And Professional Bookkeeping Services To Sole Traders, Partnerships, And Limited Companies.
           </p>
 
-          <div class="hero-btn mt-4">
+          <div class="hero-btn mt-4 d-flex justify-content-center">
             <a href="tel:+15513481040" class="btn-default">
-              <i class="fa-solid fa-phone me-2"></i> 
-              Book A Free Consultation
+                <i class="fa-solid fa-phone me-2"></i>
+                Book A Free Consultation
             </a>
-          </div>
+        </div>
+
         </div>
       </div>
 
@@ -178,10 +183,10 @@ element.style {
                     <div class="our-service-content">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">services</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Put the right foot with our  <span>certified bookkeepers.</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Put The Right Foot With Our  <span>Certified Bookkeepers.</span></h2>
                         </div>
                         <div class="service-content-btn wow fadeInUp" data-wow-delay="0.25s">
-                            <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Contact Us</a>
+                            <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> Call Now</a>
                         </div>
                     </div>
                 </div>
@@ -298,7 +303,7 @@ element.style {
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Level Up your <span>Business with TheBookify</span>
+                            Level Up Your <span>Business With The Bookify</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             We will help you to maintain a clear perspective on your company’s performance 
@@ -306,13 +311,13 @@ element.style {
                             standardized breakdowns, and biweekly evaluations.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
-                            TheBookify syncs with your financial bookkeeping to maintain order and pave the way for a better future for you.
+                            The Bookify syncs with your financial bookkeeping to maintain order and pave the way for a better future for you.
                              Virtual Financial Review is available at any time and welcomes any inquiries, day or night.
                               Set up an appointment with your designated Accounts executive right away to discuss your 
                               financial review or other inquiry forms.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.4s">
-                           TheBookify provides best bookkeeping services for small 
+                           The Bookify provides best bookkeeping services for small 
                            business to maintain all financial records.
                         </p>
                     </div>
@@ -339,7 +344,7 @@ element.style {
     <h2 class="text-anime-style-2 text-center" data-cursor="-opaque" style="line-height:1.4;">
         Bookkeeping Services 
         <span style="display:block; margin-top:10px;">
-            Why should a business like yours choose TheBookify?
+            Why Should A Business Like Yours Choose The Bookify?
         </span>
     </h2>
 </div>
@@ -376,10 +381,7 @@ element.style {
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                           Achieve unmatched financial clarity with our dedicated bookkeeping support. We help streamline your accounting processes, optimize software performance, and maintain precise records — ensuring your books stay organized, compliant, and ready for any audit or business review.
                         </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                         Ensure flawless financial records with our expert guidance keeping your bookkeeping accurate, compliant, and effortlessly efficient.
-
-                        </p>
+                       
                     </div>
 
                     <!-- Optional Button -->
@@ -412,7 +414,7 @@ element.style {
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
-                         At TheBookify, we go beyond basic bookkeeping to give you a clear and complete picture of your company’s financial health. Our experts continuously monitor your income, expenses, assets, and liabilities to identify patterns that influence profitability and sustainability. Through detailed financial analysis, we help you recognize underperforming areas, optimize cash flow, and uncover new opportunities for growth. Whether it’s monthly performance reviews, budget forecasting, or trend evaluations, our proactive approach ensures your business remains financially sound and strategically positioned for success.
+                         At The Bookify, we go beyond basic bookkeeping to give you a clear and complete picture of your company’s financial health. Our experts continuously monitor your income, expenses, assets, and liabilities to identify patterns that influence profitability and sustainability. Through detailed financial analysis, we help you recognize underperforming areas, optimize cash flow, and uncover new opportunities for growth. Whether it’s monthly performance reviews, budget forecasting, or trend evaluations, our proactive approach ensures your business remains financially sound and strategically positioned for success.
                         </p>
                     </div>
 
@@ -464,7 +466,7 @@ element.style {
                             Designated  <span>Expert</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           It is essential to have an expert bookkeeper on board for your company who knows how to organize your finances without wasting a lot of your time. TheBookify offers such expertise, and with our collaboration, you can have a bigger chance of building and growing your business with industry’s best bookkeeper services.
+                           It is essential to have an expert bookkeeper on board for your company who knows how to organize your finances without wasting a lot of your time. The Bookify offers such expertise, and with our collaboration, you can have a bigger chance of building and growing your business with industry’s best bookkeeper services.
                         </p>
 
                         <p class="wow fadeInUp" data-wow-delay="0.3s">
@@ -510,17 +512,16 @@ element.style {
                         </p>
                     </div>
 
-                    <div class="what-we-do-list wow fadeInUp" data-wow-delay="0.4s">
+                    
                         <ul>
                             <li>Technical support</li>
                             <li>Monitoring Bill Payments</li>
-                            <li>Building Banking Transactions Databases </li>
-                            <li>Detecting Data Management Errors </li>
-                            <li>Creating Balance Sheets </li>
-                            <li>Generating Income Statements </li>
+                            <li>Building Banking Transactions Databases</li>
+                            <li>Detecting Data Management Errors</li>
+                            <li>Creating Balance Sheets</li>
+                            <li>Generating Income Statements</li>
                             <li>Verifying Reports Authenticity</li>
                         </ul>
-                    </div>
 
                     <!-- Optional Button -->
                     <!--
@@ -569,21 +570,20 @@ element.style {
                             Simplifying <span style="color:#00C853;">Taxes</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                           You’ll have financial data prepared for tax season, and the taxman won’t be on your tail if you have TheBookify’s bookkeeping service in place. 
+                           You’ll have financial data prepared for tax season, and the taxman won’t be on your tail if you have The Bookify’s bookkeeping service in place. 
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">Enjoy the convenience of complete tax preparation and live tax consultant services throughout the season without stress.</p>
 
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">With TheBookify, tax time becomes simple and stress-free. Our experts handle everything from documentation to submission, ensuring your returns are accurate and compliant. Stay confident knowing your taxes are managed with precision, leaving you free to focus on growing your business.
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">With The Bookify, tax time becomes simple and stress-free. Our experts handle everything from documentation to submission, ensuring your returns are accurate and compliant. Stay confident knowing your taxes are managed with precision.
                         </p>
                     </div>
-                    <div class="fact-counter-list wow fadeInUp" data-wow-delay="0.4s">
+
                         <ul>
-                            <li> Advising, Preparing and Filing Tax Forms.</li>
-                            <li> Managing Client and Tax Authority Communication.</li>
-                            <li> Checking Legal Compliances of Tax Forms.</li>
-                            <li> Best Assisting in Future Tax Planning.</li>
+                             <li> Advising, Preparing and Filing Tax Forms</li>
+                            <li> Managing Client and Tax Authority Communication</li>
+                            <li> Checking Legal Compliances of Tax Forms</li>
+                            <li> Best Assisting in Future Tax Planning</li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -610,14 +610,12 @@ element.style {
                         </p>
                     </div>
 
-                    <div class="what-we-do-list wow fadeInUp" data-wow-delay="0.4s">
                         <ul>
                             <li>Connect bank accounts</li>
                             <li>Vendor list</li>
                             <li>All your products and services</li>
                             <li>Technical Support & Assistance</li>
                         </ul>
-                    </div>
 
                     <!-- Optional Button -->
                     <!--
@@ -654,7 +652,7 @@ element.style {
           <img src="/frontend/images/icon-fact-counter-1.svg" alt="">
         </div>
         <div class="fact-counter-box-content">
-          <h2><span class="counter">25</span>+</h2>
+          <h2><span class="counter">250</span>+</h2>
           <p>Invoices Processed</p>
         </div>
       </div>
@@ -676,7 +674,7 @@ element.style {
           <img src="/frontend/images/icon-fact-counter-3.svg" alt="">
         </div>
         <div class="fact-counter-box-content">
-          <h2><span class="counter">20</span>+</h2>
+          <h2><span class="counter">300</span>+</h2>
           <p>Happy Customer</p>
         </div>
       </div>
@@ -747,326 +745,43 @@ element.style {
 }
 </style>
 
-    <div class="our-testimonial">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5">
-                <div class="testimonial-content">
-                    <div class="section-title dark-section">
-                        <h3 class="wow fadeInUp">our testimonial</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What our <span>clients say</span>
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            As we onboarded more clients, we saw the value of the Bookkeeper's work to manage our ledger. We decided to work with TheBookify. Their excellent team of certified accounting managers reduces hours of work. They are certainly the best accounting firm.
-                        </p>
-                    </div>
-                    <div class="testimonial-btn">
-                        <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-7">
-                <div class="testimonial-slider-box">
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
-                                            </div>
-                                            <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <p>"The Bookify team has been outstanding to work with from day 1. They know what they are doing and are very efficient with it. Their accounting and tax solutions are unmatched."</p>
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="/frontend/images/author-1.jpg" alt="">
-                                                </figure>
-                                            </div>
-                                            <div class="author-content">
-                                                <h3>sarah t. </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
-                                            </div>
-                                            <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <p>"We chose the outsourced accounting services of TheBookify. They are very thorough and efficient. It has helped me save both time and money by keeping my books in order. I strongly recommend their services."</p>
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="/frontend/images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>
-                                            <div class="author-content">
-                                                <h3>ellyse p. </h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-header">
-                                            <div class="customer-logo">
-                                                <img src="/frontend/my-img/footer-logo.png" alt="">
-                                            </div>
-                                            <div class="testimonial-quotes">
-                                                <img src="/frontend/images/testimonial-quotes.svg" alt="">
-                                            </div>
-                                        </div>
-                                        <div class="testimonial-body">
-                                            <p>" We saw the industry moving toward what Botkeeper is doing—automating bookkeeping—and we knew this would be crucial to our long-term success." Your company has helped us take that further step easily."</p>
-                                        </div>
-                                        <div class="testimonial-author">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="/frontend/images/author-3.jpg" alt="">
-                                                </figure>
-                                            </div>
-                                            <div class="author-content">
-                                                <h3>robert t.</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="testimonial-pagination"></div>
-                        </div>
-                    </div>
-
-                    <div class="customer-rating-boxes">
-                        <div class="customer-rating-box">
-                            <div class="customer-rating-image">
-                                <img src="/frontend/images/icon-google.svg" alt="">
-                            </div>
-                            <div class="customer-rating-content">
-                                <p>google rating</p>
-                                <div class="customer-rating-counter">
-                                    <div class="customer-rating-star">
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                        <i class="fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
 
-                        <div class="customer-rating-box customer-rating-content">
-                            <p>Total rating <span>5.0</span> base on 1250+ review</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<style>
- .h-100
-    {
-    height:95% !important;
-    }
-    .pricing-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
-/* Ensures equal height for pricing-body so buttons align */
-.pricing-body {
-  flex-grow: 1;
-}
-
-/* Optional: adds smooth hover animation */
-.pricing-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-/* Center the button and fix alignment */
-.pricing-btn {
-  margin-top: auto;
-}
-
-/* Optional: make button width consistent */
-.pricing-btn .btn {
-  min-width: 130px;
-}
-</style>
-
-<div class="our-pricing">
-    <div class="container">
-        <!-- Section Row Start -->
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">pricing plan</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans  </br><span>Made for You.</span>
-                    </h2>
-                    <p>Let’s start the journey towards success and enhance revenue for your business.  Take your company to the next level.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Section Button Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i>contact now</a>
-                </div>
-                <!-- Section Button End -->
-            </div>
-        </div>
-        <!-- Section Row End -->
-
-        <!-- Pricing Row Start -->
-        <div class="row">
-
-            <!-- Pricing Box 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <!-- Pricing Header -->
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <!-- Pricing Body -->
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is our job to do!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 1 End -->
-
-            <!-- Pricing Box 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that momentum. Trust our Accounts executive.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Pricing Box 2 End -->
-
-            <!-- Pricing Box 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your maturing business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 3 End -->
-
-            <!-- Pricing Box 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp" style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid" style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with suggestions from the Accounts Executives.
-                        </p>
-                    </div>
-                </div>
-            </div>
-      </div>
-        </div>
-    </div>
-</div>
-
-<div class="partners-section" style="background-color:#cdcdcd; display:flex; align-items:center; justify-content:center; text-align:center; padding:80px 0;">
-  <div class="container" style="max-width:900px; width:100%;">
-    <div class="row" style="display:flex; justify-content:center;">
-      
-      <!-- Centered Content -->
-      <div class="col-lg-8 col-md-10" style="margin:0 auto;">
-        <div class="section-title" style="margin-bottom:25px;">
-          <h2 class="text-anime-style-2" data-cursor="-opaque" style="color:#000; font-weight:700; line-height:1.4; font-size:2rem; margin:0;">
-            Eliminate Complexity and Increase <br>
-            Your <span style="color:#00cc61;">Profit Margins</span>
+<div class="our-pricing py-5">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row section-row align-items-center text-center mb-5">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h3 class="wow fadeInUp">pricing plan</h3>
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Only The Best Plans <span>Made For You</span>
           </h2>
-        </div>
-        
-        <!-- Centered Button -->
-        <div style="display:flex; justify-content:center; width:100%;">
-          <a href="tel:+15513481040" 
-            class="btn-default">
-            <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-           Speak with an Expert
-          </a>
+          <p class="mx-auto" style="max-width:700px;">
+            Let’s start the journey towards success and enhance revenue for your business. 
+            Take your company to the next level.
+          </p>
         </div>
       </div>
-
     </div>
+
+
+    <!-- Buttons Below Cards -->
+    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
+    <a href="/pricing" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
+    </a>
+    <a href="tel:+15513481040" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-phone me-2"></i>
+       Speak with Expert
+    </a>
+</div>
   </div>
 </div>
+
+
 
 @endsection

@@ -21,7 +21,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Handling Your Business Gets Faster And Easier When done with TheBookify .</h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Handling Your Business Gets Faster And Easier When Done With The Bookify</h1>
                        <nav class="wow fadeInUp d-flex justify-content-center">
                             <div class="hero-btn">
                                 <a href="tel:+15513481040" class="btn-default" 
@@ -37,7 +37,7 @@
     </div>
 
 
-    <div class="page-pricing">
+<div class="page-pricing">
   <div class="container">
     <div class="row justify-content-center">
 
@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="pricing-btn">
-            <a href="#" class="btn-default btn-highlighted">Select this package</a>
+          <a href="#" class="btn-default btn-highlighted contactPopup" data-package="Personal Plan">Select this package</a>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
             </div>
           </div>
           <div class="pricing-btn">
-            <a href="#" class="btn-default btn-highlighted">Select this package</a>
+          <a href="#" class="btn-default btn-highlighted contactPopup" data-package="Personal Plan">Select this package</a>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@
             </div>
           </div>
           <div class="pricing-btn">
-            <a href="#" class="btn-default btn-highlighted">Select this package</a>
+          <a href="#" class="btn-default btn-highlighted contactPopup"data-package="Expansion">Select this package</a>
           </div>
         </div>
       </div>
@@ -148,7 +148,7 @@
             </div>
           </div>
           <div class="pricing-btn">
-            <a href="#" class="btn-default btn-highlighted">Select this package</a>
+          <a href="#" class="btn-default btn-highlighted contactPopup" data-package="CFO Advisory">Select this package</a>
           </div>
         </div>
       </div>
@@ -176,7 +176,7 @@
             </div>
           </div>
           <div class="pricing-btn">
-            <a href="#" class="btn-default btn-highlighted">Select this package</a>
+          <a href="#" class="btn-default btn-highlighted contactPopup" data-package="Customized Plan">Select this package</a>
           </div>
         </div>
       </div>
@@ -202,14 +202,14 @@
                 <div class="col-lg-6">
                     <div class="our-partners-content">
                         <div class="section-title dark-section">
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Exceptional Services at  <span>Exclusive Prices</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Exceptional Services At  <span>Exclusive Prices</span></h2>
                             
                             <ul>
-                                <li style="color:#fff;">The Bookify provides all scale of plans that perfectly fits your business requirements and needs. There is a range of plans for all types of businesses that you own or may look to expand into.</li>
+                                <li style="color:#fff;">The Bookify provides all scale of plans that perfectly fits your business requirements and needs. There is a range of plans for all types of businesses that you own or may look to expand into</li>
                                 </br>
-                                <li style="color:#fff;">The Bookify plans are cost-efficient and considerable of everything you may need to boost your business growth.</li>
+                                <li style="color:#fff;">The Bookify plans are cost-efficient and considerable of everything you may need to boost your business growth</li>
                                 </br>
-                                <li style="color:#fff;">The plans range from $99 to $399.</li>
+                                <li style="color:#fff;">The plans range from $99 to $399</li>
                             </ul>
                       
                         </div>
@@ -236,10 +236,11 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">contact us</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Get in Touch <span>with Us</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Get In Touch <span>With Us</span></h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">Have questions or need assistance? Reach out to us today! We're here to provide expert solutions and friendly support.</p>
                     </div>
                     <!-- Section Title End -->
+                     
 
                     <div class="contact-form">
                         <!-- Contact Form Start -->
@@ -277,10 +278,10 @@
                                     <button type="submit" class="btn-default">send message</button>
                                 </div>
                             </div>
-                        </form>
-                        <!-- Google reCAPTCHA Script -->
+                             <!-- Google reCAPTCHA Script -->
                     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-                        <!-- Contact Form End -->
+                        </form>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -450,20 +451,267 @@
 </section>
 
 
+
+<div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+
+        <!-- Logo -->
+        <div class="modal-logo">
+            <img src="/frontend/my-img/logo.png" alt="Website Logo">
+        </div>
+
+        <!-- Title -->
+        <p class="modal-subtitle">Fill out this quick form</p>
+
+        <!-- Contact Form Start -->
+        <form action="{{ route('modal-enquiry') }}" id="modalForm" class="form-grid" enctype="multipart/form-data" method="POST" data-toggle="validator">
+            @csrf
+            <input type="hidden" name="enquiry_type" id="enquiry_type">
+
+
+            <div class="form-group">
+                <input type="text" id="full_name" name="full_name" placeholder="Full Name">
+                <div class="field_error" id="full_name-error" style="color:#ff0000;"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Email">
+                <div class="field_error" id="email-error" style="color:#ff0000;"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="tel" id="mobile" name="mobile" placeholder="Mobile">
+                <div class="field_error" id="mobile-error" style="color:#ff0000;"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="profession" name="profession" placeholder="Profession">
+                <div class="field_error" id="profession-error" style="color:#ff0000;"></div>
+            </div>
+
+            <div class="form-group full-width">
+                <textarea id="message" name="message" rows="3" placeholder="Message"></textarea>
+            </div>
+
+           <div class="form-group full-width" style="display: flex; justify-content: center; margin-top: 15px;">
+            <div class="g-recaptcha" data-sitekey="6Lf5KxMsAAAAAPmSX6ShrBobBt-I0g2OqOa762Kf"></div>
+            </div>
+            <div class="field_error" id="captcha-error" style="color:#ff0000; margin-top:5px; text-align:center;"></div>
+
+
+            <div class="form-group full-width">
+                <button type="submit" class="btn-default btn-highlighted contactSubmit">Submit</button>
+            </div>
+        </form>
+        <!-- Contact Form End -->
+    </div>
+</div>
+
+<!-- JS & reCAPTCHA -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+
+    </div>
+</div>
+
+ <!-- Contact Form End -->
+                      
+                        <script>
+                        $(document).ready(function() {
+                        $('.contactPopup').on('click', function(e) {
+                        e.preventDefault(); // Prevent default link behavior
+
+                        // Get the plan name from data-plan
+                        var planName = $(this).data('plan');
+
+                        // Set it in the hidden input
+                        $('#enquiry_type').val(planName);
+
+                        // Show the popup form (adjust this depending on your popup)
+                        $('#contactForm').closest('.popup-wrapper').fadeIn(); // Example
+                        });
+                        });
+                        </script>
+
+<!-- CSS -->
 <style>
-.contact-form .form-control {
-    border: 1px solid #ccc !important; 
-    border-radius: 6px;             
-    background-color: #fff;       
-    padding: 10px 15px;        
-    box-shadow: none;          
-    color: #000;      
+/* Modal Overlay */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    font-family: 'Poppins', sans-serif;
 }
 
-.contact-form .form-control:focus {
-    border-color: #86f0b9ff !important;  
-    box-shadow: 0 0 0 0.2rem rgba(0, 204, 97, 0.25);
+/* Modal Content */
+.modal-content {
+    background: #fff;
+    margin: 5% auto;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 30px 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+    position: relative;
+    animation: fadeIn 0.35s ease;
+    text-align: center;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(-20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+    transition: 0.3s;
+}
+
+.close:hover {
+    color: #ff5722;
+}
+
+/* Logo */
+.modal-logo img {
+    max-width: 165px;
+    margin-bottom: 15px;
+}
+
+/* Title & Subtitle */
+.modal-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1b3e5c;
+    margin-bottom: 5px;
+}
+
+.modal-subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Form Grid */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.form-group.full-width {
+    grid-column: 1 / -1;
+}
+
+/* Form Fields */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 14px;
     outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #1b3e5c;
+    box-shadow: 0 0 8px rgba(27,62,92,0.2);
+}
+
+textarea {
+    resize: vertical;
+    height: 90px;
+}
+
+/* Submit Button */
+.btn-submit {
+    width: 100%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg,#00c853,#00b34d);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(90deg,#00b34d,#009e40);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+    .modal-content {
+        margin: 10% auto;
+        padding: 25px 20px;
+    }
 }
 </style>
+
+<!-- JS -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById("contactModal");
+    const btn = document.querySelector(".contactPopup");
+    const span = document.querySelector(".close");
+
+    btn.onclick = function(e) {
+        e.preventDefault();
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+});
+</script>
+
+<script>
+document.addEventListener("click", function (e) {
+    if (e.target.closest(".contactPopup")) {
+        e.preventDefault();
+
+        let button = e.target.closest(".contactPopup");
+        let packageName = button.getAttribute("data-package");
+
+        // Debug:
+        console.log("Selected package:", packageName);
+
+        document.getElementById("enquiry_type").value = packageName;
+
+        // Open modal
+        $("#pricingModal").modal("show");
+    }
+});
+</script>
+
+
 @endsection

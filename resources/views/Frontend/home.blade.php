@@ -51,6 +51,8 @@
 .about-us {
     padding: 30px 0;
 }
+
+
 </style>
 
  <!-- Hero Section Start -->
@@ -97,7 +99,7 @@
       <!-- Text Section -->
       <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
         <h2 class="mb-0" style="font-weight:700; font-size:2.8rem; white-space: nowrap;">
-          We partner with the <span style="color:#00cc61;"></br>world’s best</span>
+          We Partner With The <span style="color:#00cc61;"></br>World’s Best</span>
         </h2>
       </div>
       <!-- Logos Section -->
@@ -119,7 +121,7 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Want to know How 
+                            Want To Know How 
                             <span>We Can Help You?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
@@ -177,7 +179,7 @@
                 <div class="col-lg-6">
                     <div class="about-us-content">
                         <div class="section-title">
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">America’s Largest Professional Accounting Service <span>TheBookify</span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">America’s Largest Professional Accounting Service <span>The Bookify</span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">At, The Bookify we serve business owners with all their financial needs through our unmatched technology and human support. Our affordable solutions help you to attain financial mastery.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We are professional accounting service firm.  You can call us your CPA as well. We provide bookkeeping, tax filing, and other financial services for businesses and personal use.</p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">We help with bookkeeping services that would otherwise be very time-consuming and complex. The Bookify also offers accounting & tax solutions and preparation to increase business profits.</p>
@@ -191,7 +193,7 @@
 <section class="py-5" style="background-color:#f6fff9;">
   <div class="container text-center">
     <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
-      How Bookify 
+      How The Bookify 
       <span style="color: #00cc61;">Can Help You</span>
     </h2>
 
@@ -278,8 +280,8 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            What Makes The 
-                            <span style="color: #00cc61;">Bookify Unique?</span>
+                            What Makes 
+                            <span style="color: #00cc61;">The  Bookify Unique?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s" style="color: #555; line-height: 1.8;">
                             The Bookify online accounting services offer personalized bookkeeping services. You can access your files from any device at any time. With our online accounting service, you don’t need to worry about the safety of your data since it’s completely secure and backed up automatically.
@@ -315,9 +317,11 @@
     <div class="container">
         
         <div class="section-title dark-section text-center">
-            <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
-                <span>Bookkeeping Made Easy</span>
-            </h2>
+            <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
+      
+            <span style="color: #000000ff;">Bookkeeping </span>
+            <span style="color: #00cc61;"> Made Easy</span>
+             </h2>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6">
@@ -390,9 +394,10 @@
 <div class="page-blog">
     <div class="container">
         <div class="section-title dark-section text-center">
-            <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 auto;">
-                <span>Why Do Businesses Trust Us?</span>
-            </h2>
+            <h2 class="text-anime-style-2" data-cursor="-opaque" style="margin: 0 0 20px 0; padding: 0; font-weight: 700;">
+            <span style="color: #000000ff;">Why Do Businesses </span>
+            <span style="color: #00cc61;"> Trust Us?</span>
+             </h2>
         </div>
 
         <div class="row">
@@ -589,8 +594,8 @@
               A specialized team of financial advisors works with experience to make personal finances straightforward. Our accounting service for small businesses takes your firm to a new level.
             </p>
           </div>
-          <a href="tel:+551-348-1040" class="btn-default">
-            <i class="fa-solid fa-paper-plane me-2"></i> Get in Touch
+          <a href="tel:+15513481040" class="btn-default">
+           <i class="fa-solid fa-phone me-2"></i> Get in Touch
           </a>
         </div>
       </div>
@@ -607,8 +612,8 @@
       <!-- Text Section -->
       <div class="col-lg-auto col-md-12 mb-3 mb-lg-0" style="flex: 0 0 auto; margin-bottom: 0;">
         <h2 class="mb-0" style="font-weight:700; font-size:1.9rem; white-space: nowrap;">
-          Your business + Our accounting </br>
-          <span style="color:#00cc61;">A partnership for success!</span>
+          Your Business + Our Accounting </br>
+          <span style="color:#00cc61;">A Partnership For Success!</span>
         </h2>
       </div>
 
@@ -616,7 +621,7 @@
       <div class="col-lg-auto col-md-12 text-lg-end text-center" style="flex: 0 0 auto; margin-top: 0;">
         <div class="d-inline-flex align-items-center" style="gap: 100px;">
           <!-- Replaced image with button -->
-          <a href="tel:+551-348-1040" class="btn-default">
+          <a href="tel:+15513481040" class="btn-default">
               <i class="fa-solid fa-phone"></i> We’re Here for You
           </a>
         </div>
@@ -634,7 +639,7 @@
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp">our testimonial</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            Trusted by  <span>Thousands of People</span>
+                            Trusted By  <span>Thousands Of People</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                             As we onboarded more clients, we saw the value of the Bookkeeper's work to manage our ledger. We decided to work with TheBookify. Their excellent team of certified accounting managers reduces hours of work. They are certainly the best accounting firm.
@@ -688,7 +693,7 @@
                                             </div>
                                         </div>
                                         <div class="testimonial-body">
-                                            <p>"We chose the outsourced accounting services of TheBookify. They are very thorough and efficient. It has helped me save both time and money by keeping my books in order. I strongly recommend their services."</p>
+                                            <p>"We chose the outsourced accounting services of The Bookify. They are very thorough and efficient. It has helped me save both time and money by keeping my books in order. I strongly recommend their services."</p>
                                         </div>
                                         <div class="testimonial-author">
                                             <div class="author-image">
@@ -801,7 +806,7 @@
         <div class="section-title">
           <h3 class="wow fadeInUp">pricing plan</h3>
           <h2 class="text-anime-style-2" data-cursor="-opaque">
-            Only the Best Plans <span>Made for You</span>
+            Only The Best Plans <span>Made For You</span>
           </h2>
           <p class="mx-auto" style="max-width:700px;">
             Let’s start the journey towards success and enhance revenue for your business. 
@@ -888,7 +893,7 @@
         style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
         <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
     </a>
-    <a href="tel:+51-348-1040" class="btn-default"
+    <a href="tel:+15513481040" class="btn-default"
         style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
         <i class="fa-solid fa-phone me-2"></i>
        Speak with Expert
@@ -901,7 +906,7 @@
     <div class="container">
         <div class="section-title text-center">
           <h2 class="text-anime-style-2" data-cursor="-opaque">
-            Improve your business’s <span>financial health .</span>
+            Improve Your Business’s <span>Financial Health</span>
           </h2>
         </div>
         <div class="row justify-content-center">
@@ -1034,7 +1039,7 @@
         <!-- Heading -->
         <div class="unique-heading" style="margin-bottom:25px;">
           <h2>
-            Eliminate Complexity and Increase <br>
+            Eliminate Complexity & Increase <br>
             Your <span style="color:#00cc61;">Profit Margins</span>
           </h2>
         </div>

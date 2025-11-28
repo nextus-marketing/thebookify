@@ -21,7 +21,7 @@
     }
      .what-we-do {
     background-color: var(--secondary-color);
-    padding: 10px 0;
+    padding: 45px 0;
     }
 </style>
 
@@ -41,7 +41,7 @@
                         <div class="hero-btn">
                             <a href="tel:+15513481040" class="btn-default"
                                 style="display:inline-flex; align-items:center; justify-content:center;">
-                                <i class="fa-solid fa-phone me-2"></i> Request A Quote
+                                <i class="fa-solid fa-phone me-2"></i>  Speak with an Expert
                             </a>
                         </div>
                     </nav>
@@ -64,12 +64,8 @@
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                            The health of your company depends on structuring the operations of your real estate investments in the most tax-efficient way possible. You put much effort into your investment; don’t waste it with a poorly thought-out tax strategy. 
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          At TheBookify we help our clients get on the right track by guiding them to make sound financial decisions. 
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          We can create and implement a strategy for achieving their short- and long-term objectives.
+                            At The Bookify we help our clients get on the right track by guiding them to make sound financial decisions. 
+                            We can create and implement a strategy for achieving their short- and long-term objectives.
                         </p>
                     </div>
                 </div>
@@ -88,19 +84,19 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            How will working  <span>Bookify would benefit you?</span>
+                            How Will Working  <span>The Bookify Would Benefit You?</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          Here are a few advantages of working with Bookify real estate tax accountants.
+                          Here are a few advantages of working with The Bookify real estate tax accountants.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
-                          Working with Bookify means having experts who understand the unique challenges of real estate accounting.
+                          Working with The Bookify means having experts who understand the unique challenges of real estate accounting.
                         </p>
                         </br>
                         <ul style="line-height:30px;">
-                            <li>We estimate your tax responsibilities and look for hidden deductions, so you’re never caught off guard by a tax bill.</li>
-                            <li>We make complicated tax rules understandable so that you may make informed decisions.</li>
-                            <li>Everyone is involved in the real estate industry, from developers to lenders, real estate agents to brokers, and landscapers to builders.</li>
+                            <li>We estimate your tax responsibilities and look for hidden deductions, so you’re never caught off guard by a tax bill</li>
+                            <li>We make complicated tax rules understandable so that you may make informed decisions</li>
+                            <li>Everyone is involved in the real estate industry, from developers to lenders, real estate agents to brokers, and landscapers to builders</li>
                         </ul>
                     </div>
                 </div>
@@ -141,7 +137,7 @@
                 <div class="what-we-do-content">
                     <div class="section-title">
                         <h2 class="text-anime-style-2" data-cursor="-opaque">
-                            OUR  <span>WORK PROCESS</span>
+                            Our  <span>Work Process</span>
                         </h2>
                         <p class="wow fadeInUp" data-wow-delay="0.2s">
                            Our approach to working with real estate investors is as follows:
@@ -174,17 +170,17 @@
   <div class="row align-items-center">
     
     <!-- Text Section -->
-    <div class="col-lg-6 col-md-12 text-center text-lg-start">
-      <h2 class="text-anime-style-2" data-cursor="-opaque">
-        What softwares  <span>do we use?</span>
-      </h2>
-</br>
-      <p style="font-size:17px; line-height:1.6; color:#333; max-width:550px; margin:auto;">
-        For the data of the firm, we utilise the best software. 
-        <strong style="color:#00b060;">Xero</strong> and 
-        <strong style="color:#00b060;">QuickBooks</strong> are two of the most popular 
-        accounting software programmes that help us manage financial data efficiently and securely.
-      </p>
+    <div class="section-title col-lg-6 col-md-12 text-center text-lg-start">
+        <h2 class="text-anime-style-2" data-cursor="-opaque">
+           What <span> Softwares Do We Use?</span>
+            </h2>
+        <p style="font-size:17px; line-height:1.6; color:#333; max-width:550px;">
+            For the data of the firm, we utilise the best software. 
+            <strong style="color:#00b060;">Xero</strong> and 
+            <strong style="color:#00b060;">QuickBooks</strong> are two of the most popular 
+            accounting software programmes that help us manage financial data efficiently and securely.
+            These tools ensure accuracy, real-time insights, and seamless collaboration, allowing us to deliver reliable and efficient financial management for your business.
+        </p>
     </div>
 
     <!-- Image Section -->
@@ -204,7 +200,7 @@
                 <div class="col-lg-6">
                     <div class="section-title">
                         <h3 class="wow fadeInUp">faqs</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Your most frequently asked <span>questions answered</span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque">Your Most Frequently Asked <span>Questions Answered</span></h2>
                     </div>
                 </div>
             </div>
@@ -217,7 +213,7 @@
                             <div class="accordion-item wow fadeInUp">
                                 <h2 class="accordion-header" id="heading1">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                      WHAT IS THE DIFFERENCE BETWEEN A CONSTRUCTION CONTRACTOR AND A REAL ESTATE DEVELOPER?
+                                    What is the difference between a construction contractor and a real estate developer?
                                     </button>
                                 </h2>
                                 <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#faqaccordion">
@@ -228,8 +224,8 @@
                             </div>
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
                                 <h2 class="accordion-header" id="heading2">
-                                    <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                        WHAT IS THE DIFFERENCE BETWEEN AN INVESTOR AND A DEALER IN REAL ESTATE?
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    What is the difference between an investor and a dealer in real estate?
                                     </button>
                                 </h2>
                                 <div id="collapse2" class="accordion-collapse collapse " aria-labelledby="heading2" data-bs-parent="#faqaccordion">
@@ -257,7 +253,7 @@
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
                                 <h2 class="accordion-header" id="heading3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                        CAN I EXPENSE THE COSTS OF LEASE ACQUISITION?
+                                         Can I expense the costs of lease acquisition?
                                     </button>
                                 </h2>
                                 <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#faqaccordion">
@@ -269,7 +265,7 @@
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
                                 <h2 class="accordion-header" id="heading4">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        SHOULD A SECURITY DEPOSIT BE COUNTED AS INCOME (LESSOR) OR EXPENSE (LESSEE)?
+                                        Should a security deposit be counted as income (lessor) or expense (lessee)?
                                     </button>
                                 </h2>
                                 <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#faqaccordion">
@@ -281,7 +277,7 @@
                             <div class="accordion-item wow fadeInUp" data-wow-delay="0.8s">
                                 <h2 class="accordion-header" id="heading5">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                       IS IT BETTER TO BE A REAL ESTATE DEALER OR AN INVESTOR IN REAL ESTATE?
+                                      Is it better to be a real estate dealer or an investor in real estate?
                                     </button>
                                 </h2>
                                 <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#faqaccordion">
@@ -341,147 +337,38 @@
 }
 </style>
 
-<div class="our-pricing">
-    <div class="container">
-        <!-- Section Row Start -->
-        <div class="row section-row align-items-center">
-            <div class="col-lg-5">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">pricing plan</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                        Only the Best Plans </br><span>Made for You.</span>
-                    </h2>
-                    <p>Let’s start the journey towards success and enhance revenue for your business. Take your company
-                        to the next level.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Section Button Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.2s">
-                    <a href="tel:+15513481040" class="btn-default"><i class="fa-solid fa-phone me-2"></i> contact now</a>
-                </div>
-                <!-- Section Button End -->
-            </div>
+<div class="our-pricing py-5">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="row section-row align-items-center text-center mb-5">
+      <div class="col-lg-12">
+        <div class="section-title">
+          <h3 class="wow fadeInUp">pricing plan</h3>
+          <h2 class="text-anime-style-2" data-cursor="-opaque">
+            Only The Best Plans <span>Made For You</span>
+          </h2>
+          <p class="mx-auto" style="max-width:700px;">
+            Let’s start the journey towards success and enhance revenue for your business. 
+            Take your company to the next level.
+          </p>
         </div>
-        <!-- Section Row End -->
-
-        <!-- Pricing Row Start -->
-        <div class="row">
-
-            <!-- Pricing Box 1 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <!-- Pricing Header -->
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/startup.webp" alt="Start-up Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <!-- Pricing Body -->
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Don’t think of all the mess finance creates in mind while starting-up a business. That is
-                            our job to do!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 1 End -->
-
-            <!-- Pricing Box 2 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/growth.webp" alt="growth Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Growth</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Noticing profits? Don’t let the complex bookkeeping and accounting issues break that
-                            momentum. Trust our Accounts executive.
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-            <!-- Pricing Box 2 End -->
-
-            <!-- Pricing Box 3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/expansion.webp" alt="Start-up Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Start-Up</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            Expanding brings revenue but can also be hectic. Get the best accounting solutions for your
-                            maturing business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- Pricing Box 3 End -->
-
-            <!-- Pricing Box 4 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="pricing-box text-center shadow-sm rounded-4 p-4 bg-white h-100 wow fadeInUp"
-                    style="transition: all 0.3s ease;">
-                    <div class="pricing-header mb-3">
-                        <div class="icon-wrapper mb-3 image-anime">
-                            <img src="/frontend/my-img/personalized.webp" alt="Start-up Icon" class="img-fluid"
-                                style="width:70px; height:70px;">
-                        </div>
-                        <h3 class="fw-bold mb-0" style="font-size:1.3rem; color:#000;">Personalized</h3>
-                    </div>
-
-                    <hr class="my-3" style="border-top:1px solid #eee;">
-
-                    <div class="pricing-body">
-                        <h4 class="fw-semibold mb-2" style="font-size:1.05rem; color:#111;">What’s Included?</h4>
-                        <p style="color:#555; font-size:0.95rem; line-height:1.6;">
-                            We can help you curate the finance strategy just the way you want. Obviously, with
-                            suggestions from the Accounts Executives.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div style="display:flex; justify-content:center; width:100%;">
-                <a href="tel:+15513481040"
-                   class="btn-default">
-                    <i class="fa-solid fa-phone" style="margin-right:10px; font-size:1rem;"></i>
-                   Speak with an Expert
-                </a>
-            </div>
-        </div>
+      </div>
     </div>
+
+
+    <!-- Buttons Below Cards -->
+    <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.4s">
+    <a href="/pricing" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-paper-plane me-2"></i> Select Your Plan
+    </a>
+    <a href="tel:+15513481040" class="btn-default"
+        style="display:inline-flex;align-items:center;justify-content:center;min-width:220px;height:55px;margin:8px;font-size:16px;font-weight:600;text-align:center;">
+        <i class="fa-solid fa-phone me-2"></i>
+       Speak with Expert
+    </a>
 </div>
+  </div>
 </div>
 
 
