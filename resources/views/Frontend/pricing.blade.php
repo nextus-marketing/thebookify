@@ -486,9 +486,17 @@
             </div>
 
             <div class="form-group">
-                <input type="text" id="profession" name="profession" placeholder="Profession">
-                <div class="field_error" id="profession-error" style="color:#ff0000;"></div>
-            </div>
+              <select id="enquiry_type" name="enquiry_type" class="form-control">
+                  <option value="">Select Package</option>
+                  <option value="Personal Plan">Personal Plan</option>
+                  <option value="Growth">Growth</option>
+                  <option value="Expansion">Expansion</option>
+                  <option value="CFO Advisory">CFO Advisory</option>
+                  <option value="Customized">Customized</option>
+              </select>
+
+              <div class="field_error" id="enquiry_type-error" style="color:#ff0000;"></div>
+          </div>
 
             <div class="form-group full-width">
                 <textarea id="message" name="message" rows="3" placeholder="Message"></textarea>
@@ -516,25 +524,40 @@
 
     </div>
 </div>
+<script>
+document.addEventListener("click", function (e) {
+    let btn = e.target.closest(".contactPopup");
+    if (!btn) return;
 
- <!-- Contact Form End -->
-                      
-                        <script>
-                        $(document).ready(function() {
-                        $('.contactPopup').on('click', function(e) {
-                        e.preventDefault(); // Prevent default link behavior
+    e.preventDefault();
 
-                        // Get the plan name from data-plan
-                        var planName = $(this).data('plan');
+    // Get package name
+    let packageName = btn.getAttribute("data-package");
 
-                        // Set it in the hidden input
-                        $('#enquiry_type').val(planName);
+    // Set package into dropdown
+    document.getElementById("enquiry_type").value = packageName;
 
-                        // Show the popup form (adjust this depending on your popup)
-                        $('#contactForm').closest('.popup-wrapper').fadeIn(); // Example
-                        });
-                        });
-                        </script>
+    // Show modal
+    document.getElementById("contactModal").style.display = "block";
+});
+
+// Close modal
+document.addEventListener("DOMContentLoaded", function () {
+    const modal = document.getElementById("contactModal");
+    const closeBtn = document.querySelector(".close");
+
+    closeBtn.onclick = function () {
+        modal.style.display = "none";
+    };
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+});
+</script>
+
 
 <!-- CSS -->
 <style>
@@ -670,48 +693,7 @@ textarea {
 </style>
 
 <!-- JS -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const modal = document.getElementById("contactModal");
-    const btn = document.querySelector(".contactPopup");
-    const span = document.querySelector(".close");
 
-    btn.onclick = function(e) {
-        e.preventDefault();
-        modal.style.display = "block";
-    }
-
-    span.onclick = function() {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-
-});
-</script>
-
-<script>
-document.addEventListener("click", function (e) {
-    if (e.target.closest(".contactPopup")) {
-        e.preventDefault();
-
-        let button = e.target.closest(".contactPopup");
-        let packageName = button.getAttribute("data-package");
-
-        // Debug:
-        console.log("Selected package:", packageName);
-
-        document.getElementById("enquiry_type").value = packageName;
-
-        // Open modal
-        $("#pricingModal").modal("show");
-    }
-});
-</script>
 
 
 @endsection

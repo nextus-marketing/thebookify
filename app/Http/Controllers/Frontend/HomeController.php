@@ -235,30 +235,22 @@ public function contactEnquiry(Request $request)
 
 public function modalEnquiry(Request $request)
 {
-    // Determine which form is submitted based on available fields
-    $isProfessionForm = $request->has('profession') && !$request->has('subject');
-
     // Validation rules
     $rules = [
         'full_name' => 'required',
         'email' => 'required|email',
         'mobile' => 'required|digits:10',
+        'enquiry_type' => 'required',
+        'profession' => 'nullable', // only required if your form has profession
     ];
-
-    if ($isProfessionForm) {
-        $rules['profession'] = 'required';
-    } else {
-        $rules['subject'] = 'required';
-    }
 
     $messages = [
         'full_name.required' => 'Your Full Name is required',
-        'subject.required' => 'Your Subject is required',
-        'profession.required' => 'Your Profession is required',
         'email.required' => 'Email is required',
         'email.email' => 'Email should be a valid email',
         'mobile.required' => 'The mobile number field is required.',
         'mobile.digits' => 'The mobile number must be exactly 10 digits.',
+        'enquiry_type.required' => 'Please select a package',
     ];
      
     $request->validate($rules, $messages);
@@ -283,9 +275,8 @@ public function modalEnquiry(Request $request)
     $enquiry->full_name = $request->full_name;
     $enquiry->email = $request->email;
     $enquiry->mobile = $request->mobile;
-    $enquiry->subject = $request->subject ?? null;
     $enquiry->profession = $request->profession ?? null;
-     $enquiry->enquiry_type = $request->enquiry_type;
+    $enquiry->enquiry_type = $request->enquiry_type;
     $enquiry->message = $request->message ?? null;
     $enquiry->save();
 
@@ -295,5 +286,6 @@ public function modalEnquiry(Request $request)
 
     return response()->json(['status' => 'success', 'message' => 'Enquiry Sent Successfully']);
 }
+
 
 }
