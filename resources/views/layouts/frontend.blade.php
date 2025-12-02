@@ -96,7 +96,7 @@
                 </ul>
             </div>
             <div class="header-btn d-inline-flex">
-              <a href="tel:+551-348-1040" class="btn-default btn-highlighted">
+              <a href="tel:+15513481040" class="btn-default btn-highlighted">
                 <i class="fa-solid fa-phone me-2"></i>
                 Call Us Now
               </a>
