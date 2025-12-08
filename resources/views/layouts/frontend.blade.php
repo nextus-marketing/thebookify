@@ -93,7 +93,7 @@
                     <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="/blogs">Blog</a></li>
                     <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
-                </ul>
+                  </ul>
             </div>
             <div class="header-btn d-inline-flex">
               <a href="tel:+15513481040" class="btn-default btn-highlighted">
@@ -109,7 +109,6 @@
 		</div>
 	</header>
 	<!-- Header End -->
-
 
    @yield('content')
     <!-- Footer Section Start -->
@@ -248,15 +247,14 @@
     </div>
   </div>
 </footer>
+         
 <button id="scrollToTopBtn" title="Go to top">
     <i class="fa-solid fa-arrow-up"></i>
 </button>
 
-<!-- Call Now Button -->
 <a href="tel:+15513481040" class="call-now-btn" title="Call Now">
   <i class="fa-solid fa-phone"></i>
 </a>
-<!-- Call Now Button end-->
 
 <div class="modal fade" id="trialFormModal" tabindex="-1" aria-labelledby="trialFormLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">

@@ -62,7 +62,7 @@
                         <div class="mission-vission-content">
                             <h3>Our Mission</h3>
                             <p>
-                                TheBookify's goal is to offer unrivaled, expert, outsourced accounting solutions, such as
+                                The Bookify goal is to offer unrivaled, expert, outsourced accounting solutions, such as
                                 bookkeeping, tax preparation, CFO advisory, incorporation, payroll etc. Our objective is to
                                 create solid, long-lasting corporate relationships based on trust.
                             </p>

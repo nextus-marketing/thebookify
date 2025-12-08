@@ -1,5 +1,5 @@
 @extends('layouts.frontend')
-@section('title') Blog Details | The Bookify @endsection
+@section('title') {{ $blog->title }} | The Bookify @endsection
 @section('meta_description')
     {{ $blog->meta_description }}
 @endsection
