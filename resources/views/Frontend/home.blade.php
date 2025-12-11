@@ -64,7 +64,7 @@
                         <div class="section-title dark-section">
                             <h3 class="wow fadeInUp">welcome to The Bookify</h3>
                             <h1 class="text-anime-style-2" data-cursor="-opaque">
-                            Get Smart  <span>Online Accounting Services</span>
+                            Get Smarter  <span>Online Accounting Services</span>
                             For Your Complex Finances </h1>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">Get your books clean and audit-ready with The Bookify online accounting services. Trusted by over 500+ clients.</p>
                         </div>
